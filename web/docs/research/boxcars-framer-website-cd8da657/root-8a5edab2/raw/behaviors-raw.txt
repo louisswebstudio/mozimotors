@@ -1,0 +1,452 @@
+=== INITIAL HIDDEN STATES (page load, scrollY=0) ===
+DIV (in left) y=41 opacity=0 transform=matrix(1, 0, 0, 1, 0, -11) filter=none
+Hero Image Overlay (in Hero Image Overlay) y=0 opacity=0.5 transform=none filter=none
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+SPAN (in title) y=375 opacity=1 transform=none filter=blur(0px)
+big-logo (in big-logo) y=108 opacity=0.998752 transform=matrix(1, 0, 0, 1, -720, 0.0499206) filter=none
+Premium Brands Title Group (in Premium Brands Title Group) y=954 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+DIV (in Head) y=1008 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+List (in List) y=1076 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+Featured Vehicles Title Group (in Featured Vehicles Title Group) y=1442 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+DIV (in Head) y=1496 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+border (in border) y=1945 opacity=0 transform=none filter=none
+border (in border) y=1945 opacity=0 transform=none filter=none
+border (in border) y=1945 opacity=0 transform=none filter=none
+border (in border) y=1945 opacity=0 transform=none filter=none
+Buy a Car Image Overlay (in Buy a Car Image Overlay) y=2056 opacity=0.5 transform=none filter=none
+text (in text) y=2258 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+Buy a Car Actions (in Buy a Car Actions) y=2304 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+Sell Your Car Image Overlay (in Sell Your Car Image Overlay) y=2056 opacity=0.5 transform=none filter=none
+text (in text) y=2258 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+Sell Your Car Actions (in Sell Your Car Actions) y=2304 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+Head (in Head) y=2660 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+DIV (in How It Works Content Inner) y=3019 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+How It Works Steps (in How It Works Steps) y=2636 opacity=0 transform=matrix(1, 0, 0, 1, 20, 0) filter=none
+icon (in icon) y=4595 opacity=1 transform=matrix(1, 0, 0, 1, -30, -30) filter=none
+Head (in Head) y=4445 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+List (in List) y=4673 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+DIV (in Trust Story Content Inner) y=4805 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+Cars in Stock Statistic (in Cars in Stock Statistic) y=5024 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+Average Rating Statistic (in Average Rating Statistic) y=5024 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+Years in Business Statistic (in Years in Business Statistic) y=5024 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+Customer Satisfaction Statistic (in Customer Satisfaction Statistic) y=5024 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+Customer Testimonials Title Group (in Customer Testimonials Title Group) y=5238 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+Subtitle (in Subtitle) y=5292 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+UL (in null) y=5336 opacity=1 transform=matrix(1, 0, 0, 1, -2632, 0) filter=none
+text (in text) y=6132 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+Find Your Car CTA Actions (in Find Your Car CTA Actions) y=6184 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+Find Your Car CTA Image Overlay (in Find Your Car CTA Image Overlay) y=5862 opacity=0.5 transform=none filter=none
+Expert Team Title Group (in Expert Team Title Group) y=6476 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+DIV (in Head) y=6516 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+DIV (in List) y=6598 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+DIV (in List) y=6598 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+DIV (in List) y=6598 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+DIV (in List) y=6598 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+Head (in Head) y=7103 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+DIV (in FAQ Introduction Inner) y=7321 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+List (in List) y=7079 opacity=0 transform=matrix(1, 0, 0, 1, 20, 0) filter=none
+DIV (in icon) y=7108 opacity=1 transform=matrix(-0.707107, 0.707107, -0.707107, -0.707107, 0, 0) filter=none
+DIV (in icon) y=7204 opacity=1 transform=matrix(-0.707107, 0.707107, -0.707107, -0.707107, 0, 0) filter=none
+DIV (in icon) y=7299 opacity=1 transform=matrix(-0.707107, 0.707107, -0.707107, -0.707107, 0, 0) filter=none
+DIV (in icon) y=7394 opacity=1 transform=matrix(-0.707107, 0.707107, -0.707107, -0.707107, 0, 0) filter=none
+DIV (in icon) y=7490 opacity=1 transform=matrix(-0.707107, 0.707107, -0.707107, -0.707107, 0, 0) filter=none
+Head (in Head) y=7680 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+DIV (in Head) y=7690 opacity=0 transform=matrix(1, 0, 0, 1, 0, 20) filter=none
+DIV (in Container) y=7772 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+DIV (in Container) y=7772 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+DIV (in Container) y=7772 opacity=0 transform=matrix(1, 0, 0, 1, 0, 24) filter=none
+Container (in Container) y=8290 opacity=0 transform=none filter=none
+Container (in Container) y=8485 opacity=0 transform=none filter=none
+top-bar (in top-bar) y=8220 opacity=1 transform=matrix(-1, 0, 0, -1, 0, 0) filter=none
+Brand (in Brand) y=9021 opacity=0 transform=matrix(1, 0, 0, 1, 0, 40) filter=none
+=== HERO TITLE LETTERS OVER TIME ===
+100 0.001|blur(10px)|matrix(1, 0, 0, 1, 0, 10)  0.001|blur(10px)|matrix(1, 0, 0, 1, 0, 10)  0.001|blur(10px)|matrix(1, 0, 0, 1, 0, 10)  0.001|blur(10px)|matrix(1, 0, 0, 1, 0, 10)  0.001|blur(10px)|matrix(1, 0, 0, 1, 0, 10)  0.001|blur(10px)|matrix(1, 0, 0, 1, 0, 10)
+400 0.959157|blur(0.408839px)|matrix(1, 0, 0, 1, 0, 0.378683)  0.895327|blur(1.04778px)|matrix(1, 0, 0, 1, 0, 0.97292)  0.74721|blur(2.53043px)|matrix(1, 0, 0, 1, 0, 2.36232)  0.450529|blur(5.50021px)|matrix(1, 0, 0, 1, 0, 5.19827)  0.0581592|blur(9.42784px)|matrix(1, 0, 0, 1, 0, 9.21188)  0.001|blur(10px)|matrix(1, 0, 0, 1, 0, 10)
+800 1|blur(0px)|none  1|blur(0px)|none  1|blur(0px)|none  0.99896|blur(0.010413px)|matrix(1, 0, 0, 1, 0, 0.0106445)  0.996584|blur(0.0341992px)|matrix(1, 0, 0, 1, 0, 0.0299248)  0.990636|blur(0.0937373px)|matrix(1, 0, 0, 1, 0, 0.0827467)
+1400 1|blur(0px)|none  1|blur(0px)|none  1|blur(0px)|none  1|blur(0px)|none  1|blur(0px)|none  1|blur(0px)|none
+2500 1|blur(0px)|none  1|blur(0px)|none  1|blur(0px)|none  1|blur(0px)|none  1|blur(0px)|none  1|blur(0px)|none
+=== SCROLL STATES ===
+scrollY 0 How It Works Content pos=sticky top=50px rect=2636,407 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-4nnmwd-container pos=sticky top=50px rect=2636,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-10stdnx-container pos=sticky top=50px rect=3037,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-dhrohd-container pos=sticky top=50px rect=3438,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-ye12q7-container pos=sticky top=50px rect=3839,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   FAQ Introduction pos=sticky top=50px rect=7079,266 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+    pos=fixed top=822px rect=822,78 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+scrollY 200 How It Works Content pos=sticky top=50px rect=2436,407 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-4nnmwd-container pos=sticky top=50px rect=2436,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-10stdnx-container pos=sticky top=50px rect=2837,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-dhrohd-container pos=sticky top=50px rect=3238,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-ye12q7-container pos=sticky top=50px rect=3639,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   FAQ Introduction pos=sticky top=50px rect=6879,266 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+    pos=fixed top=822px rect=822,78 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+scrollY 1500 How It Works Content pos=sticky top=50px rect=1136,407 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-4nnmwd-container pos=sticky top=50px rect=1136,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-10stdnx-container pos=sticky top=50px rect=1537,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-dhrohd-container pos=sticky top=50px rect=1938,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-ye12q7-container pos=sticky top=50px rect=2339,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   FAQ Introduction pos=sticky top=50px rect=5579,266 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+    pos=fixed top=822px rect=822,78 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+scrollY 3000 How It Works Content pos=sticky top=50px rect=50,407 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-4nnmwd-container pos=sticky top=50px rect=50,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-10stdnx-container pos=sticky top=50px rect=50,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-dhrohd-container pos=sticky top=50px rect=438,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   framer-ye12q7-container pos=sticky top=50px rect=839,371 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+   FAQ Introduction pos=sticky top=50px rect=4079,266 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+    pos=fixed top=822px rect=822,78 bg=rgba(0, 0, 0, 0) opacity=1 transform=none
+=== HOW IT WORKS left column position at different scrolls ===
+2546 labelTop=125 How It Works Content sticky top=50px
+3000 labelTop=85 How It Works Content sticky top=50px
+3500 labelTop=85 How It Works Content sticky top=50px
+3900 labelTop=-62 How It Works Content sticky top=50px
+=== STATS FINAL === 500+ | CARS SOLD | 4.8 | AVERAGE RATING | 15+ | YEARS IN BUSINESS | 98% | SATISFACTION
+=== HOVER DIFFS ===
+-- light|nav/footer|105 "" NO CHANGE
+-- Default|nav/footer|42 "Home" 
+   border.bg: rgb(11, 26, 58) -> rgb(255, 255, 255)
+   border.opacity: 0 -> 1
+   border.w: 1px -> 41.6406px
+-- Default|nav/footer|67 "Inventory" 
+   border.bg: rgb(11, 26, 58) -> rgb(255, 255, 255)
+   border.opacity: 0 -> 1
+   border.w: 1px -> 66.75px
+-- Default|nav/footer|60 "Services" 
+   border.bg: rgb(11, 26, 58) -> rgb(255, 255, 255)
+   border.opacity: 0 -> 1
+   border.w: 1px -> 60.1562px
+-- Default|nav/footer|44 "About" 
+   border.bg: rgb(11, 26, 58) -> rgb(255, 255, 255)
+   border.opacity: 0 -> 1
+   border.w: 1px -> 43.5625px
+-- Default|nav/footer|30 "Blog" 
+   border.bg: rgb(11, 26, 58) -> rgb(255, 255, 255)
+   border.opacity: 0 -> 1
+   border.w: 1px -> 29.9531px
+-- Default|nav/footer|58 "Contact" 
+   border.bg: rgb(11, 26, 58) -> rgb(255, 255, 255)
+   border.opacity: 0 -> 1
+   border.w: 1px -> 57.75px
+-- A|nav/footer|125 "+1 (555) 012 3456" NO CHANGE
+-- White-Border|nav/footer|150 "Book a Visit" 
+   White-Border.bg: rgba(255, 255, 255, 0) -> rgb(255, 255, 255)
+   P.color: rgb(255, 255, 255) -> rgb(5, 11, 32)
+   P.afterBorder: rgb(255, 255, 255) -> rgb(5, 11, 32)
+-- Primary|Hero Section|155 "Browse Cars" 
+   Primary.bg: rgb(64, 95, 242) -> rgb(1, 70, 166)
+-- White|Hero Section|157 "How it works" 
+   White.bg: rgb(255, 255, 255) -> rgb(64, 95, 242)
+   P.color: rgb(5, 11, 32) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(5, 11, 32) -> rgb(255, 255, 255)
+-- Variant 1|Hero Section|100 "SUV" NO CHANGE
+-- Variant 1|Hero Section|114 "Sedan" NO CHANGE
+-- Variant 1|Hero Section|123 "Electric" NO CHANGE
+-- No-Bg|Premium Brands Section|138 "Browse by brand" 
+   P.color: rgb(5, 11, 32) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(5, 11, 32) -> rgb(64, 95, 242)
+   border.opacity: 0 -> 1
+   border.w: 1.375px -> 137.578px
+-- Variant 1|Premium Brands Section|145 "Audi" 
+   Variant 1.shadow: rgba(5, 11, 32, 0) 0px 0px 0px 0px -> rgba(5, 11, 32, 0.08) 0px 2px 8px 0px
+   Variant 1.afterBorder: rgb(225, 225, 225) -> rgb(64, 95, 242)
+   P.color: rgb(32, 33, 36) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(32, 33, 36) -> rgb(64, 95, 242)
+-- image 3|Premium Brands Section|100 "" NO CHANGE
+-- Audi|Premium Brands Section|34 "Audi" 
+   P.color: rgb(32, 33, 36) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(32, 33, 36) -> rgb(64, 95, 242)
+-- Audi|Premium Brands Section|39 "BMW" 
+   P.color: rgb(32, 33, 36) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(32, 33, 36) -> rgb(64, 95, 242)
+-- Audi|Premium Brands Section|120 "Mercedes-Benz" 
+   P.color: rgb(32, 33, 36) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(32, 33, 36) -> rgb(64, 95, 242)
+-- Audi|Premium Brands Section|38 "Tesla" 
+   P.color: rgb(32, 33, 36) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(32, 33, 36) -> rgb(64, 95, 242)
+-- Audi|Premium Brands Section|57 "Bentley" 
+   P.color: rgb(32, 33, 36) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(32, 33, 36) -> rgb(64, 95, 242)
+-- Audi|Premium Brands Section|43 "Lexus" 
+   P.color: rgb(32, 33, 36) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(32, 33, 36) -> rgb(64, 95, 242)
+-- Audi|Premium Brands Section|41 "Volvo" 
+   P.color: rgb(32, 33, 36) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(32, 33, 36) -> rgb(64, 95, 242)
+-- Audi|Premium Brands Section|46 "Skoda" 
+   P.color: rgb(32, 33, 36) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(32, 33, 36) -> rgb(64, 95, 242)
+-- No-Bg|Featured Vehicles Section|151 "Browse all vehicles" 
+   P.color: rgb(5, 11, 32) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(5, 11, 32) -> rgb(64, 95, 242)
+   border.opacity: 0 -> 1
+   border.w: 1.5px -> 151.266px
+-- A|Featured Vehicles Section|309 "USED  Audi Q7 55 TFSI quattro  2023  3.0" 
+   Default.shadow: rgba(5, 11, 32, 0) 0px 0px 0px 0px -> rgba(5, 11, 32, 0.08) 0px 2px 8px 0px
+   DIV.transform: none -> matrix(1.05, 0, 0, 1.05, 0, 0)
+   H6.color: rgb(5, 11, 32) -> rgb(64, 95, 242)
+   H6.afterBorder: rgb(5, 11, 32) -> rgb(64, 95, 242)
+-- White|Buyer and Seller Banner Section|189 "Browse inventory" 
+   White.bg: rgb(255, 255, 255) -> rgb(64, 95, 242)
+   P.color: rgb(5, 11, 32) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(5, 11, 32) -> rgb(255, 255, 255)
+-- White|Buyer and Seller Banner Section|166 "Get your offer" 
+   White.bg: rgb(255, 255, 255) -> rgb(64, 95, 242)
+   P.color: rgb(5, 11, 32) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(5, 11, 32) -> rgb(255, 255, 255)
+-- Primary|How It Works Section|210 "Explore our services" 
+   Primary.bg: rgb(64, 95, 242) -> rgb(1, 70, 166)
+-- Video Card|Trust Story Section|648 "" NO CHANGE
+-- icon|Trust Story Section|60 "" NO CHANGE
+-- Video Media|Trust Story Section|648 "" NO CHANGE
+-- Primary|Trust Story Section|170 "Read our story" 
+   Primary.bg: rgb(64, 95, 242) -> rgb(1, 70, 166)
+-- Primary|Find Your Car CTA Section|189 "Browse Inventory" 
+   Primary.bg: rgb(64, 95, 242) -> rgb(1, 70, 166)
+-- White|Find Your Car CTA Section|146 "Contact Us" 
+   White.bg: rgb(255, 255, 255) -> rgb(64, 95, 242)
+   P.color: rgb(5, 11, 32) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(5, 11, 32) -> rgb(255, 255, 255)
+-- No-Bg|Expert Team Section|122 "About Boxcars" 
+   P.color: rgb(5, 11, 32) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(5, 11, 32) -> rgb(64, 95, 242)
+   border.opacity: 0 -> 1
+   border.w: 1.21875px -> 122.203px
+-- Primary|Frequently Asked Questions Section|146 "Contact Us" 
+   Primary.bg: rgb(64, 95, 242) -> rgb(1, 70, 166)
+-- Closed|Frequently Asked Questions Section|648 "How do I find the right car?" NO CHANGE
+-- Content|Frequently Asked Questions Section|588 "How do I find the right car?" NO CHANGE
+-- head|Frequently Asked Questions Section|588 "How do I find the right car?" NO CHANGE
+-- head|Frequently Asked Questions Section|566 "How do I find the right car?" NO CHANGE
+-- icon|Frequently Asked Questions Section|12 "" NO CHANGE
+-- No-Bg|Car Advice Blog Section|130 "Read all articles" 
+   P.color: rgb(5, 11, 32) -> rgb(64, 95, 242)
+   P.afterBorder: rgb(5, 11, 32) -> rgb(64, 95, 242)
+   border.opacity: 0 -> 1
+   border.w: 1.29688px -> 129.938px
+-- A|Car Advice Blog Section|419 "GUIDES  James Carter  Aug 20, 2026  How " 
+   image 1801.transform: none -> matrix(1.05, 0, 0, 1.05, 0, 0)
+-- Default|nav/footer|45 "" 
+   Default.bg: rgb(64, 95, 242) -> rgb(1, 70, 166)
+   svg.transform: none -> matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)
+-- Icon|nav/footer|40 "" 
+   Icon.bg: rgba(0, 0, 0, 0) -> rgba(255, 255, 255, 0.07)
+-- Small|nav/footer|40 "About" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 39.875px
+-- Small|nav/footer|55 "Services" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 54.9844px
+-- Small|nav/footer|27 "Blog" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 27.3906px
+-- Small|nav/footer|26 "FAQ" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 26.0781px
+-- Small|nav/footer|53 "Contact" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 52.7812px
+-- Small|nav/footer|49 "All Cars" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 49.1406px
+-- Small|nav/footer|62 "New Cars" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 61.625px
+-- Small|nav/footer|67 "Used Cars" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 66.5156px
+-- Small|nav/footer|57 "Certified" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 56.6406px
+-- Small|nav/footer|33 "SUVs" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 32.8906px
+-- Small|nav/footer|48 "Sedans" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 47.5312px
+-- Small|nav/footer|82 "Electric Cars" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 82.4219px
+-- A|nav/footer|115 "+1 (555) 012 3456" 
+   A.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   A.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+-- A|nav/footer|127 "hello@boxcars.com" 
+   A.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   A.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+-- Small|nav/footer|39 "Terms" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 39.2344px
+-- Small|nav/footer|47 "Privacy" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 47.1094px
+-- Small|nav/footer|52 "Cookies" 
+   P.color: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   P.afterBorder: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.bg: rgb(165, 173, 202) -> rgb(255, 255, 255)
+   Line.opacity: 0 -> 1
+   Line.w: 1px -> 52.0469px
+=== FAQ CLICK ===
+faq section height 547.03125 -> 663.03125
+section(Frequently Asked Questions Section) [0,6989 1440x663] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); padding:90px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Container) [42,7079 1356x573] {padding:0px 30px; display:flex; justifyContent:flex-start; alignItems:flex-start; gap:0px; position:relative; maxWidth:1356px; transition:all}
+    div(FAQ Introduction) [72,7079 648x266] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:30px; position:sticky; zIndex:1; transition:all}
+      div(FAQ Introduction Inner) [72,7079 648x266] {padding:0px 180px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:30px; position:relative; overflow:clip; transition:all}
+        div(Head) [72,7079 468x192] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+          div [72,7079 130x20] {position:relative; transition:all}
+            div(Variant 1) [72,7079 130x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+              div(Circle) [72,7086 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+              div(Text) [85,7079 117x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                p [85,7079 117x20] "GOT QUESTIONS?" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+          div(head) [72,7109 468x104] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            h3 [72,7109 468x104] "Frequently asked questions" {fontSize:40px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:52px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+          div(text) [72,7223 468x48] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [72,7223 468x48] "Everything you need to know before you buy. Can’t find the answer? Our team is only one click away." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        div [72,7301 146x44] {position:relative; transition:all}
+          a(Primary) [72,7301 146x44] href=./contact {color:rgb(0, 0, 238); backgroundColor:rgb(64, 95, 242); padding:10px 24px; borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+            div(Button) [96,7311 79x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+              p [96,7311 79x24] "Contact Us" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+            div(icon) [183,7318 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+              div [184,7319 9x9] {backgroundImage:url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 9.096 9.096%22 overflow=%22visible%22><path d=%22M 8.551 0 L 1.612 0 C; position:relative; transition:all; cursor:pointer}
+    div(List) [720,7079 648x573] {borderRadius:16px 0px 0px 16px; display:flex; flexDirection:column; justifyContent:center; alignItems:flex-end; gap:20px; position:relative; overflow:clip; transition:all}
+      div [720,7079 648x191] {position:relative; transition:all}
+        div(Open) [720,7079 648x191] {backgroundColor:rgb(255, 255, 255); padding:26px 30px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=16px}
+          div(Content) [750,7105 588x139] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; transition:all; cursor:pointer}
+            div(head) [750,7105 588x23] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(head) [750,7105 566x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                h6 [750,7105 566x23] "How do I find the right car?" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+              div(icon) [1326,7111 12x12] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [1324,7108 17x17] {position:relative; transform:matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0); transition:all; cursor:pointer}
+                  div [1324,7108 17x17] {transition:all; cursor:pointer}
+                    svg [1324,7108 17x17] overflow:hidden; transition:all; cursor:pointer
+            div(text) [750,7148 588x96] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+              p [750,7148 588x96] "Use our search and filters to browse by make, price, body type, or fuel type. Every listing includes full specs, real photos, and an inspection history — so you can compare with confidence. Still unsure? Our team is happy to help you narrow it down." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+      div [720,7290 648x75] {position:relative; transition:all}
+        div(Closed) [720,7290 648x75] {backgroundColor:rgb(249, 251, 252); padding:26px 30px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(249, 251, 252) r=16px}
+          div(Content) [750,7316 588x23] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; transition:all; cursor:pointer}
+            div(head) [750,7316 588x23] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(head) [750,7316 566x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                h6 [750,7316 566x23] "Do you offer financing?" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+              div(icon) [1326,7322 12x12] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [1324,7320 17x17] {position:relative; transform:matrix(-0.707107, 0.707107, -0.707107, -0.707107, 0, 0); transition:all; cursor:pointer}
+                  div [1324,7320 17x17] {transition:all; cursor:pointer}
+                    svg [1324,7320 17x17] overflow:hidden; transition:all; cursor:pointer
+      div [720,7386 648x75] {position:relative; transition:all}
+        div(Closed) [720,7386 648x75] {backgroundColor:rgb(249, 251, 252); padding:26px 30px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(249, 251, 252) r=16px}
+          div(Content) [750,7412 588x23] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; transition:all; cursor:pointer}
+            div(head) [750,7412 588x23] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(head) [750,7412 566x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                h6 [750,7412 566x23] "Can I trade in my current car?" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+              div(icon) [1326,7418 12x12] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [1324,7415 17x17] {position:relative; transform:matrix(-0.707107, 0.707107, -0.707107, -0.707107, 0, 0); transition:all; cursor:pointer}
+                  div [1324,7415 17x17] {transition:all; cursor:pointer}
+                    svg [1324,7415 17x17] overflow:hidden; transition:all; cursor:pointer
+      div [720,7481 648x75] {position:relative; transition:all}
+        div(Closed) [720,7481 648x75] {backgroundColor:rgb(249, 251, 252); padding:26px 30px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(249, 251, 252) r=16px}
+          div(Content) [750,7507 588x23] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; transition:all; cursor:pointer}
+            div(head) [750,7507 588x23] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(head) [750,7507 566x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                h6 [750,7507 566x23] "Do your cars come with a warranty?" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+              div(icon) [1326,7513 12x12] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [1324,7510 17x17] {position:relative; transform:matrix(-0.707107, 0.707107, -0.707107, -0.707107, 0, 0); transition:all; cursor:pointer}
+                  div [1324,7510 17x17] {transition:all; cursor:pointer}
+                    svg [1324,7510 17x17] overflow:hidden; transition:all; cursor:pointer
+      div [720,7577 648x75] {position:relative; transition:all}
+        div(Closed) [720,7577 648x75] {backgroundColor:rgb(249, 251, 252); padding:26px 30px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(249, 251, 252) r=16px}
+          div(Content) [750,7603 588x23] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; transition:all; cursor:pointer}
+            div(head) [750,7603 588x23] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(head) [750,7603 566x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                h6 [750,7603 566x23] "Are there any hidden fees?" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+              div(icon) [1326,7608 12x12] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [1324,7606 17x17] {position:relative; transform:matrix(-0.707107, 0.707107, -0.707107, -0.707107, 0, 0); transition:all; cursor:pointer}
+                  div [1324,7606 17x17] {transition:all; cursor:pointer}
+                    svg [1324,7606 17x17] overflow:hidden; transition:all; cursor:pointer
+FAQ ALL ANSWERS:
+GOT QUESTIONS?
+
+Frequently Asked Questions
+
+Everything you need to know before you buy. Can’t find the answer? Our team is only one click away.
+
+Contact Us
+
+How do I find the right car?
+
+Use our search and filters to browse by make, price, body type, or fuel type. Every listing includes full specs, real photos, and an inspection history — so you can compare with confidence. Still unsure? Our team is happy to help you narrow it down.
+
+Do you offer financing?
+
+Yes. We work with trusted lenders to offer flexible auto loans with competitive rates and quick approval. You can get pre-approved in minutes and use our loan calculator to estimate your monthly payments before you commit
+
+Can I trade in my current car?
+
+Absolutely. Get a free, no-obligation valuation in about 60 seconds. If you're happy with the offer, we'll put its value straight toward your next car — or pay you directly. We buy any make, model, or condition.
+
+Do your cars come with a warranty?
+
+Every vehicle we sell passes a 150-point inspection and comes with a warranty for added peace of mind. We'll walk you through exactly what's covered before you buy — no fine print, no surprises.
+
+Are there any hidden fees?
+
+Never. The price you see is the price you pay. All costs are clearly laid out upfront, so there are no surprises at signing. Transparent pricing is a promise we take seriously.
+=== TESTIMONIAL CAROUSEL ===
+before {"ulTransform":"matrix(1, 0, 0, 1, -2632, 0)","scrollLeft":0,"ulOverflow":"visible","snap":"none","items":16,"firstVisible":"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"}
+buttons ["Slideshow pagination controls|FIELDSET","Previous|BUTTON","Next|BUTTON"]
+after next {"ulTransform":"matrix(1, 0, 0, 1, -3289.3, 0)","scrollLeft":0,"ulOverflow":"visible","snap":"none","items":16,"firstVisible":"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"}
+after 5s idle (autoplay?) {"ulTransform":"matrix(1, 0, 0, 1, -3290, 0)","scrollLeft":0,"ulOverflow":"visible","snap":"none","items":16,"firstVisible":"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"}

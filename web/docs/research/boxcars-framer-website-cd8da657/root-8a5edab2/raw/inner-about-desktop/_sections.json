@@ -1,0 +1,62 @@
+[
+  {
+    "i": 0,
+    "name": "navigation",
+    "y": 0,
+    "h": 104
+  },
+  {
+    "i": 1,
+    "name": "hero-section",
+    "y": 104,
+    "h": 70
+  },
+  {
+    "i": 2,
+    "name": "page-intro-section",
+    "y": 174,
+    "h": 864
+  },
+  {
+    "i": 3,
+    "name": "how-it-works-section",
+    "y": 1038,
+    "h": 1754
+  },
+  {
+    "i": 4,
+    "name": "trust-story-section",
+    "y": 2792,
+    "h": 650
+  },
+  {
+    "i": 5,
+    "name": "business-statistics-section",
+    "y": 3442,
+    "h": 174
+  },
+  {
+    "i": 6,
+    "name": "customer-testimonials-section",
+    "y": 3616,
+    "h": 738
+  },
+  {
+    "i": 7,
+    "name": "expert-team-section",
+    "y": 4354,
+    "h": 537
+  },
+  {
+    "i": 8,
+    "name": "frequently-asked-questions-section",
+    "y": 4891,
+    "h": 547
+  },
+  {
+    "i": 9,
+    "name": "footer",
+    "y": 5438,
+    "h": 961
+  }
+]

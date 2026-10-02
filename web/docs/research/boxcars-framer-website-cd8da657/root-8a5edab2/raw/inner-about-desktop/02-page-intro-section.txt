@@ -1,0 +1,60 @@
+section(Page Intro Section) [0,174 1440x864] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); backgroundColor:rgb(255, 255, 255); padding:20px 0px 90px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Container) [42,194 1356x754] {padding:0px 30px; borderRadius:12px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:40px; position:relative; maxWidth:1356px; transition:all}
+    div(Head) [72,194 1296x204] {display:flex; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; transition:all}
+      div(Title) [72,194 643x186] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+        div(Badge) [72,194 83x20] {position:relative; transition:all}
+          div(Variant 1) [72,194 83x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+            div(Circle) [72,201 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+            div(Text) [85,194 70x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [85,194 70x20] "Since 2011" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+        div(Title) [72,224 643x156] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          h1 [72,224 643x156] "A dealership built on straight answers, not sales scripts" {fontSize:40px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:52px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+            br [418,224 0x52] {display:inline; transition:all}
+            br [482,276 0x52] {display:inline; transition:all}
+      div(Intro Text) [725,194 643x204] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:30px; position:relative; overflow:clip; transition:all}
+        div(Paragraph 1) [725,194 643x78] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          h5 [725,194 643x78] "Boxcars has been part of the New York car scene since 2011. In that time we’ve learned that most people don’t want to be sold to — they want to be told the truth about the car in front of them." {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all}
+        div(Paragraph 2) [725,302 643x96] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          p [725,302 643x96] "That’s how we work. Every vehicle on our floor passes a 150-point inspection before it’s listed, and arrives with its full service history and a vehicle history report — handed over before you think to ask. Pricing is set once, in the open, based on condition and market. If a car isn’t right for you" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+    div(images) [72,438 1296x510] {display:flex; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; transition:all}
+      div(Years Stat) [72,438 255x510] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+        div(a) [72,438 255x300] {backgroundColor:rgb(64, 95, 242); borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+          div(Stat Number) [165,514 69x70] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [165,514 69x70] "15" {fontSize:70px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:70px; color:rgb(255, 255, 255); transition:all}
+          div(Stat Label) [146,594 108x68] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            h5 [146,594 108x68] "Years in Business" {fontSize:26px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:33.8px; textTransform:capitalize; color:rgb(255, 255, 255); textAlign:center; transition:all}
+              br [247,593 0x34] {display:inline; transition:all}
+        div(b) [72,748 255x200] {borderRadius:16px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+          div(Image) [72,748 255x200] {borderRadius:16px; position:relative; transition:all}
+            div [72,748 255x200] {borderRadius:16px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+              img [72,748 255x200] src=https://framerusercontent.com/images/hHXzjwWZn7xJhu2zwXkDPT3Mw.jpg alt="Salesperson handing car keys to a customer in the showroom" {borderRadius:16px; overflow:clip; objectFit:cover; transition:all}
+      div(2) [337,438 510x510] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+        div(Image) [337,438 510x510] {borderRadius:16px; position:relative; transition:all}
+          div [337,438 510x510] {borderRadius:16px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+            img [337,438 510x510] src=https://framerusercontent.com/images/b9qlXZY452yYDDPVpQ6iUVMqN4U.jpg alt="Showroom interior with cars lined up along a full-height glass wall" {borderRadius:16px; overflow:clip; objectFit:cover; transition:all}
+      div(3) [858,438 510x510] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+        div(top) [858,438 510x300] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+          div(Image) [858,438 510x300] {borderRadius:16px; position:relative; transition:all}
+            div [858,438 510x300] {borderRadius:16px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+              img [858,438 510x300] src=https://framerusercontent.com/images/YKhmvj19m8tRy0CZ53VdaHkJBJs.jpg alt="Showroom reception desk with a red sports car and other vehicles behind it" {borderRadius:16px; overflow:clip; objectFit:cover; transition:all}
+        div(bottom) [858,748 510x200] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+          div(a) [858,748 250x200] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+            div(Image) [858,748 250x200] {borderRadius:16px; position:relative; transition:all}
+              div [858,748 250x200] {borderRadius:16px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+                img [858,748 250x200] src=https://framerusercontent.com/images/1YKI5tT7GznkcT4IuWrLIE2kw54.jpg alt="Technician with a clipboard inspecting a car with the bonnet raised" {borderRadius:16px; overflow:clip; objectFit:cover; transition:all}
+          div(b) [1118,748 250x200] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+            div(Image) [1118,748 250x200] {borderRadius:16px; position:relative; transition:all}
+              div [1118,748 250x200] {borderRadius:16px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+                img [1118,748 250x200] src=https://framerusercontent.com/images/0wTkjNPFKq38zGKAPXYCg2EqSrs.jpg alt="Salesperson showing a car to a couple in the showroom" {borderRadius:16px; overflow:clip; objectFit:cover; transition:all}
+
+=== IMAGES ===
+https://framerusercontent.com/images/hHXzjwWZn7xJhu2zwXkDPT3Mw.jpg | alt=Salesperson handing car keys to a customer in the showroom | natural 255x169
+https://framerusercontent.com/images/b9qlXZY452yYDDPVpQ6iUVMqN4U.jpg | alt=Showroom interior with cars lined up along a full-height glass wall | natural 511x766
+https://framerusercontent.com/images/YKhmvj19m8tRy0CZ53VdaHkJBJs.jpg | alt=Showroom reception desk with a red sports car and other vehicles behind it | natural 510x286
+https://framerusercontent.com/images/1YKI5tT7GznkcT4IuWrLIE2kw54.jpg | alt=Technician with a clipboard inspecting a car with the bonnet raised | natural 250x166
+https://framerusercontent.com/images/0wTkjNPFKq38zGKAPXYCg2EqSrs.jpg | alt=Salesperson showing a car to a couple in the showroom | natural 250x174
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

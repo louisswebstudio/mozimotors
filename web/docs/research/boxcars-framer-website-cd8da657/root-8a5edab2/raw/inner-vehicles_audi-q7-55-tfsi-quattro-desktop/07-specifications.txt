@@ -1,0 +1,55 @@
+div(Specifications) [72,1808 797x198] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:20px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Head) [72,1808 797x34] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+    div(head) [72,1808 797x34] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+      h5 [72,1808 797x34] "Specifications" {fontSize:26px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:33.8px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+  div(items) [72,1862 797x144] {display:flex; justifyContent:space-between; alignItems:flex-start; position:relative; overflow:clip; transition:all}
+    div(text) [72,1862 205x144] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+      ul [72,1862 205x144] {fontSize:16px; fontFamily:Inter; lineHeight:19.2px; position:relative; transition:all}
+        li [72,1862 205x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [93,1862 184x24] "Length: 5063mm" {transition:all}
+        li [72,1886 205x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [93,1886 184x24] "Width: 1970mm" {transition:all}
+        li [72,1910 205x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [93,1910 184x24] "Height: 1741mm" {transition:all}
+        li [72,1934 205x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [93,1934 184x24] "Wheelbase: 2999mm" {transition:all}
+        li [72,1958 205x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [93,1958 184x24] "Kerb Weight: 2065kg" {transition:all}
+        li [72,1982 205x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [93,1982 184x24] "Ground Clearance: 190mm" {transition:all}
+    div(text) [384,1862 189x144] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+      ul [384,1862 189x144] {fontSize:16px; fontFamily:Inter; lineHeight:19.2px; position:relative; transition:all}
+        li [384,1862 189x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [404,1862 169x24] "Power: 335 hp" {transition:all}
+        li [384,1886 189x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [404,1886 169x24] "Torque: 450 Nm" {transition:all}
+        li [384,1910 189x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [404,1910 169x24] "0–60 mph: 5.6s" {transition:all}
+        li [384,1934 189x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [404,1934 169x24] "Top Speed: 155 mph" {transition:all}
+        li [384,1958 189x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [404,1958 169x24] "Fuel Tank: 85L" {transition:all}
+        li [384,1982 189x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [404,1982 169x24] "Fuel Economy: 38.2 mpg" {transition:all}
+    div(text) [680,1862 190x144] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+      ul [680,1862 190x144] {fontSize:16px; fontFamily:Inter; lineHeight:19.2px; position:relative; transition:all}
+        li [680,1862 190x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [700,1862 169x24] "Seating: 7 seats" {transition:all}
+        li [680,1886 190x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [700,1886 169x24] "Boot Space: 865L" {transition:all}
+        li [680,1910 190x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [700,1910 169x24] "Doors: 5-door" {transition:all}
+        li [680,1934 190x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [700,1934 169x24] "Cylinders: 6" {transition:all}
+        li [680,1958 190x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [700,1958 169x24] "CO₂ Emissions: 148 g/km" {transition:all}
+        li [680,1982 190x24] {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); padding:0px 0px 0px 20.52px; display:list-item; transition:all}
+          p [700,1982 169x24] "Drive Type: AWD" {transition:all}
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

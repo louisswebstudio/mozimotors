@@ -1,0 +1,26 @@
+section(Page Intro Section) [0,174 1440x296] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); backgroundColor:rgb(255, 255, 255); padding:20px 0px 90px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Container) [42,194 1356x186] {padding:0px 30px; borderRadius:12px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:40px; position:relative; maxWidth:1356px; transition:all}
+    div(Head) [72,194 1296x186] {display:flex; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; transition:all}
+      div(Title) [72,194 643x186] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+        div(Badge) [72,194 160x20] {position:relative; transition:all}
+          div(Variant 1) [72,194 160x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+            div(Circle) [72,201 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+            div(Text) [85,194 147x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [85,194 147x20] "All under one roof" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+        div(Title) [72,224 643x156] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          h1 [72,224 643x156] "The parts most dealers hand off, we handle ourselves" {fontSize:40px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:52px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+            br [363,224 0x52] {display:inline; transition:all}
+            br [413,276 0x52] {display:inline; transition:all}
+      div(Intro Text) [725,194 643x180] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:30px; position:relative; overflow:clip; transition:all}
+        div(Paragraph 1) [725,194 643x78] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          h5 [725,194 643x78] "Most dealerships sell you the car and then point you elsewhere — a broker for the finance, someone else for the insurance, a garage across town for the servicing." {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all}
+        div(Paragraph 2) [725,302 643x72] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          p [725,302 643x72] "We do all four ourselves. The person who arranges your finance sits in the same building as the technician who inspected the car and the one who values your trade-in. Fewer handoffs, one set of numbers, and nobody who can tell you it isn’t their department." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

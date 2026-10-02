@@ -1,0 +1,48 @@
+div(gallery) [72,194 797x486] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); borderRadius:16px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:hidden; textAlign:start; transition:all}
+  div(Gallery) [72,194 797x486] {position:relative; transition:all}
+    section [72,194 797x486] {display:flex; alignItems:center; maxWidth:100%; transition:all}
+      div [72,194 797x486] {borderRadius:16px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; overflow:hidden; transition:all}
+        ul [-3117,194 797x486] {display:flex; alignItems:center; gap:0px; transform:matrix(1, 0, 0, 1, -3188.94, 0); maxWidth:100%; transition:all; cursor:grab}
+          div(gallery-2) [-1522,194 797x486] {position:relative; transition:all; cursor:grab}
+            div [-1522,194 797x486] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+              img [-1522,194 797x486] src=https://framerusercontent.com/images/YuKfwyn2lgIrqiRiM3z1oninbc0.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+          div(gallery-3) [-725,194 797x486] {position:relative; transition:all; cursor:grab}
+            div [-725,194 797x486] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+              img [-725,194 797x486] src=https://framerusercontent.com/images/bYCcZ3EmtVPS8LyjfeMFrhsIGgk.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+          div(features) [72,194 797x486] {position:relative; transition:all; cursor:grab}
+            div [72,194 797x486] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+              img [72,194 797x486] src=https://framerusercontent.com/images/ICGsn9JbVA7ayukPFFYopYyH3o0.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+          div(gallery-1) [869,194 797x486] {position:relative; transition:all; cursor:grab}
+            div [869,194 797x486] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+              img [869,194 797x486] src=https://framerusercontent.com/images/gTNlsEyI7QB8iIwZCBfbIiNTn1o.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+          div(gallery-2) [1666,194 797x486] {position:relative; transition:all; cursor:grab}
+            div [1666,194 797x486] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+              img [1666,194 797x486] src=https://framerusercontent.com/images/YuKfwyn2lgIrqiRiM3z1oninbc0.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+      fieldset [72,194 797x486] {display:flex; justifyContent:space-between; alignItems:center; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+        div [92,214 757x446] {display:flex; justifyContent:space-between; alignItems:center; position:absolute; top:20px; left:20px; right:20px; bottom:20px; transition:all}
+          button [92,417 40x40] {backgroundColor:rgba(0, 0, 0, 0.2); borderRadius:40px; justifyContent:center; alignItems:center; overflow:hidden; textAlign:center; transition:all; cursor:pointer}
+            img [92,417 40x40] src=https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg alt="Back Arrow" {display:inline; overflow:clip; transition:all; cursor:pointer}
+          button [809,417 40x40] {backgroundColor:rgba(0, 0, 0, 0.2); borderRadius:40px; justifyContent:center; alignItems:center; overflow:hidden; textAlign:center; transition:all; cursor:pointer}
+            img [809,417 40x40] src=https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg alt="Next Arrow" {display:inline; overflow:clip; transition:all; cursor:pointer}
+        div [443,645 55x25] {backgroundColor:rgba(0, 0, 0, 0.2); borderRadius:50px; display:flex; justifyContent:center; alignItems:center; position:absolute; top:450.609px; left:398.609px; right:343.625px; bottom:10px; transform:matrix(1, 0, 0, 1, -27.5, 0); overflow:hidden; transition:all}
+          button [443,645 18x25] {padding:10px 2.5px 10px 10px; display:flex; justifyContent:center; alignItems:center; overflow:hidden; textAlign:center; transition:all; cursor:pointer}
+            div [453,655 5x5] {backgroundColor:rgb(255, 255, 255); borderRadius:50%; justifyContent:center; alignItems:center; transition:all; cursor:pointer}
+          button [461,645 10x25] {padding:10px 2.5px; display:flex; justifyContent:center; alignItems:center; overflow:hidden; textAlign:center; transition:all; cursor:pointer}
+            div [463,655 5x5] {backgroundColor:rgb(255, 255, 255); borderRadius:50%; justifyContent:center; alignItems:center; opacity:0.5; transition:all; cursor:pointer}
+          button [471,645 10x25] {padding:10px 2.5px; display:flex; justifyContent:center; alignItems:center; overflow:hidden; textAlign:center; transition:all; cursor:pointer}
+            div [473,655 5x5] {backgroundColor:rgb(255, 255, 255); borderRadius:50%; justifyContent:center; alignItems:center; opacity:0.5; transition:all; cursor:pointer}
+          button [481,645 18x25] {padding:10px 10px 10px 2.5px; display:flex; justifyContent:center; alignItems:center; overflow:hidden; textAlign:center; transition:all; cursor:pointer}
+            div [483,655 5x5] {backgroundColor:rgb(255, 255, 255); borderRadius:50%; justifyContent:center; alignItems:center; opacity:0.5; transition:all; cursor:pointer}
+
+=== IMAGES ===
+https://framerusercontent.com/images/ICGsn9JbVA7ayukPFFYopYyH3o0.jpg | alt= | natural 599x399
+https://framerusercontent.com/images/gTNlsEyI7QB8iIwZCBfbIiNTn1o.jpg | alt= | natural 599x449
+https://framerusercontent.com/images/YuKfwyn2lgIrqiRiM3z1oninbc0.jpg | alt= | natural 599x449
+https://framerusercontent.com/images/bYCcZ3EmtVPS8LyjfeMFrhsIGgk.jpg | alt= | natural 600x400
+https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg | alt=Back Arrow | natural 40x40
+https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg | alt=Next Arrow | natural 40x40
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

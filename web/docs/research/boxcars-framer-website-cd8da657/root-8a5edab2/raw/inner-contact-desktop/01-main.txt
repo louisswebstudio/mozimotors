@@ -1,0 +1,106 @@
+main(Main) [0,0 1440x1622] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); backgroundColor:rgb(5, 11, 32); padding:104px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; textAlign:start; transition:all}
+  section(Hero Section) [0,104 1440x70] {backgroundColor:rgb(5, 11, 32); display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:hidden; transition:all}
+    div(Hero Bottom Bar) [0,104 1440x70] {backgroundColor:rgb(255, 255, 255); borderRadius:70px 70px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; overflow:clip; zIndex:4; transition:all}
+  section(Page Intro Section) [0,174 1440x742] {backgroundColor:rgb(255, 255, 255); padding:20px 0px 90px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+    div(Container) [42,194 1356x632] {padding:0px 30px; borderRadius:12px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:40px; position:relative; maxWidth:1356px; transition:all}
+      div(Head) [72,194 1296x82] {display:flex; justifyContent:center; alignItems:flex-end; gap:10px; position:relative; transition:all}
+        div(Title) [72,194 643x82] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+          div(Badge) [72,194 178x20] {position:relative; transition:all}
+            div(Variant 1) [72,194 178x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+              div(Circle) [72,201 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+              div(Text) [85,194 165x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                p [85,194 165x20] "We reply the same day" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+          div(Title) [72,224 643x52] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            h1 [72,224 643x52] "Contact us" {fontSize:40px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:52px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+        div(Intro Text) [725,252 643x24] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:30px; position:relative; overflow:clip; transition:all}
+          div(Subtitle) [725,252 643x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [725,252 643x24] "Call, email, or drop by the showroom — we answer every message the same working day." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+      div(maps) [72,316 1296x510] {borderRadius:16px; display:flex; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:hidden; transition:all}
+        div(Map) [72,316 1296x510] {position:relative; transition:all}
+          div [72,316 1296x510] {display:flex; justifyContent:center; alignItems:center; position:relative; overflow:hidden; transition:all}
+            iframe [72,316 1296x510] {overflow:clip; transition:all}
+  section(Contact Form Section) [0,916 1440x706] {backgroundColor:rgb(255, 255, 255); padding:0px 0px 90px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+    div(Container) [42,916 1356x616] {padding:0px 30px; display:flex; justifyContent:flex-start; alignItems:flex-start; gap:90px; position:relative; maxWidth:1356px; transition:all}
+      div(FAQ Introduction) [72,916 704x560] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:30px; position:sticky; zIndex:1; transition:all}
+        div(FAQ Introduction Inner) [72,916 704x560] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:30px; position:relative; overflow:clip; transition:all}
+          div(Head) [72,916 704x140] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+            div(Badge) [72,916 98x20] {position:relative; transition:all}
+              div(Variant 1) [72,916 98x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+                div(Circle) [72,923 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+                div(Text) [85,916 85x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                  p [85,916 85x20] "MESSAGE US" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+            div(head) [72,946 704x52] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              h3 [72,946 704x52] "What can we help with?" {fontSize:40px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:52px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+            div(text) [72,1008 704x48] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [72,1008 704x48] "Send us the details and we’ll reply the same working day. Mention a car and we’ll have its history ready before we call." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+          form(Contact Form) [72,1086 704x390] {backgroundColor:rgb(255, 255, 255); display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; overflow:hidden; transition:all}
+            label(Name Field) [72,1086 704x78] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:default}
+              div(Name Label) [72,1086 38x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+                p [72,1086 38x20] "Name" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(129, 129, 129); transition:all; cursor:default}
+              div(Name Input) [72,1116 704x48] {padding:12px 16px; borderRadius:12px; display:flex; alignItems:center; position:relative; overflow:hidden; transition:background, box-shadow; cursor:default; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=12px}
+                input [88,1128 672x24] {fontSize:14px; fontFamily:'DM Sans'; lineHeight:16.8px; color:rgb(5, 11, 32); overflow:clip; transition:all; cursor:text}
+            div(Email & Phone Row) [72,1184 704x78] {display:flex; justifyContent:center; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+              label(Email Field) [72,1184 342x78] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:default}
+                div(Email Label) [72,1184 34x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+                  p [72,1184 34x20] "Email" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(129, 129, 129); transition:all; cursor:default}
+                div(Email Input) [72,1214 342x48] {padding:12px 16px; borderRadius:12px; display:flex; alignItems:center; position:relative; overflow:hidden; transition:background, box-shadow; cursor:default; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=12px}
+                  input [88,1226 310x24] {fontSize:14px; fontFamily:'DM Sans'; lineHeight:16.8px; color:rgb(5, 11, 32); overflow:clip; transition:all; cursor:text}
+              label(Phone Field) [434,1184 342x78] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:default}
+                div(Phone Label) [434,1184 40x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+                  p [434,1184 40x20] "Phone" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(129, 129, 129); transition:all; cursor:default}
+                div(Phone Input) [434,1214 342x48] {padding:12px 16px; borderRadius:12px; display:flex; alignItems:center; position:relative; overflow:hidden; transition:background, box-shadow; cursor:default; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=12px}
+                  input [450,1226 310x24] {fontSize:14px; fontFamily:'DM Sans'; lineHeight:16.8px; color:rgb(5, 11, 32); overflow:clip; transition:all; cursor:text}
+            label(Message Field) [72,1282 704x130] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:default}
+              div(Message Label) [72,1282 57x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+                p [72,1282 57x20] "Message" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(129, 129, 129); transition:all; cursor:default}
+              div(Message Input) [72,1312 704x100] {borderRadius:12px; display:flex; alignItems:center; position:relative; overflow:hidden; transition:background, box-shadow; cursor:default; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=12px}
+                textarea [72,1312 704x100] {fontSize:14px; fontFamily:'DM Sans'; lineHeight:16.8px; color:rgb(5, 11, 32); padding:12px 16px; display:flex; overflow:hidden auto; transition:all; cursor:text}
+            div(Submit Button) [72,1432 704x44] {position:relative; transition:all}
+              button(Default) [72,1432 704x44] {backgroundColor:rgb(64, 95, 242); padding:10px 24px; borderRadius:10px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; textAlign:center; transition:all; cursor:pointer}
+                div [362,1442 102x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [362,1442 102x24] "Send Message" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); textAlign:start; transition:all; cursor:pointer}
+                div(icon) [474,1449 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                  div [475,1450 9x9] {backgroundImage:url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 9.096 9.096%22 overflow=%22visible%22><path d=%22M 8.551 0 L 1.612 0 C; position:relative; transition:all; cursor:pointer}
+      div(Right) [866,916 502x616] {padding:40px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:20px; position:sticky; zIndex:1; transition:all; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=16px}
+        div(Head) [906,956 422x122] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+          div(Badge) [906,956 107x20] {position:relative; transition:all}
+            div(Variant 1) [906,956 107x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+              div(Circle) [906,963 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+              div(Text) [919,956 94x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                p [919,956 94x20] "VISIT OR CALL" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+          div(head) [906,986 422x34] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            h5 [906,986 422x34] "No appointment needed" {fontSize:26px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:33.8px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+          div(text) [906,1030 422x48] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [906,1030 422x48] "Walk in any time during opening hours. Call ahead and we’ll have the car you want waiting." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        div(items) [906,1098 422x394] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:30px; position:relative; overflow:clip; transition:all}
+          div(Address) [906,1098 422x95] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:15px; position:relative; overflow:clip; transition:all}
+            svg [906,1098 26x26] position:relative; overflow:hidden; transition:all
+            div(Address Text) [906,1139 422x54] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:7px; position:relative; overflow:clip; transition:all}
+              div(Address) [906,1139 70x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                h6 [906,1139 70x23] "Address" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all}
+              div(Address) [906,1169 244x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                p [906,1169 244x24] "1250 Broadway, New York, NY 10001" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+          div(Support) [906,1223 422x119] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:15px; position:relative; overflow:clip; transition:all}
+            svg [906,1223 26x26] position:relative; overflow:hidden; transition:all
+            div(Support Text) [906,1264 422x78] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:7px; position:relative; overflow:clip; transition:all}
+              div(Support) [906,1264 69x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                h6 [906,1264 69x23] "Support" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all}
+              div(Email & Phone) [906,1295 137x48] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                p [906,1295 137x24] "hello@boxcars.com" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+                p [906,1319 137x24] "+1 (555) 012 3456" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+          div(Working hours) [906,1373 422x119] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:15px; position:relative; overflow:clip; transition:all}
+            svg [906,1373 26x26] position:relative; overflow:hidden; transition:all
+            div(Working Hours Text) [906,1414 422x78] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:7px; position:relative; overflow:clip; transition:all}
+              div(Working hours) [906,1414 122x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                h6 [906,1414 122x23] "Working hours" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all}
+              div(Opening Hours) [906,1444 208x48] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                p [906,1444 208x24] "Mon – Fri: 9am – 7pm" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+                p [906,1468 208x24] "Sat: 10am – 5pm · Sun: Closed" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 9.096 9.096%22 overflow=%22visible%22><path d=%22M 8.551 0 L 1.612 0 C 1.512 0 1.417 0.04 1.347 0.11 C 1.276 0.18 1.237 0.276 1.237 0.375 C 1.237 0.474 1.276 0.57 1.347 0.64 C 1.417 0.71 1.512 0.75 1.612 0.75 L 7.816 0.75 L 0.121 8.445 C 0.084 8.479 0.054 8.521 0.033 8.567 C 0.012 8.613 0.001 8.663 0 8.713 C -0.001 8.764 0.008 8.814 0.027 8.861 C 0.046 8.908 0.074 8.95 0.11 8.986 C 0.146 9.022 0.188 9.05 0.235 9.069 C 0.282 9.088 0.332 9.097 0.383 9.096 C 0.433 9.095 0.483 9.084 0.529 9.063 C 0.575 9.042 0.617 9.012 0.651 8.975 L 8.346 1.28 L 8.346 7.484 C 8.346 7.584 8.385 7.679 8.456 7.749 C 8.526 7.82 8.621 7.859 8.721 7.859 C 8.82 7.859 8.916 7.82 8.986 7.749 C 9.056 7.679 9.096 7.584 9.096 7.484 L 9.096 0.545 C 9.096 0.401 9.038 0.262 8.936 0.16 C 8.834 0.058 8.696 0 8.551 0 Z%22 fill=%22rgb(255,255,255)%22></path></svg>")
+
+=== MASKS ===

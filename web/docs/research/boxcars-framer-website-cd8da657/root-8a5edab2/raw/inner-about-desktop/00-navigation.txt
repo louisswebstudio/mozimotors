@@ -1,0 +1,72 @@
+div [0,0 1440x104] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); position:absolute; top:0px; left:720px; right:-720px; bottom:6295.03px; transform:matrix(1, 0, 0, 1, -720, 0); textAlign:start; zIndex:10; transition:all}
+  div(Dark) [0,0 1440x104] {backgroundColor:rgb(5, 11, 32); display:flex; justifyContent:flex-start; alignItems:center; gap:30px; position:relative; overflow:clip; transition:all}
+    div(Container) [0,0 1440x104] {padding:30px; display:flex; justifyContent:center; alignItems:center; gap:30px; position:relative; overflow:clip; transition:all}
+      div(Top) [30,30 1380x44] {display:flex; justifyContent:center; alignItems:center; gap:30px; position:relative; transition:all}
+        div(left) [30,39 440x26] {display:flex; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+          div [30,39 105x26] {position:relative; transition:all}
+            a(light) [30,39 105x26] href=./ {color:rgb(0, 0, 238); position:relative; overflow:clip; transition:all; cursor:pointer}
+              div(logo) [30,39 105x26] {position:absolute; top:0px; left:-0.5px; right:0.5px; bottom:0px; transition:all; cursor:pointer}
+                div [30,39 105x26] {transition:all; cursor:pointer}
+                  svg [30,39 105x26] overflow:hidden; transition:all; cursor:pointer
+          div [155,40 213x24] {display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; transition:all}
+            div(search) [155,40 213x24] {display:flex; justifyContent:center; alignItems:center; gap:5px; position:relative; overflow:clip; transition:all}
+              svg [155,43 18x18] position:relative; overflow:hidden; transition:all
+              div [178,40 190x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                p [178,40 190x24] "Try "BMW X5" or "financing"" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all}
+            div [155,41 235x22] {position:absolute; top:12px; left:0px; right:-22.0156px; bottom:-10px; opacity:0; transform:matrix(1, 0, 0, 1, 0, -11); zIndex:1; transition:all; cursor:pointer}
+              div [155,41 235x22] {borderRadius:10px; display:flex; overflow:hidden; transition:all; cursor:pointer}
+                button [155,41 235x22] {borderRadius:10px; display:flex; justifyContent:center; alignItems:center; textAlign:center; transition:all; cursor:pointer}
+                  svg [262,41 22x22] color:rgb(5, 11, 32); overflow:hidden; transition:all; cursor:pointer
+        div(nav) [500,40 440x24] {display:flex; justifyContent:center; alignItems:center; gap:20px; position:relative; transition:all}
+          div [520,40 42x24] {position:relative; transition:all}
+            a(Default) [520,40 42x24] href=./ {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(Home) [520,40 42x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [520,40 42x24] "Home" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+              div(border) [520,63 1x1] {backgroundColor:rgb(11, 26, 58); display:flex; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:40.6406px; bottom:0px; opacity:0; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+          div [582,40 67x24] {position:relative; transition:all}
+            a(Default) [582,40 67x24] href=./vehicles {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(Home) [582,40 67x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [582,40 67x24] "Inventory" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+              div(border) [582,63 1x1] {backgroundColor:rgb(11, 26, 58); display:flex; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:65.75px; bottom:0px; opacity:0; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+          div [668,40 60x24] {position:relative; transition:all}
+            a(Default) [668,40 60x24] href=./services {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(Home) [668,40 60x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [668,40 60x24] "Services" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+              div(border) [668,63 1x1] {backgroundColor:rgb(11, 26, 58); display:flex; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:59.1562px; bottom:0px; opacity:0; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+          div [749,40 44x24] {position:relative; transition:all}
+            a(Default) [749,40 44x24] href=./about {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(Home) [749,40 44x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [749,40 44x24] "About" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+              div(border) [749,63 1x1] {backgroundColor:rgb(11, 26, 58); display:flex; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:42.5625px; bottom:0px; opacity:0; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+          div [812,40 30x24] {position:relative; transition:all}
+            a(Default) [812,40 30x24] href=./blog {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(Home) [812,40 30x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [812,40 30x24] "Blog" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+              div(border) [812,63 1x1] {backgroundColor:rgb(11, 26, 58); display:flex; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:28.9531px; bottom:0px; opacity:0; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+          div [862,40 58x24] {position:relative; transition:all}
+            a(Default) [862,40 58x24] href=./contact {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(Home) [862,40 58x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [862,40 58x24] "Contact" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+              div(border) [862,63 1x1] {backgroundColor:rgb(11, 26, 58); display:flex; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:56.75px; bottom:0px; opacity:0; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+        div(right) [970,30 440x44] {display:flex; justifyContent:flex-end; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+          div(phone) [1088,40 153x24] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+            svg [1088,43 18x18] position:relative; overflow:hidden; transition:all
+            div(Phone Number) [1116,40 125x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [1116,40 125x24] {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all}
+                a [1116,42 125x20] "+1 (555) 012 3456" href=tel:+15550123456 {display:inline; transition:all; cursor:pointer}
+          div [1260,30 150x44] {position:relative; transition:all}
+            a(White-Border) [1260,30 150x44] href=./contact {color:rgb(0, 0, 238); backgroundColor:rgba(255, 255, 255, 0); padding:10px 24px; borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=12px}
+              div(Button) [1284,40 83x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [1284,40 83x24] "Book a Visit" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+              div(icon) [1375,47 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [1376,48 9x9] {position:relative; transition:all; cursor:pointer}
+                  div [1376,48 9x9] {transition:all; cursor:pointer}
+                    svg [1376,48 9x9] overflow:hidden; transition:all; cursor:pointer
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

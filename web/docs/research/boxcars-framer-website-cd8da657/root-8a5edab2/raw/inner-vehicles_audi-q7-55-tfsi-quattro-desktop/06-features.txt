@@ -1,0 +1,53 @@
+div(Features) [72,1459 797x289] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:20px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Head) [72,1459 797x34] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+    div(head) [72,1459 797x34] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+      h5 [72,1459 797x34] "Features" {fontSize:26px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:33.8px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+  div(items) [72,1513 797x235] {display:flex; justifyContent:center; alignItems:flex-start; gap:20px; position:relative; overflow:clip; transition:all}
+    div(Interior) [72,1513 184x163] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+      div(text) [72,1513 184x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        h6 [72,1513 184x23] "Interior" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all}
+      div(text) [72,1556 184x120] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [72,1556 184x24] "✓ Air Conditioner" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [72,1580 184x24] "✓ Leather Seats" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [72,1604 184x24] "✓ Digital Odometer" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [72,1628 184x24] "✓ Heated Seats" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [72,1652 184x24] "✓ Ambient Lighting" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+    div(Exterior) [276,1513 184x139] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+      div(text) [276,1513 184x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        h6 [276,1513 184x23] "Exterior" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all}
+      div(text) [276,1556 184x96] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [276,1556 184x24] "✓ LED Headlights" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [276,1580 184x24] "✓ Alloy Wheels" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [276,1604 184x24] "✓ Panoramic Sunroof" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [276,1628 184x24] "✓ Rain Sensing Wipers" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+    div(Safety) [481,1513 184x235] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+      div(text) [481,1513 184x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        h6 [481,1513 184x23] "Safety" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all}
+      div(text) [481,1556 184x192] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [481,1556 184x24] "✓ Brake Assist" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [481,1580 184x24] "✓ Traction Control" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [481,1604 184x24] "✓ Driver Airbag" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [481,1628 184x24] "✓ ABS" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [481,1652 184x24] "✓ Lane Assist" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [481,1676 184x24] "✓ Blind Spot Monitor" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [481,1700 184x24] "✓ 360 Camera" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [481,1724 184x24] "✓ Child Safety Locks" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+    div(Comfort & Convenience) [685,1513 184x235] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+      div(text) [685,1513 184x47] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        h6 [685,1513 184x47] "Comfort & Convenience" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all}
+      div(text) [685,1580 184x168] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [685,1580 184x24] "✓ Power Steering" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [685,1604 184x24] "✓ Power Windows" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [685,1628 184x24] "✓ Keyless Entry" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [685,1652 184x24] "✓ Cruise Control" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [685,1676 184x24] "✓ Wireless Charging" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [685,1700 184x24] "✓ Premium Sound System" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        p [685,1724 184x24] "✓ Heads-Up Display" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

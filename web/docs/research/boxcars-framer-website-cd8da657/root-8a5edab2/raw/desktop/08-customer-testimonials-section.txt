@@ -1,0 +1,370 @@
+section(Customer Testimonials Section) [0,5124 1440x738] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); padding:90px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; textAlign:start; transition:all; ::afterBORDER:1px/0px/0px/0px solid rgb(225, 225, 225) r=0px}
+  div(Container) [42,5214 1356x558] {padding:0px 30px; borderRadius:12px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:40px; position:relative; maxWidth:1356px; transition:all}
+    div(Head) [72,5214 1296x82] {display:flex; justifyContent:center; alignItems:flex-end; gap:10px; position:relative; transition:all}
+      div(Customer Testimonials Title Group) [72,5214 786x82] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+        div [72,5214 146x20] {position:relative; transition:all}
+          div(Variant 1) [72,5214 146x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+            div(Circle) [72,5221 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+            div(Text) [85,5214 133x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [85,5214 133x20] "CUSTOMER STORIES" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+        div(Title) [72,5244 786x52] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          h3 [72,5244 786x52] "What our customers say" {fontSize:40px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:52px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+      div(Subtitle) [868,5272 500x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [868,5272 500x24] "Rated 4.8 out of 5 from 480 reviews. Showing our 4- and 5-star reviews." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:center; transition:all}
+    div [72,5336 1296x436] {position:relative; transition:all}
+      div(Default) [72,5336 1296x436] {display:flex; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+        div [72,5336 1296x436] {position:relative; transition:all}
+          section [72,5336 1296x436] {display:flex; alignItems:center; maxWidth:100%; transition:all}
+            div [72,5336 1296x436] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; overflow:hidden; transition:all}
+              ul [-2560,5336 1296x436] {display:flex; alignItems:center; gap:20px; transform:matrix(1, 0, 0, 1, -2632, 0); maxWidth:100%; transition:all; cursor:grab}
+                div(#2) [-1902,5336 638x436] {position:relative; zIndex:1; transition:all; cursor:grab}
+                  div(Variant 1) [-1902,5336 638x355] {backgroundColor:rgb(238, 241, 251); padding:6px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:grab}
+                    div(Content) [-1896,5342 353x343] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(head) [-1876,5362 273x243] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div [-1876,5362 273x24] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(star) [-1876,5369 83x11] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; transition:all; cursor:grab}
+                            div [-1876,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-1876,5369 11x11] {transition:all; cursor:grab}
+                                svg [-1876,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-1858,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-1858,5369 11x11] {transition:all; cursor:grab}
+                                svg [-1858,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-1840,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-1840,5369 11x11] {transition:all; cursor:grab}
+                                svg [-1840,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-1822,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-1822,5369 11x11] {transition:all; cursor:grab}
+                                svg [-1822,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-1804,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-1804,5369 11x11] {transition:all; cursor:grab}
+                                svg [-1804,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                          div(text) [-1783,5362 180x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [-1783,5362 180x24] "4.8" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(64, 95, 242); transition:all; cursor:grab}
+                        div(head) [-1876,5396 273x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          h6 [-1876,5396 273x23] "No pressure, just honest advice" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:grab}
+                        div(text) [-1876,5429 273x96] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          p [-1876,5429 273x96] "They actually listened to what I needed instead of pushing the priciest option. Drove away in the perfect car for my budget." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                      div(user) [-1876,5615 273x50] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div(images) [-1876,5615 50x50] {borderRadius:120px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:grab}
+                          div(img) [-1876,5615 50x50] {position:relative; transition:all; cursor:grab}
+                            div [-1876,5615 50x50] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                              img [-1876,5615 50x50] src=https://framerusercontent.com/images/Ur06SPhgC6XYo7mfrxJ11dTCvw0.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                        div(head) [-1816,5617 213x46] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(head) [-1816,5617 213x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [-1816,5617 213x26] "Elena Novak" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                          div(text) [-1816,5643 213x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [-1816,5643 213x20] "Bought an Audi RS7" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                    div(images) [-1543,5342 273x343] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(img) [-1543,5342 273x343] {borderRadius:12px; position:relative; transition:all; cursor:grab}
+                        div [-1543,5342 273x343] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                          img [-1543,5342 273x343] src=https://framerusercontent.com/images/iFWagMWyoGY8krgFiSbAWoAyzY.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                div(#3) [-1244,5336 638x436] {position:relative; zIndex:1; transition:all; cursor:grab}
+                  div(Variant 1) [-1244,5336 638x355] {backgroundColor:rgb(238, 241, 251); padding:6px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:grab}
+                    div(Content) [-1238,5342 353x343] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(head) [-1218,5362 273x243] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div [-1218,5362 273x24] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(star) [-1218,5369 83x11] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; transition:all; cursor:grab}
+                            div [-1218,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-1218,5369 11x11] {transition:all; cursor:grab}
+                                svg [-1218,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-1200,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-1200,5369 11x11] {transition:all; cursor:grab}
+                                svg [-1200,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-1182,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-1182,5369 11x11] {transition:all; cursor:grab}
+                                svg [-1182,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-1164,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-1164,5369 11x11] {transition:all; cursor:grab}
+                                svg [-1164,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-1146,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-1146,5369 11x11] {transition:all; cursor:grab}
+                                svg [-1146,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                          div(text) [-1125,5362 180x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [-1125,5362 180x24] "5.0" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(64, 95, 242); transition:all; cursor:grab}
+                        div(head) [-1218,5396 273x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          h6 [-1218,5396 273x23] "Financing was refreshingly clear" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:grab}
+                        div(text) [-1218,5429 273x72] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          p [-1218,5429 273x72] "Got pre-approved in minutes and knew exactly what I'd pay each month. No hidden fees, no surprises at signing." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                      div(user) [-1218,5615 273x50] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div(images) [-1218,5615 50x50] {borderRadius:120px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:grab}
+                          div(img) [-1218,5615 50x50] {position:relative; transition:all; cursor:grab}
+                            div [-1218,5615 50x50] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                              img [-1218,5615 50x50] src=https://framerusercontent.com/images/kAxffMYuCK4VL0PBQPs8QmbSN8I.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                        div(head) [-1158,5617 213x46] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(head) [-1158,5617 213x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [-1158,5617 213x26] "Marcus Bennett" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                          div(text) [-1158,5643 213x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [-1158,5643 213x20] "Financed a Mercedes C-Class" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                    div(images) [-885,5342 273x343] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(img) [-885,5342 273x343] {borderRadius:12px; position:relative; transition:all; cursor:grab}
+                        div [-885,5342 273x343] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                          img [-885,5342 273x343] src=https://framerusercontent.com/images/U8uysC6NgBjnXqJYQC0vBQ2U5Y.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                div(#4) [-586,5336 638x436] {position:relative; zIndex:1; transition:all; cursor:grab}
+                  div(Variant 1) [-586,5336 638x355] {backgroundColor:rgb(238, 241, 251); padding:6px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:grab}
+                    div(Content) [-580,5342 353x343] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(head) [-560,5362 273x243] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div [-560,5362 273x24] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(star) [-560,5369 83x11] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; transition:all; cursor:grab}
+                            div [-560,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-560,5369 11x11] {transition:all; cursor:grab}
+                                svg [-560,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-542,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-542,5369 11x11] {transition:all; cursor:grab}
+                                svg [-542,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-524,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-524,5369 11x11] {transition:all; cursor:grab}
+                                svg [-524,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-506,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-506,5369 11x11] {transition:all; cursor:grab}
+                                svg [-506,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [-488,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [-488,5369 11x11] {transition:all; cursor:grab}
+                                svg [-488,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                          div(text) [-467,5362 180x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [-467,5362 180x24] "4.9" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(64, 95, 242); transition:all; cursor:grab}
+                        div(head) [-560,5396 273x47] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          h6 [-560,5396 273x47] "Every car was exactly as described" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:grab}
+                        div(text) [-560,5453 273x96] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          p [-560,5453 273x96] "The inspection report matched the car perfectly. That kind of honesty is rare — I'd buy from them again without hesitation." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                      div(user) [-560,5615 273x50] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div(images) [-560,5615 50x50] {borderRadius:120px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:grab}
+                          div(img) [-560,5615 50x50] {position:relative; transition:all; cursor:grab}
+                            div [-560,5615 50x50] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                              img [-560,5615 50x50] src=https://framerusercontent.com/images/31FpcLsBYNqj7shVtcMfDKRkKo.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                        div(head) [-500,5617 213x46] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(head) [-500,5617 213x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [-500,5617 213x26] "Sophie Laurent" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                          div(text) [-500,5643 213x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [-500,5643 213x20] "Bought a Tesla Model 3" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                    div(images) [-227,5342 273x343] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(img) [-227,5342 273x343] {borderRadius:12px; position:relative; transition:all; cursor:grab}
+                        div [-227,5342 273x343] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                          img [-227,5342 273x343] src=https://framerusercontent.com/images/RRKkCrKRolzX5V4sMo7NrpzPzw.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                div(#1) [72,5336 638x436] {position:relative; zIndex:1; transition:all; cursor:grab}
+                  div(Variant 1) [72,5336 638x355] {backgroundColor:rgb(238, 241, 251); padding:6px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:grab}
+                    div(Content) [78,5342 353x343] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(head) [98,5362 273x243] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div [98,5362 273x24] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(star) [98,5369 83x11] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; transition:all; cursor:grab}
+                            div [98,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [98,5369 11x11] {transition:all; cursor:grab}
+                                svg [98,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [116,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [116,5369 11x11] {transition:all; cursor:grab}
+                                svg [116,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [134,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [134,5369 11x11] {transition:all; cursor:grab}
+                                svg [134,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [152,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [152,5369 11x11] {transition:all; cursor:grab}
+                                svg [152,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [170,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [170,5369 11x11] {transition:all; cursor:grab}
+                                svg [170,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                          div(text) [191,5362 180x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [191,5362 180x24] "5.0" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(64, 95, 242); transition:all; cursor:grab}
+                        div(head) [98,5396 273x47] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          h6 [98,5396 273x47] "Sold my car in a single afternoon" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:grab}
+                        div(text) [98,5453 273x96] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          p [98,5453 273x96] "I expected the usual back-and-forth, but the offer was fair and the payment landed same day. Genuinely the easiest car sale I've ever made." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                      div(user) [98,5615 273x50] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div(images) [98,5615 50x50] {borderRadius:120px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:grab}
+                          div(img) [98,5615 50x50] {position:relative; transition:all; cursor:grab}
+                            div [98,5615 50x50] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                              img [98,5615 50x50] src=https://framerusercontent.com/images/SD4ic4f0pVRRzUhtG4RKoRoLEY.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                        div(head) [158,5617 213x46] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(head) [158,5617 213x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [158,5617 213x26] "James Carter" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                          div(text) [158,5643 213x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [158,5643 213x20] "Sold a BMW 3 Series" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                    div(images) [431,5342 273x343] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(img) [431,5342 273x343] {borderRadius:12px; position:relative; transition:all; cursor:grab}
+                        div [431,5342 273x343] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                          img [431,5342 273x343] src=https://framerusercontent.com/images/mNsfvp6yJoMjpRhwfNQMCNhKxYM.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                div(#2) [730,5336 638x436] {position:relative; zIndex:1; transition:all; cursor:grab}
+                  div(Variant 1) [730,5336 638x355] {backgroundColor:rgb(238, 241, 251); padding:6px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:grab}
+                    div(Content) [736,5342 353x343] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(head) [756,5362 273x243] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div [756,5362 273x24] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(star) [756,5369 83x11] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; transition:all; cursor:grab}
+                            div [756,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [756,5369 11x11] {transition:all; cursor:grab}
+                                svg [756,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [774,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [774,5369 11x11] {transition:all; cursor:grab}
+                                svg [774,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [792,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [792,5369 11x11] {transition:all; cursor:grab}
+                                svg [792,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [810,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [810,5369 11x11] {transition:all; cursor:grab}
+                                svg [810,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [828,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [828,5369 11x11] {transition:all; cursor:grab}
+                                svg [828,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                          div(text) [849,5362 180x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [849,5362 180x24] "4.8" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(64, 95, 242); transition:all; cursor:grab}
+                        div(head) [756,5396 273x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          h6 [756,5396 273x23] "No pressure, just honest advice" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:grab}
+                        div(text) [756,5429 273x96] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          p [756,5429 273x96] "They actually listened to what I needed instead of pushing the priciest option. Drove away in the perfect car for my budget." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                      div(user) [756,5615 273x50] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div(images) [756,5615 50x50] {borderRadius:120px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:grab}
+                          div(img) [756,5615 50x50] {position:relative; transition:all; cursor:grab}
+                            div [756,5615 50x50] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                              img [756,5615 50x50] src=https://framerusercontent.com/images/Ur06SPhgC6XYo7mfrxJ11dTCvw0.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                        div(head) [816,5617 213x46] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(head) [816,5617 213x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [816,5617 213x26] "Elena Novak" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                          div(text) [816,5643 213x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [816,5643 213x20] "Bought an Audi RS7" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                    div(images) [1089,5342 273x343] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(img) [1089,5342 273x343] {borderRadius:12px; position:relative; transition:all; cursor:grab}
+                        div [1089,5342 273x343] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                          img [1089,5342 273x343] src=https://framerusercontent.com/images/iFWagMWyoGY8krgFiSbAWoAyzY.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                div(#3) [1388,5336 638x436] {position:relative; zIndex:1; transition:all; cursor:grab}
+                  div(Variant 1) [1388,5336 638x355] {backgroundColor:rgb(238, 241, 251); padding:6px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:grab}
+                    div(Content) [1394,5342 353x343] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(head) [1414,5362 273x243] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div [1414,5362 273x24] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(star) [1414,5369 83x11] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; transition:all; cursor:grab}
+                            div [1414,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [1414,5369 11x11] {transition:all; cursor:grab}
+                                svg [1414,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [1432,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [1432,5369 11x11] {transition:all; cursor:grab}
+                                svg [1432,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [1450,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [1450,5369 11x11] {transition:all; cursor:grab}
+                                svg [1450,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [1468,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [1468,5369 11x11] {transition:all; cursor:grab}
+                                svg [1468,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [1486,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [1486,5369 11x11] {transition:all; cursor:grab}
+                                svg [1486,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                          div(text) [1507,5362 180x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [1507,5362 180x24] "5.0" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(64, 95, 242); transition:all; cursor:grab}
+                        div(head) [1414,5396 273x23] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          h6 [1414,5396 273x23] "Financing was refreshingly clear" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:grab}
+                        div(text) [1414,5429 273x72] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          p [1414,5429 273x72] "Got pre-approved in minutes and knew exactly what I'd pay each month. No hidden fees, no surprises at signing." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                      div(user) [1414,5615 273x50] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div(images) [1414,5615 50x50] {borderRadius:120px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:grab}
+                          div(img) [1414,5615 50x50] {position:relative; transition:all; cursor:grab}
+                            div [1414,5615 50x50] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                              img [1414,5615 50x50] src=https://framerusercontent.com/images/kAxffMYuCK4VL0PBQPs8QmbSN8I.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                        div(head) [1474,5617 213x46] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(head) [1474,5617 213x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [1474,5617 213x26] "Marcus Bennett" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                          div(text) [1474,5643 213x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [1474,5643 213x20] "Financed a Mercedes C-Class" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                    div(images) [1747,5342 273x343] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(img) [1747,5342 273x343] {borderRadius:12px; position:relative; transition:all; cursor:grab}
+                        div [1747,5342 273x343] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                          img [1747,5342 273x343] src=https://framerusercontent.com/images/U8uysC6NgBjnXqJYQC0vBQ2U5Y.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                div(#4) [2046,5336 638x436] {position:relative; zIndex:1; transition:all; cursor:grab}
+                  div(Variant 1) [2046,5336 638x355] {backgroundColor:rgb(238, 241, 251); padding:6px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:grab}
+                    div(Content) [2052,5342 353x343] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(head) [2072,5362 273x243] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div [2072,5362 273x24] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(star) [2072,5369 83x11] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; transition:all; cursor:grab}
+                            div [2072,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [2072,5369 11x11] {transition:all; cursor:grab}
+                                svg [2072,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [2090,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [2090,5369 11x11] {transition:all; cursor:grab}
+                                svg [2090,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [2108,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [2108,5369 11x11] {transition:all; cursor:grab}
+                                svg [2108,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [2126,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [2126,5369 11x11] {transition:all; cursor:grab}
+                                svg [2126,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [2144,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [2144,5369 11x11] {transition:all; cursor:grab}
+                                svg [2144,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                          div(text) [2165,5362 180x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [2165,5362 180x24] "4.9" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(64, 95, 242); transition:all; cursor:grab}
+                        div(head) [2072,5396 273x47] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          h6 [2072,5396 273x47] "Every car was exactly as described" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:grab}
+                        div(text) [2072,5453 273x96] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          p [2072,5453 273x96] "The inspection report matched the car perfectly. That kind of honesty is rare — I'd buy from them again without hesitation." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                      div(user) [2072,5615 273x50] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div(images) [2072,5615 50x50] {borderRadius:120px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:grab}
+                          div(img) [2072,5615 50x50] {position:relative; transition:all; cursor:grab}
+                            div [2072,5615 50x50] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                              img [2072,5615 50x50] src=https://framerusercontent.com/images/31FpcLsBYNqj7shVtcMfDKRkKo.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                        div(head) [2132,5617 213x46] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(head) [2132,5617 213x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [2132,5617 213x26] "Sophie Laurent" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                          div(text) [2132,5643 213x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [2132,5643 213x20] "Bought a Tesla Model 3" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                    div(images) [2405,5342 273x343] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(img) [2405,5342 273x343] {borderRadius:12px; position:relative; transition:all; cursor:grab}
+                        div [2405,5342 273x343] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                          img [2405,5342 273x343] src=https://framerusercontent.com/images/RRKkCrKRolzX5V4sMo7NrpzPzw.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                div(#1) [2704,5336 638x436] {position:relative; zIndex:1; transition:all; cursor:grab}
+                  div(Variant 1) [2704,5336 638x355] {backgroundColor:rgb(238, 241, 251); padding:6px; borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:grab}
+                    div(Content) [2710,5342 353x343] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(head) [2730,5362 273x243] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div [2730,5362 273x24] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(star) [2730,5369 83x11] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; transition:all; cursor:grab}
+                            div [2730,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [2730,5369 11x11] {transition:all; cursor:grab}
+                                svg [2730,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [2748,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [2748,5369 11x11] {transition:all; cursor:grab}
+                                svg [2748,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [2766,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [2766,5369 11x11] {transition:all; cursor:grab}
+                                svg [2766,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [2784,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [2784,5369 11x11] {transition:all; cursor:grab}
+                                svg [2784,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                            div [2802,5369 11x11] {position:relative; transition:all; cursor:grab}
+                              div [2802,5369 11x11] {transition:all; cursor:grab}
+                                svg [2802,5369 11x11] overflow:hidden; transition:all; cursor:grab
+                          div(text) [2823,5362 180x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [2823,5362 180x24] "5.0" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(64, 95, 242); transition:all; cursor:grab}
+                        div(head) [2730,5396 273x47] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          h6 [2730,5396 273x47] "Sold my car in a single afternoon" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:grab}
+                        div(text) [2730,5453 273x96] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                          p [2730,5453 273x96] "I expected the usual back-and-forth, but the offer was fair and the payment landed same day. Genuinely the easiest car sale I've ever made." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                      div(user) [2730,5615 273x50] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:grab}
+                        div(images) [2730,5615 50x50] {borderRadius:120px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:grab}
+                          div(img) [2730,5615 50x50] {position:relative; transition:all; cursor:grab}
+                            div [2730,5615 50x50] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                              img [2730,5615 50x50] src=https://framerusercontent.com/images/SD4ic4f0pVRRzUhtG4RKoRoLEY.jpg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:grab}
+                        div(head) [2790,5617 213x46] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:grab}
+                          div(head) [2790,5617 213x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [2790,5617 213x26] "James Carter" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                          div(text) [2790,5643 213x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:grab}
+                            p [2790,5643 213x20] "Sold a BMW 3 Series" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:grab}
+                    div(images) [3063,5342 273x343] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:grab}
+                      div(img) [3063,5342 273x343] {borderRadius:12px; position:relative; transition:all; cursor:grab}
+                        div [3063,5342 273x343] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:grab}
+                          img [3063,5342 273x343] src=https://framerusercontent.com/images/mNsfvp6yJoMjpRhwfNQMCNhKxYM.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all; cursor:grab}
+            fieldset [72,5336 1296x436] {display:flex; justifyContent:space-between; alignItems:center; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+              div [72,5732 90x40] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:396px; left:0px; right:1206px; bottom:0px; transition:all}
+                button [72,5732 40x40] {backgroundColor:rgba(0, 0, 0, 0.2); borderRadius:40px; justifyContent:center; alignItems:center; overflow:hidden; textAlign:center; transition:all; cursor:pointer}
+                  img [72,5732 40x40] src=https://framerusercontent.com/images/A226aSSgrZp8j4dwSMsUtYDNu4k.svg alt="Back Arrow" {display:inline; overflow:clip; transition:all; cursor:pointer}
+                button [122,5732 40x40] {backgroundColor:rgba(0, 0, 0, 0.2); borderRadius:40px; justifyContent:center; alignItems:center; overflow:hidden; textAlign:center; transition:all; cursor:pointer}
+                  img [122,5732 40x40] src=https://framerusercontent.com/images/u7kO7y6SQWfWGhP53b9kDkuLyqI.svg alt="Next Arrow" {display:inline; overflow:clip; transition:all; cursor:pointer}
+
+=== IMAGES ===
+https://framerusercontent.com/images/SD4ic4f0pVRRzUhtG4RKoRoLEY.jpg | alt= | natural 50x50
+https://framerusercontent.com/images/mNsfvp6yJoMjpRhwfNQMCNhKxYM.jpg | alt= | natural 313x391
+https://framerusercontent.com/images/Ur06SPhgC6XYo7mfrxJ11dTCvw0.jpg | alt= | natural 50x50
+https://framerusercontent.com/images/iFWagMWyoGY8krgFiSbAWoAyzY.jpg | alt= | natural 313x469
+https://framerusercontent.com/images/kAxffMYuCK4VL0PBQPs8QmbSN8I.jpg | alt= | natural 50x50
+https://framerusercontent.com/images/U8uysC6NgBjnXqJYQC0vBQ2U5Y.jpg | alt= | natural 313x469
+https://framerusercontent.com/images/31FpcLsBYNqj7shVtcMfDKRkKo.jpg | alt= | natural 50x50
+https://framerusercontent.com/images/RRKkCrKRolzX5V4sMo7NrpzPzw.jpg | alt= | natural 313x559
+https://framerusercontent.com/images/A226aSSgrZp8j4dwSMsUtYDNu4k.svg | alt=Back Arrow | natural 40x40
+https://framerusercontent.com/images/u7kO7y6SQWfWGhP53b9kDkuLyqI.svg | alt=Next Arrow | natural 40x40
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

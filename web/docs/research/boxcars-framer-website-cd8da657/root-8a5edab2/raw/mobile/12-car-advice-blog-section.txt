@@ -1,0 +1,90 @@
+section(Car Advice Blog Section) [0,12015 390x1220] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); padding:30px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Container) [0,12045 390x1160] {padding:0px 30px; borderRadius:12px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:30px; position:relative; maxWidth:1356px; transition:all}
+    div(Head) [30,12045 330x137] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; transition:all}
+      div [30,12045 122x20] {position:relative; transition:all}
+        div(Variant 1) [30,12045 122x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+          div(Circle) [30,12052 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+          div(Text) [43,12045 109x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [43,12045 109x20] "FROM THE BLOG" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+      div(Head) [30,12075 330x73] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        h3 [30,12075 330x73] "News, guides & car advice" {fontSize:28px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:36.4px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+      div [30,12157 130x24] {position:relative; zIndex:1; transition:all}
+        a(No-Bg) [30,12157 130x24] href=./blog {color:rgb(0, 0, 238); backgroundColor:rgba(255, 255, 255, 0); display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+          div(Button) [30,12157 111x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [30,12157 111x24] "Read all articles" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+          div(icon) [149,12164 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+            div [150,12165 9x9] {position:relative; transition:all; cursor:pointer}
+              div [150,12165 9x9] {transition:all; cursor:pointer}
+                svg [150,12165 9x9] overflow:hidden; transition:all; cursor:pointer
+          div(border) [30,12180 1x1] {backgroundColor:rgb(64, 95, 242); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:128.641px; bottom:0px; opacity:0; transition:all; cursor:pointer}
+    div [30,12211 330x993] {display:grid; justifyContent:center; gap:20px; position:relative; gridTemplateColumns:330px; transition:all}
+      a [30,12211 330x318] href=./blog/how-to-choose-between-petrol-hybrid-electric {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+        div [30,12211 330x318] {position:relative; transition:all; cursor:pointer}
+          div(Default) [30,12211 330x318] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:hidden; transition:all; cursor:pointer}
+            div(img) [30,12211 330x221] {borderRadius:16px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:pointer}
+              div(image 1801) [30,12211 330x221] {position:relative; transition:all; cursor:pointer}
+                div [30,12211 330x221] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+                  img [30,12211 330x221] src=https://framerusercontent.com/images/L9GGUohzR5DS6nkASRF9ow6673Y.jpg alt="var(--variable-YFLKZSFsQ)" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+              div(tag) [41,12221 70x30] {backgroundColor:rgb(255, 255, 255); padding:5px 10px; borderRadius:120px; display:flex; justifyContent:flex-start; alignItems:center; gap:4px; position:absolute; top:10px; left:11px; right:248.672px; bottom:180.969px; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+                div(Circle) [51,12234 4x4] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div(Text) [59,12226 42x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [59,12226 42x20] "Guides" {fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+            div(inner) [30,12452 330x77] {padding:0px 60px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(tops) [30,12452 270x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [30,12452 87x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [30,12452 87x20] "James Carter" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div(Ellipse 1) [127,12461 3x3] {backgroundColor:rgb(5, 11, 32); borderRadius:100%; position:relative; transition:all; cursor:pointer}
+                div [140,12452 86x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [140,12452 86x20] "Aug 20, 2026" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+              div(The Art of Aromatherapy: A Journey Through Scents) [30,12482 270x47] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                h5 [30,12482 270x47] "How to Choose Between Petrol and Electric" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+      a [30,12549 330x318] href=./blog/a-buyer-s-guide-to-vehicle-history-reports {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+        div [30,12549 330x318] {position:relative; transition:all; cursor:pointer}
+          div(Default) [30,12549 330x318] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:hidden; transition:all; cursor:pointer}
+            div(img) [30,12549 330x221] {borderRadius:16px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:pointer}
+              div(image 1801) [30,12549 330x221] {position:relative; transition:all; cursor:pointer}
+                div [30,12549 330x221] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+                  img [30,12549 330x221] src=https://framerusercontent.com/images/UR3I0b9xKldzfOObxlI2fhDppA.jpg alt="var(--variable-YFLKZSFsQ)" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+              div(tag) [41,12559 70x30] {backgroundColor:rgb(255, 255, 255); padding:5px 10px; borderRadius:120px; display:flex; justifyContent:flex-start; alignItems:center; gap:4px; position:absolute; top:10px; left:11px; right:248.672px; bottom:180.969px; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+                div(Circle) [51,12572 4x4] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div(Text) [59,12564 42x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [59,12564 42x20] "Guides" {fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+            div(inner) [30,12790 330x77] {padding:0px 60px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(tops) [30,12790 270x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [30,12790 84x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [30,12790 84x20] "Marcus Reed" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div(Ellipse 1) [124,12799 3x3] {backgroundColor:rgb(5, 11, 32); borderRadius:100%; position:relative; transition:all; cursor:pointer}
+                div [137,12790 88x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [137,12790 88x20] "May 28, 2026" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+              div(The Art of Aromatherapy: A Journey Through Scents) [30,12820 270x47] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                h5 [30,12820 270x47] "A Complete Guide To Vehicle History Reports" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+      a [30,12887 330x318] href=./blog/financing-vs-leasing-making-the-right-call {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+        div [30,12887 330x318] {position:relative; transition:all; cursor:pointer}
+          div(Default) [30,12887 330x318] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:hidden; transition:all; cursor:pointer}
+            div(img) [30,12887 330x221] {borderRadius:16px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:pointer}
+              div(image 1801) [30,12887 330x221] {position:relative; transition:all; cursor:pointer}
+                div [30,12887 330x221] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+                  img [30,12887 330x221] src=https://framerusercontent.com/images/NjfEKAzlkR3OvHBbYRCoosToC5M.jpg alt="var(--variable-YFLKZSFsQ)" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+              div(tag) [41,12897 113x30] {backgroundColor:rgb(255, 255, 255); padding:5px 10px; borderRadius:120px; display:flex; justifyContent:flex-start; alignItems:center; gap:4px; position:absolute; top:10px; left:11px; right:206.422px; bottom:180.969px; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+                div(Circle) [51,12910 4x4] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div(Text) [59,12902 85x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [59,12902 85x20] "Comparisons" {fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+            div(inner) [30,13128 330x77] {padding:0px 60px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:pointer}
+              div(tops) [30,13128 270x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [30,13128 85x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [30,13128 85x20] "Grace Turner" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div(Ellipse 1) [125,13136 3x3] {backgroundColor:rgb(5, 11, 32); borderRadius:100%; position:relative; transition:all; cursor:pointer}
+                div [138,13128 81x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [138,13128 81x20] "Apr 16, 2026" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+              div(The Art of Aromatherapy: A Journey Through Scents) [30,13158 270x47] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                h5 [30,13158 270x47] "Financing Versus Leasing: What To Choose" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+
+=== IMAGES ===
+https://framerusercontent.com/images/L9GGUohzR5DS6nkASRF9ow6673Y.jpg | alt=var(--variable-YFLKZSFsQ) | natural 330x219
+https://framerusercontent.com/images/UR3I0b9xKldzfOObxlI2fhDppA.jpg | alt=var(--variable-YFLKZSFsQ) | natural 330x219
+https://framerusercontent.com/images/NjfEKAzlkR3OvHBbYRCoosToC5M.jpg | alt=var(--variable-YFLKZSFsQ) | natural 330x219
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

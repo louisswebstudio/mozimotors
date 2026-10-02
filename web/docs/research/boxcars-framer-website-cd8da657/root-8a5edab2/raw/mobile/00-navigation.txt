@@ -1,0 +1,34 @@
+div [0,0 390x86] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); position:absolute; top:0px; left:0px; right:0px; bottom:14639.5px; textAlign:start; zIndex:3; transition:all}
+  div(Default - Mobile/Closed) [0,0 390x86] {display:flex; justifyContent:flex-start; alignItems:center; gap:30px; position:relative; overflow:clip; transition:all}
+    div(Container) [0,0 390x86] {padding:30px; display:flex; justifyContent:center; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+      div(Top) [30,30 330x26] {display:flex; justifyContent:center; alignItems:center; gap:30px; position:relative; transition:all}
+        div(left) [30,30 275x26] {display:flex; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+          div [30,30 105x26] {position:relative; transition:all}
+            a(light) [30,30 105x26] href=./ {color:rgb(0, 0, 238); position:relative; overflow:clip; transition:all; cursor:pointer}
+              div(logo) [30,30 105x26] {position:absolute; top:0px; left:-0.5px; right:0.5px; bottom:0px; transition:all; cursor:pointer}
+                div [30,30 105x26] {transition:all; cursor:pointer}
+                  svg [30,30 105x26] overflow:hidden; transition:all; cursor:pointer
+          div [155,34 18x18] {display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; transition:all}
+            div(search) [155,34 18x18] {display:flex; justifyContent:center; alignItems:center; gap:5px; position:relative; overflow:clip; transition:all}
+              svg [155,34 18x18] position:relative; overflow:hidden; transition:all
+            div [155,32 150x22] {position:absolute; top:9px; left:0px; right:-132px; bottom:-13px; opacity:0; transform:matrix(1, 0, 0, 1, 0, -11); zIndex:1; transition:all; cursor:pointer}
+              div [155,32 150x22] {borderRadius:10px; display:flex; overflow:hidden; transition:all; cursor:pointer}
+                button [155,32 150x22] {borderRadius:10px; display:flex; justifyContent:center; alignItems:center; textAlign:center; transition:all; cursor:pointer}
+                  svg [219,32 22x22] color:rgb(5, 11, 32); overflow:hidden; transition:all; cursor:pointer
+        div(right) [335,31 25x25] {display:flex; justifyContent:flex-end; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+          div [335,31 25x25] {position:relative; transition:all}
+            div(open) [335,31 25x25] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+              div [335,37 25x2] {position:absolute; top:6px; left:0px; right:0px; bottom:17px; transition:all; cursor:pointer}
+                div [335,37 25x2] {transition:all; cursor:pointer}
+                  svg [335,37 25x2] overflow:hidden; transition:all; cursor:pointer
+              div [340,47 20x2] {position:absolute; top:16px; left:5px; right:0px; bottom:7px; transition:all; cursor:pointer}
+                div [340,47 20x2] {transition:all; cursor:pointer}
+                  svg [340,47 20x2] overflow:hidden; transition:all; cursor:pointer
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

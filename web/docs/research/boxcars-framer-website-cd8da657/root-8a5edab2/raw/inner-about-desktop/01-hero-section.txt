@@ -1,0 +1,10 @@
+section(Hero Section) [0,104 1440x70] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); backgroundColor:rgb(5, 11, 32); display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:hidden; textAlign:start; transition:all}
+  div(Hero Bottom Bar) [0,104 1440x70] {backgroundColor:rgb(255, 255, 255); borderRadius:70px 70px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; overflow:clip; zIndex:4; transition:all}
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

@@ -1,0 +1,21 @@
+# /vendre + /financement (Boxcars /services + /contact form) Specification
+
+Files: `src/app/vendre/page.tsx`, `src/app/financement/page.tsx`, `src/components/finance-widget.tsx` (restyle, keep props + logic + link to /acheter?maxPrice=…).
+Screenshots: `inner/view-services.png` (intro, sticky FeatureRows, FAQ), `inner/view-contact.png` (form + info card layout).
+Images available (public, `${ASSETS}/images/…`): step-1..4.jpg, banner-buy.jpg, banner-sell.jpg, blog-1..3.jpg, cta-bg.jpg, hero-bg.jpg.
+
+## /vendre
+1. `<PageSheet>` + `PageIntro` split: eyebrow "Vendre", title "Vendez votre voiture au juste prix, sans effort", lead = existing hero paragraph ("Fini les annonces…"), text = checklist of the 4 existing bullets (CheckBadge rows, 15px).
+2. Estimation form section (Boxcars contact-form section layout): padding-bottom 90/60/30; Container row ≥1200 (form flex 1 / info card 439px, gap 60), column below.
+   - Left: eyebrow "Estimation gratuite", H3 "Estimer ma voiture", 15px text "Un expert vous rappelle avec une estimation personnalisée.", gap 30 then the existing `LeadForm type="estimation"` with its existing fields/successText.
+   - Right: `Card` padding 30px, gap 20: eyebrow "Sans engagement", H5 "Offre ferme sous 24h", 15px text; then 3 info items (icon 24px stroke 1.5 navy, h6 18px 500 navy, 15px #202124): Inspection gratuite / Paiement sécurisé / Démarches incluses (reuse existing step copy).
+3. "Comment ça marche" (`id="comment"`): 4 `FeatureRow`s (sticky stacking) built from the existing STEPS: eyebrow `Étape 0N`, title = step title, text = step description; images step-1..4.jpg; alternate `reverse`; only the last row has a CTA `{label:"Estimer ma voiture", href:"#estimation"}` (give the form section `id="estimation"`). Put a `SectionHead` (eyebrow "Comment ça marche", title "De l'estimation au virement en 4 étapes") above the rows with padding 90/60/30 top, rows gap 30px.
+4. FAQ: section like homepage `Faq` layout (sticky intro left, `FaqList` right) with eyebrow "Vendre", title "Vos questions sur la vente", text "…", CTA "Nous contacter" → /contact, items (write 4 French Q/A from MoziMotors facts: estimation gratuite en 2 minutes, inspection à domicile ou au showroom, offre ferme sous 24h, paiement par virement à la signature, mutation et papiers gérés, sans engagement). Padding 90/60/30 top+bottom.
+
+## /financement
+1. `PageSheet` + `PageIntro` split: eyebrow "Financement", title "Roulez maintenant, payez à votre rythme", lead = existing paragraph, text = 4 existing perks (Réponse sous 48h, Taux dès X %, Dossier 100 % en ligne, Jusqu'à 84 mois) as a 2×2 grid of pills (bg #EEF1FB, radius 12, padding 12px 16px, 18px lucide icon navy + 15px 500 navy).
+2. Budget calculator section: Container row ≥1200 (gap 60): left column eyebrow "Calculateur", H3 "Votre budget voiture en un coup d'œil", 15px text; right the restyled `FinanceWidget`: Card padding 24px gap 20 (same visual language as the Boxcars payment calculator): label row 14px 500 #6B7280 + value navy; `.range`; deposit chips (40px, radius 8, idle bg #F4F6F9 border #E1E1E1, active #405FF2 white); result box bg #F4F6F9 radius 12 padding 18: label 14px grey, budget 36px 700 #405FF2 (-1.08px), note 14px grey; CTA full-width primary `Link` (radius 12, 44px) "Voir les voitures dans mon budget" + ArrowIcon.
+3. `FeatureRow` (single, sticky false): image step-2.jpg, eyebrow "Pré-approbation", title "Connaissez votre budget avant de choisir", text "Gratuit, sans engagement et sans impact sur votre dossier bancaire.", bullets ["Réponse de principe sous 48h", "Dossier monté par nos conseillers", "Partenaires bancaires comparés pour vous"], cta { "Demander ma pré-approbation", "#pre-approbation" }.
+4. Pre-approval form section (`id="pre-approbation"`), same two-column layout as /vendre's form: left eyebrow "Pré-approbation", H3 "Demander ma pré-approbation", then existing `LeadForm type="financement"` with its fields; right Card with "Documents à prévoir" (use FAQ answer 1 content as a CheckBadge list: Pièce d'identité, 3 derniers bulletins de salaire (ou bilans), Relevés bancaires récents, Justificatif de domicile).
+5. FAQ: homepage-style FAQ layout with existing FAQ array (convert to {q,a}), eyebrow "Financement", title "Questions sur le crédit auto", CTA /contact.
+Keep both pages' `metadata` exports.

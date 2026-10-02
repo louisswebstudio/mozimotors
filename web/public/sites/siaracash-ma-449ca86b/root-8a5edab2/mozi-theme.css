@@ -1,0 +1,144 @@
+/*
+ * MoziMotors theme for /v2 — loaded after siaracash.css.
+ * Remaps SiaraCash's purple + teal palette onto MoziMotors: primary burgundy #551f26 (client choice,
+ * 2026-10-01) in place of SiaraCash's green/teal, navy #050b20 for dark text, footer and bands.
+ * Light tints are warm (blush) instead of lavender so they sit with the burgundy.
+ * Unlayered, so these win over the tokens siaracash.css declares inside @layer theme / base.
+ */
+:root {
+  /* SiaraCash purple (footer, dark bands, headings, main buttons) → navy */
+  --color-brand-purple: #050b20;
+  --color-brand-purple-hover: #0b1a3a;
+  --color-brand-purple-soft: #f7eff0;
+  --color-brand-purple-soft-2: #eddcdf;
+  --color-brand-purple-border: #dcbfc4;
+  --color-brand-purple-accent: #551f26;
+
+  /* SiaraCash green/teal (main buttons, links, highlights) → MoziMotors burgundy */
+  --color-brand-teal: #551f26;
+  --color-brand-teal-hover: #3f161c;
+  --color-brand-teal-active: #551f26;
+  --color-brand-teal-soft: #f7eff0;
+  --color-brand-teal-soft-2: #eddcdf;
+  --color-brand-teal-tint: #fbf7f7;
+  --color-brand-teal-text: #551f26;
+
+  /* SiaraCash navy (badges, calculator CTA) → deep navy */
+  --color-brand-navy: #0b1a3a;
+  --color-brand-navy-hover: #050b20;
+
+  /* Text */
+  --color-brand-dark: #050b20;
+  --color-ink-strong: #050b20;
+
+  /* shadcn tokens used by the search card, comboboxes and inputs */
+  --primary: #551f26;
+  --ring: #551f26;
+  --color-primary: #551f26;
+}
+
+/* Listing and car pages (.cc-* scope): primary = burgundy too */
+.cc-root,
+.cc-scope {
+  --cc-primary: #551f26;
+  --cc-primary-dark: #3f161c;
+  --cc-primary-text: #551f26;
+  --cc-primary-tint: #f7eff0;
+  --cc-teal: #551f26;
+  --cc-accent: #551f26;
+}
+
+/* Gradients that were hard-coded with SiaraCash lavender */
+.mz-hero-grad {
+  background-image: linear-gradient(180deg, #ffffff 0%, #fbf8f8 60%, #f5eeef 100%);
+}
+.mz-hero-grad-m {
+  background-image: linear-gradient(180deg, #ffffff 0%, #f5eeef 100%);
+}
+.mz-soft-grad {
+  background-image: linear-gradient(160deg, #f7eff0 0%, #fbf8f8 100%);
+}
+.mz-stripe {
+  background-image: linear-gradient(135deg, #551f26 0%, #050b20 100%);
+}
+
+/* Brand-tinted shadows */
+.mz-shadow-fab {
+  box-shadow: 0 8px 20px rgba(85, 31, 38, 0.4);
+}
+.mz-shadow-cta {
+  box-shadow: 0 8px 20px -8px rgba(5, 11, 32, 0.55);
+}
+.mz-shadow-pill {
+  box-shadow: 0 10px 30px rgba(5, 11, 32, 0.35);
+}
+.mz-shadow-soft {
+  box-shadow: 0 6px 20px rgba(85, 31, 38, 0.1);
+}
+.mz-shadow-docs {
+  filter: drop-shadow(0 18px 34px rgba(5, 11, 32, 0.26));
+}
+
+/* Main action buttons (« Prendre RDV », pré-accord, filters…) in the primary burgundy */
+.cc-btn-primary {
+  background: #551f26;
+  color: #fff;
+}
+.cc-btn-primary:hover {
+  background: #3f161c;
+}
+
+/* Home hero (client mockup): the showroom photo is anchored to the far edge at full height, the page behind the
+   headline matches its light wall (#f0f0f0), and its near edge fades into it. Below 1600px the photo slides
+   outwards so the people stay clear of the headline. In Arabic (RTL) everything is mirrored. */
+.mz-hero-stage {
+  height: 500px;
+  background: linear-gradient(180deg, #f7f7f7 0%, #f0f0f0 100%);
+}
+.mz-hero-media {
+  top: 0;
+  bottom: 0;
+  right: min(0px, calc((100vw - 1600px) * 0.8));
+}
+.mz-hero-photo {
+  width: auto;
+  max-width: none;
+}
+.mz-hero-fade {
+  background: linear-gradient(90deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 22%);
+}
+[dir="rtl"] .mz-hero-media {
+  right: auto;
+  left: min(0px, calc((100vw - 1600px) * 0.8));
+}
+[dir="rtl"] .mz-hero-photo {
+  transform: scaleX(-1);
+}
+[dir="rtl"] .mz-hero-fade {
+  background: linear-gradient(270deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 22%);
+}
+.mz-hero-photo-m {
+  object-position: 68% center;
+}
+[dir="rtl"] .mz-hero-photo-m {
+  transform: scaleX(-1);
+}
+/* Sell hero: more content beside the photo (city picker + stats), so the photo sits further out. */
+.mz-hero-media-sell {
+  right: calc(min(0px, calc((100vw - 1600px) * 0.8)) - 180px);
+}
+[dir="rtl"] .mz-hero-media-sell {
+  right: auto;
+  left: calc(min(0px, calc((100vw - 1600px) * 0.8)) - 180px);
+}
+
+/* Burgundy is too dark on navy: headings/accents on dark bands use a light rose tint of it. */
+.mz-on-dark-accent {
+  color: #e8b4bb;
+}
+
+/* Contact cards: icon circle fills burgundy when the card is hovered */
+.group:hover .mz-icon-hover {
+  background: #551f26;
+  color: #fff;
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "i": 0,
+    "name": "navigation",
+    "y": 0,
+    "h": 104
+  },
+  {
+    "i": 1,
+    "name": "hero-section",
+    "y": 104,
+    "h": 70
+  },
+  {
+    "i": 2,
+    "name": "page-intro-section",
+    "y": 174,
+    "h": 296
+  },
+  {
+    "i": 3,
+    "name": "financing",
+    "y": 470,
+    "h": 650
+  },
+  {
+    "i": 4,
+    "name": "trade-in",
+    "y": 1180,
+    "h": 650
+  },
+  {
+    "i": 5,
+    "name": "insurance",
+    "y": 1890,
+    "h": 650
+  },
+  {
+    "i": 6,
+    "name": "servicing",
+    "y": 2600,
+    "h": 650
+  },
+  {
+    "i": 7,
+    "name": "frequently-asked-questions-section",
+    "y": 3250,
+    "h": 567
+  },
+  {
+    "i": 8,
+    "name": "footer",
+    "y": 3817,
+    "h": 961
+  }
+]

@@ -1,0 +1,94 @@
+section(Hero Section) [0,0 810x900] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:hidden; textAlign:start; transition:all}
+  div(Hero Media) [0,0 810x900] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+    div(Hero Image Overlay) [0,0 810x900] {backgroundColor:rgb(5, 11, 32); position:absolute; top:0px; left:0px; right:0px; bottom:0px; opacity:0.5; zIndex:1; transition:all}
+    div(Hero Background Image) [0,0 810x900] {position:relative; transition:all}
+      div [0,0 810x900] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+        img [0,0 810x900] src=https://framerusercontent.com/images/PTxYY7jLPHaHgiQh2aXtASji6g4.jpg alt="Dark grey luxury sedan parked on a mountain overlook at sunrise" {overflow:clip; objectFit:cover; transition:all}
+  div(Hero Content) [0,0 810x900] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:30px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; zIndex:2; transition:all}
+    div(Head) [0,355 810x116] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+      div [302,355 206x20] {position:relative; transition:all}
+        div(Variant 1) [302,355 206x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+          div(Circle) [302,362 6x6] {backgroundColor:rgb(255, 255, 255); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+          div(Text) [315,355 193x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [315,355 193x20] "16 vehicles ready to drive" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(255, 255, 255); transition:all}
+      div(title) [144,385 523x50] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        h1 [144,385 523x50] {fontSize:50px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:50px; color:rgb(255, 255, 255); transition:all}
+          span [144,377 105x66] {display:inline; transition:all}
+            span [144,385 28x50] "F" {display:inline-block; filter:blur(0px); transition:all}
+            span [172,385 14x50] "i" {display:inline-block; filter:blur(0px); transition:all}
+            span [185,385 31x50] "n" {display:inline-block; filter:blur(0px); transition:all}
+            span [216,385 33x50] "d" {display:inline-block; filter:blur(0px); transition:all}
+          span [261,377 114x66] {display:inline; transition:all}
+            span [261,385 32x50] "Y" {display:inline-block; filter:blur(0px); transition:all}
+            span [292,385 31x50] "o" {display:inline-block; filter:blur(0px); transition:all}
+            span [323,385 31x50] "u" {display:inline-block; filter:blur(0px); transition:all}
+            span [354,385 20x50] "r" {display:inline-block; filter:blur(0px); transition:all}
+          span [386,377 182x66] {display:inline; transition:all}
+            span [386,385 31x50] "P" {display:inline-block; filter:blur(0px); transition:all}
+            span [417,385 30x50] "e" {display:inline-block; filter:blur(0px); transition:all}
+            span [447,385 20x50] "r" {display:inline-block; filter:blur(0px); transition:all}
+            span [467,385 19x50] "f" {display:inline-block; filter:blur(0px); transition:all}
+            span [486,385 30x50] "e" {display:inline-block; filter:blur(0px); transition:all}
+            span [516,385 30x50] "c" {display:inline-block; filter:blur(0px); transition:all}
+            span [546,385 22x50] "t" {display:inline-block; filter:blur(0px); transition:all}
+          span [580,377 87x66] {display:inline; transition:all}
+            span [580,385 37x50] "C" {display:inline-block; filter:blur(0px); transition:all}
+            span [616,385 29x50] "a" {display:inline-block; filter:blur(0px); transition:all}
+            span [646,385 20x50] "r" {display:inline-block; filter:blur(0px); transition:all}
+      div(text) [96,445 618x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [96,445 618x26] "A carefully curated inventory — real vehicle photos, fair prices, and cars ready when you are." {fontSize:15px; fontFamily:Figtree; lineHeight:25.95px; color:rgb(255, 255, 255); transition:all}
+    div(Hero Actions) [0,501 810x44] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+      div [244,501 155x44] {position:relative; transition:all}
+        a(Primary) [244,501 155x44] href=./vehicles {color:rgb(0, 0, 238); backgroundColor:rgb(64, 95, 242); padding:10px 24px; borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+          div(Button) [268,511 88x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [268,511 88x24] "Browse Cars" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+          div(icon) [364,517 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+            div [365,518 9x9] {backgroundImage:url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 9.096 9.096%22 overflow=%22visible%22><path d=%22M 8.551 0 L 1.612 0 C; position:relative; transition:all; cursor:pointer}
+      div [409,501 157x44] {position:relative; transition:all}
+        a(White) [409,501 157x44] href=./#how-it-works {color:rgb(0, 0, 238); backgroundColor:rgb(255, 255, 255); padding:10px 24px; borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+          div(Button) [433,511 90x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [433,511 90x24] "How it works" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+          div(icon) [531,517 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+            div [532,518 9x9] {position:relative; transition:all; cursor:pointer}
+              div [532,518 9x9] {transition:all; cursor:pointer}
+                svg [532,518 9x9] overflow:hidden; transition:all; cursor:pointer
+    div(Vehicle Type Links) [0,704 810x196] {padding:0px 0px 110px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:20px; position:absolute; top:704.047px; left:405px; right:-405px; bottom:0px; transform:matrix(1, 0, 0, 1, -405, 0); overflow:clip; zIndex:2; transition:all}
+      div(text) [343,704 124x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [343,704 124x26] "Or browse by type" {fontSize:15px; fontFamily:Figtree; lineHeight:25.95px; color:rgb(255, 255, 255); transition:all}
+      div(Vehicle Type Icons) [0,750 810x40] {display:flex; flexWrap:wrap; justifyContent:center; alignItems:flex-end; gap:10px; position:relative; transition:all}
+        div [226,750 100x40] {position:relative; transition:all}
+          a(Variant 1) [226,750 100x40] href=./suvs-for-sale {color:rgb(0, 0, 238); backgroundColor:rgba(255, 255, 255, 0.2); padding:8px 20px; borderRadius:60px; display:flex; justifyContent:center; alignItems:center; gap:7px; position:relative; backdropFilter:blur(6px); transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgba(255, 255, 255, 0.15) r=60px}
+            div [246,758 24x24] {position:relative; transition:all; cursor:pointer}
+              div [246,758 24x24] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+                img [246,758 24x24] src=https://framerusercontent.com/images/vItzdk3WQxgAnaG7rKkSqYIFQ0.svg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+            div(SUV) [277,758 29x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+              p [277,758 29x24] "SUV" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+        div [336,750 114x40] {position:relative; transition:all}
+          a(Variant 1) [336,750 114x40] href=./sedans-for-sale {color:rgb(0, 0, 238); backgroundColor:rgba(255, 255, 255, 0.2); padding:8px 20px; borderRadius:60px; display:flex; justifyContent:center; alignItems:center; gap:7px; position:relative; backdropFilter:blur(6px); transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgba(255, 255, 255, 0.15) r=60px}
+            div [356,758 24x24] {position:relative; transition:all; cursor:pointer}
+              div [356,758 24x24] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+                img [356,758 24x24] src=https://framerusercontent.com/images/CouivDN7KBD9EuVDNN7lB3NU.svg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+            div(SUV) [387,758 43x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+              p [387,758 43x24] "Sedan" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+        div [460,750 123x40] {position:relative; transition:all}
+          a(Variant 1) [460,750 123x40] href=./electric-cars {color:rgb(0, 0, 238); backgroundColor:rgba(255, 255, 255, 0.2); padding:8px 20px; borderRadius:60px; display:flex; justifyContent:center; alignItems:center; gap:7px; position:relative; backdropFilter:blur(6px); transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgba(255, 255, 255, 0.15) r=60px}
+            div [480,758 24x24] {position:relative; transition:all; cursor:pointer}
+              div [480,758 24x24] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+                img [480,758 24x24] src=https://framerusercontent.com/images/h0mdzfn4yH1aC5bmF0ECvP3rsQ.svg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+            div(SUV) [511,758 52x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+              p [511,758 52x24] "Electric" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+    div(Hero Bottom Bar) [0,830 810x70] {backgroundColor:rgb(249, 251, 252); borderRadius:70px 70px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:absolute; top:830px; left:0px; right:0px; bottom:0px; overflow:clip; zIndex:4; transition:all}
+  div(big-logo) [0,108 810x199] {padding:30px 120px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:108px; left:405px; right:-405px; bottom:593.156px; transform:matrix(1, 0, 0, 1, -405, 0); overflow:clip; zIndex:1; transition:all}
+    img [120,138 570x139] src=DATA alt="" {position:relative; overflow:clip; transition:all}
+
+=== IMAGES ===
+https://framerusercontent.com/images/PTxYY7jLPHaHgiQh2aXtASji6g4.jpg | alt=Dark grey luxury sedan parked on a mountain overlook at sunrise | natural 809x404
+https://framerusercontent.com/images/vItzdk3WQxgAnaG7rKkSqYIFQ0.svg | alt= | natural 512x512
+https://framerusercontent.com/images/CouivDN7KBD9EuVDNN7lB3NU.svg | alt= | natural 512x512
+https://framerusercontent.com/images/h0mdzfn4yH1aC5bmF0ECvP3rsQ.svg | alt= | natural 512x512
+DATA:data:image/svg+xml,<svg display="block" id="3263834977" role="presentation" viewBox="0 0 1133 276" xmlns="http://www.w3.org/2000/svg"><defs ><linearGradient id="qkMblddXi-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="f9RlYgBiZ-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="RaLRM36Fc-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="mAlxyyIYu-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="OJj9k_g1x-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="vCIyEGUNm-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="UGf53UVJf-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient></defs><g fill="transparent" height="276px" id="Vu4diIGm7" width="1133.000025611394px"><path d="M 61.671 276 C 41.369 276 26.014 270.25 15.608 258.75 C 5.203 246.995 0 230.255 0 208.533 L 0 193.2 L 39.591 193.2 L 39.591 211.6 C 39.591 228.978 46.824 237.667 61.291 237.667 C 68.397 237.667 73.727 235.622 77.279 231.533 C 81.092 227.189 82.995 220.289 82.995 210.833 C 82.995 199.589 80.45 189.75 75.376 181.317 C 70.301 172.628 60.91 162.278 47.205 150.267 C 29.948 134.933 17.892 121.133 11.04 108.867 C 4.188 96.344 0.761 82.289 0.761 66.7 C 0.761 45.489 6.091 29.133 16.75 17.633 C 27.409 5.878 42.891 0 63.194 0 C 83.245 0 98.342 5.878 108.501 17.633 C 118.899 29.133 124.109 45.744 124.109 67.467 L 124.109 78.583 L 84.518 78.583 L 84.518 64.783 C 84.518 55.583 82.734 48.939 79.183 44.85 C 75.63 40.506 70.427 38.333 63.575 38.333 C 49.617 38.333 42.637 46.894 42.637 64.017 C 42.637 73.728 45.176 82.8 50.251 91.233 C 55.58 99.667 65.097 109.889 78.802 121.9 C 96.319 137.233 108.371 151.161 114.973 163.683 C 121.564 176.205 124.871 190.9 124.871 207.767 C 124.871 229.745 119.411 246.611 108.501 258.367 C 97.842 270.122 82.234 276 61.671 276 Z" fill="url(%23qkMblddXi-3263834977-linear-gradient)" height="276px" id="qkMblddXi" transform="translate(1008.129 0)" width="124.87069211530024px"/><path d="M 0 0 L 62.052 0 C 83.624 0 99.359 5.111 109.257 15.333 C 119.155 25.3 124.104 40.761 124.104 61.717 L 124.104 78.2 C 124.104 106.055 114.967 123.689 96.694 131.1 L 96.694 131.867 C 106.846 134.934 113.952 141.194 118.013 150.65 C 122.327 160.105 124.485 172.755 124.485 188.6 L 124.485 235.75 C 124.485 243.417 124.738 249.677 125.246 254.534 C 125.753 259.134 127.022 263.734 129.053 268.334 L 86.416 268.334 C 84.893 263.989 83.877 259.9 83.37 256.067 C 82.862 252.234 82.609 245.334 82.609 235.367 L 82.609 186.3 C 82.609 174.034 80.578 165.472 76.518 160.617 C 72.711 155.761 65.985 153.334 56.342 153.334 L 41.876 153.334 L 41.876 268.334 L 0 268.334 Z M 57.103 115 C 65.478 115 71.695 112.827 75.757 108.484 C 80.07 104.139 82.228 96.856 82.228 86.633 L 82.228 65.933 C 82.228 56.222 80.451 49.194 
+
+=== BG IMAGES ===
+url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 9.096 9.096%22 overflow=%22visible%22><path d=%22M 8.551 0 L 1.612 0 C 1.512 0 1.417 0.04 1.347 0.11 C 1.276 0.18 1.237 0.276 1.237 0.375 C 1.237 0.474 1.276 0.57 1.347 0.64 C 1.417 0.71 1.512 0.75 1.612 0.75 L 7.816 0.75 L 0.121 8.445 C 0.084 8.479 0.054 8.521 0.033 8.567 C 0.012 8.613 0.001 8.663 0 8.713 C -0.001 8.764 0.008 8.814 0.027 8.861 C 0.046 8.908 0.074 8.95 0.11 8.986 C 0.146 9.022 0.188 9.05 0.235 9.069 C 0.282 9.088 0.332 9.097 0.383 9.096 C 0.433 9.095 0.483 9.084 0.529 9.063 C 0.575 9.042 0.617 9.012 0.651 8.975 L 8.346 1.28 L 8.346 7.484 C 8.346 7.584 8.385 7.679 8.456 7.749 C 8.526 7.82 8.621 7.859 8.721 7.859 C 8.82 7.859 8.916 7.82 8.986 7.749 C 9.056 7.679 9.096 7.584 9.096 7.484 L 9.096 0.545 C 9.096 0.401 9.038 0.262 8.936 0.16 C 8.834 0.058 8.696 0 8.551 0 Z%22 fill=%22rgb(255,255,255)%22></path></svg>")
+
+=== MASKS ===

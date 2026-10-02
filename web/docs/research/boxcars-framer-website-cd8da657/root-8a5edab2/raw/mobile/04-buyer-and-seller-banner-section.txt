@@ -1,0 +1,53 @@
+div(Buyer and Seller Banner Section) [0,3931 390x790] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); padding:30px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Container) [0,3961 390x730] {padding:0px 30px; borderRadius:12px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:30px; position:relative; maxWidth:1356px; transition:all}
+    div(Buy a Car Card) [30,3961 330x350] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all}
+      div(Buy a Car Media) [30,3961 330x350] {borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+        div(Buy a Car Image) [30,3961 330x350] {position:relative; transition:all}
+          div [30,3961 330x350] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+            img [30,3961 330x350] src=https://framerusercontent.com/images/lHsPToRqlThwuyMMWVZ0GV09tcg.jpg alt="Silver electric sports sedan shown in profile against a distant city skyline" {overflow:clip; objectFit:cover; objectPosition:100% 50%; transition:all}
+        div(Buy a Car Image Overlay) [30,3961 330x350] {backgroundColor:rgb(5, 11, 32); position:absolute; top:0px; left:0px; right:0px; bottom:0px; opacity:0.5; zIndex:1; transition:all}
+      div(Buy a Car Content) [30,3961 330x350] {padding:0px 20px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:30px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; zIndex:2; transition:all}
+        div(Head) [50,4060 290x79] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+          div(title) [50,4060 290x29] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            h4 [50,4060 290x29] "Looking for your next car?" {fontSize:22px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:28.6px; textTransform:capitalize; color:rgb(255, 255, 255); textAlign:center; transition:all}
+          div(text) [50,4098 290x40] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [50,4098 290x40] "Browse our inspected vehicles, priced fairly and ready to drive." {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(255, 255, 255); textAlign:center; transition:all}
+        div(Buy a Car Actions) [50,4168 290x44] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+          div [100,4168 189x44] {position:relative; transition:all}
+            a(White) [100,4168 189x44] href=./vehicles {color:rgb(0, 0, 238); backgroundColor:rgb(255, 255, 255); padding:10px 24px; borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+              div(Button) [124,4178 122x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [124,4178 122x24] "Browse inventory" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+              div(icon) [255,4185 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [256,4186 9x9] {position:relative; transition:all; cursor:pointer}
+                  div [256,4186 9x9] {transition:all; cursor:pointer}
+                    svg [256,4186 9x9] overflow:hidden; transition:all; cursor:pointer
+    div(Sell Your Car Card) [30,4341 330x350] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all}
+      div(Sell Your Car Media) [30,4341 330x350] {borderRadius:16px; display:flex; justifyContent:flex-start; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+        div(Sell Your Car Image) [30,4341 330x350] {position:relative; transition:all}
+          div [30,4341 330x350] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+            img [30,4341 330x350] src=https://framerusercontent.com/images/aIb3JofA4FLCqaCFeWWMSE8Atx0.jpg alt="Blue estate car driving past modern glass office buildings" {overflow:clip; objectFit:cover; objectPosition:0% 50%; transition:all}
+        div(Sell Your Car Image Overlay) [30,4341 330x350] {backgroundColor:rgb(5, 11, 32); position:absolute; top:0px; left:0px; right:0px; bottom:0px; opacity:0.5; zIndex:1; transition:all}
+      div(Sell Your Car Content) [30,4341 330x350] {padding:0px 20px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:30px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; zIndex:2; transition:all}
+        div(Head) [50,4440 290x79] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+          div(title) [50,4440 290x29] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            h4 [50,4440 290x29] "Ready to sell your car?" {fontSize:22px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:28.6px; textTransform:capitalize; color:rgb(255, 255, 255); textAlign:center; transition:all}
+          div(text) [50,4478 290x40] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [50,4478 290x40] "Get a free valuation and a fair offer, then sell in minutes — not weeks." {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(255, 255, 255); textAlign:center; transition:all}
+        div(Sell Your Car Actions) [50,4548 290x44] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+          div [112,4548 166x44] {position:relative; transition:all}
+            a(White) [112,4548 166x44] href=./services {color:rgb(0, 0, 238); backgroundColor:rgb(255, 255, 255); padding:10px 24px; borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+              div(Button) [136,4558 99x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [136,4558 99x24] "Get your offer" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+              div(icon) [243,4565 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [244,4566 9x9] {position:relative; transition:all; cursor:pointer}
+                  div [244,4566 9x9] {transition:all; cursor:pointer}
+                    svg [244,4566 9x9] overflow:hidden; transition:all; cursor:pointer
+
+=== IMAGES ===
+https://framerusercontent.com/images/lHsPToRqlThwuyMMWVZ0GV09tcg.jpg | alt=Silver electric sports sedan shown in profile against a distant city skyline | natural 330x190
+https://framerusercontent.com/images/aIb3JofA4FLCqaCFeWWMSE8Atx0.jpg | alt=Blue estate car driving past modern glass office buildings | natural 330x190
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

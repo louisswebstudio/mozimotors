@@ -1,0 +1,350 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-sora), var(--font-manrope), ui-sans-serif, sans-serif;
+
+  --color-ink: #0a0f1c;
+  --color-ink-2: #1b2336;
+  --color-muted: #5b6477;
+  --color-line: #e7e5df;
+  --color-sand: #f6f5f1;
+  --color-cream: #fbfaf7;
+
+  --color-brand: #ff5b2e;
+  --color-brand-600: #e8481c;
+  --color-brand-50: #fff1ec;
+  --color-ok: #12a150;
+  --color-ok-50: #e8f7ee;
+
+  --radius-xl2: 1.25rem;
+  --shadow-card: 0 1px 2px rgb(10 15 28 / 0.04), 0 8px 24px -12px rgb(10 15 28 / 0.18);
+  --shadow-lift: 0 2px 4px rgb(10 15 28 / 0.05), 0 24px 48px -20px rgb(10 15 28 / 0.35);
+
+  /* Homepage design system (cloned from boxcars.framer.website) — namespaced "bx" */
+  --color-bx-navy: #050b20;
+  --color-bx-deep: #0b1a3a;
+  --color-bx-ink: #202124;
+  --color-bx-stat: #1a1a1a;
+  --color-bx-blue: #405ff2;
+  --color-bx-blue-hover: #0146a6;
+  --color-bx-muted: #a5adca;
+  --color-bx-line: #e1e1e1;
+  --color-bx-soft: #f9fbfc;
+  --color-bx-lavender: #eef1fb;
+  --color-bx-star: #405ff2;
+  --breakpoint-bxt: 810px;
+  --breakpoint-bxd: 1200px;
+}
+
+/* Font vars come from next/font classes on the homepage wrapper, so emit them inline. */
+@theme inline {
+  --font-bx: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-bx-alt: var(--font-figtree), var(--font-dm-sans), ui-sans-serif, sans-serif;
+}
+
+/* Boxcars clone: shared motion + helpers, scoped to the homepage wrapper */
+.bx {
+  font-family: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  color: var(--color-bx-navy);
+  background: #fff;
+}
+/*
+ * Arabic: DM Sans stays first so Latin text (brands, numbers) is unchanged; Arabic glyphs fall
+ * through to Readex Pro. Letter-spacing is reset because tracking pulls joined Arabic letters apart.
+ */
+html[lang^="ar"] :is(body, .bx, .font-bx, .font-bx-alt, input, select, textarea, button) {
+  font-family: var(--font-dm-sans), var(--font-arabic), ui-sans-serif, system-ui, sans-serif;
+}
+html[lang^="ar"] * {
+  letter-spacing: 0 !important;
+}
+.bx-ease {
+  transition-timing-function: cubic-bezier(0.44, 0, 0.56, 1);
+}
+.bx-reveal {
+  opacity: 0;
+  transform: translate3d(var(--bx-rx, 0px), var(--bx-ry, 24px), 0);
+  filter: blur(6px);
+  transition:
+    opacity 0.8s cubic-bezier(0.44, 0, 0.56, 1) var(--bx-delay, 0s),
+    transform 0.8s cubic-bezier(0.44, 0, 0.56, 1) var(--bx-delay, 0s),
+    filter 0.8s cubic-bezier(0.44, 0, 0.56, 1) var(--bx-delay, 0s);
+}
+.bx-reveal[data-shown="true"] {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+@keyframes bx-letter {
+  from {
+    opacity: 0.001;
+    filter: blur(10px);
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: none;
+  }
+}
+.bx-letter {
+  display: inline-block;
+  animation: bx-letter 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+  animation-delay: calc(var(--i) * 40ms + 100ms);
+}
+/* ---- Extra motion (all CSS; disabled under prefers-reduced-motion) ---- */
+@keyframes bx-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.bx-float { animation: bx-float 5s ease-in-out infinite; }
+@keyframes bx-kenburns {
+  from { transform: scale(1.02); }
+  to { transform: scale(1.1); }
+}
+.bx-kenburns { animation: bx-kenburns 18s ease-in-out infinite alternate; }
+@keyframes bx-pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(64, 95, 242, 0.55); }
+  70%, 100% { box-shadow: 0 0 0 14px rgba(64, 95, 242, 0); }
+}
+.bx-pulse { animation: bx-pulse-ring 2.4s ease-out infinite; }
+@keyframes bx-sheen {
+  from { transform: translateX(-120%) skewX(-20deg); }
+  to { transform: translateX(320%) skewX(-20deg); }
+}
+.bx-sheen { position: relative; overflow: hidden; }
+.bx-sheen::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 40%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  animation: bx-sheen 3.6s ease-in-out infinite;
+  pointer-events: none;
+}
+.bx-lift { transition: transform 0.35s cubic-bezier(0.44, 0, 0.56, 1), box-shadow 0.35s cubic-bezier(0.44, 0, 0.56, 1); }
+.bx-lift:hover { transform: translateY(-6px); }
+@supports (animation-timeline: scroll()) {
+  @keyframes bx-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0 0 auto 0;
+    z-index: 100;
+    height: 3px;
+    background: #405ff2;
+    transform-origin: left;
+    animation: bx-progress linear both;
+    animation-timeline: scroll(root block);
+  }
+  html[dir="rtl"] body::before { transform-origin: right; }
+  @keyframes bx-parallax { from { transform: translateY(-6%) scale(1.12); } to { transform: translateY(6%) scale(1.12); } }
+  .bx-parallax { animation: bx-parallax linear both; animation-timeline: view(); }
+}
+.group\/btn:hover > span:nth-child(2) { transform: translate(2px, -2px); }
+.group\/btn > span:nth-child(2) { transition: transform 0.3s cubic-bezier(0.44, 0, 0.56, 1); }
+@media (prefers-reduced-motion: reduce) {
+  .bx-float, .bx-kenburns, .bx-pulse, .bx-sheen::after, .bx-parallax, body::before { animation: none !important; }
+  .bx-lift:hover { transform: none; }
+  .bx-reveal {
+    filter: none;
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .bx-letter {
+    animation: none;
+  }
+}
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Keep anchor targets clear of the fixed navigation bar. */
+  scroll-padding-top: 96px;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.container-x {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+@media (min-width: 640px) {
+  .container-x {
+    padding-inline: 1.5rem;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+/* Range inputs (Boxcars calculator: #405FF2 track on #E1E1E1) */
+input[type="range"].range {
+  appearance: none;
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    #405ff2 0%,
+    #405ff2 var(--p, 50%),
+    #e1e1e1 var(--p, 50%),
+    #e1e1e1 100%
+  );
+}
+/* Right-to-left: native range values grow from the right, so the filled part must too. */
+html[dir="rtl"] input[type="range"].range {
+  background: linear-gradient(
+    to left,
+    #405ff2 0%,
+    #405ff2 var(--p, 50%),
+    #e1e1e1 var(--p, 50%),
+    #e1e1e1 100%
+  );
+}
+/* Phone numbers are digits only, so in right-to-left text their groups would reorder ("00 00 5 212+").
+   plaintext resolves them as left-to-right (no strong characters). */
+html[dir="rtl"] a[href^="tel:"] {
+  unicode-bidi: plaintext;
+}
+input[type="range"].range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: #405ff2;
+  border: 4px solid white;
+  box-shadow: 0 1px 4px rgb(5 11 32 / 0.25);
+  cursor: pointer;
+}
+input[type="range"].range::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: #405ff2;
+  border: 4px solid white;
+  cursor: pointer;
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
+}
+
+/* ── Brand loader (favicon "M" mark) ─────────────────────────────── */
+@keyframes mz-pop {
+  0% { opacity: 0; transform: scale(0.6) rotate(-8deg); }
+  60% { opacity: 1; transform: scale(1.06) rotate(0deg); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes mz-draw {
+  to { stroke-dashoffset: 0; }
+}
+@keyframes mz-draw-loop {
+  0% { stroke-dashoffset: 1; }
+  45%, 60% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -1; }
+}
+@keyframes mz-shine {
+  0%, 55% { transform: translateX(-120%) skewX(-20deg); }
+  100% { transform: translateX(220%) skewX(-20deg); }
+}
+@keyframes mz-bar {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+@keyframes mz-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(0.94); }
+}
+@keyframes mz-fallback-out {
+  to { opacity: 0; visibility: hidden; }
+}
+@keyframes mz-wipe {
+  from { clip-path: inset(0 100% 0 0); opacity: 0.4; }
+  to { clip-path: inset(0 0 0 0); opacity: 1; }
+}
+@keyframes mz-wipe-rtl {
+  from { clip-path: inset(0 0 0 100%); opacity: 0.4; }
+  to { clip-path: inset(0 0 0 0); opacity: 1; }
+}
+.mz-intro .mz-logo {
+  animation: mz-wipe 1.1s cubic-bezier(0.65, 0, 0.35, 1) 0.2s both;
+}
+[dir="rtl"] .mz-intro .mz-logo {
+  animation-name: mz-wipe-rtl;
+}
+.mz-intro .mz-bar {
+  transform-origin: left;
+  animation: mz-bar 1.4s cubic-bezier(0.65, 0, 0.35, 1) 0.2s both;
+}
+[dir="rtl"] .mz-intro .mz-bar {
+  transform-origin: right;
+}
+.mz-intro {
+  transition:
+    clip-path 0.9s cubic-bezier(0.76, 0, 0.24, 1),
+    opacity 0.9s ease;
+  clip-path: inset(0 0 0 0);
+  /* Safety net: never block the page if JS fails to run. */
+  animation: mz-fallback-out 0.4s ease 5s forwards;
+}
+.mz-intro[data-done="true"] {
+  clip-path: inset(0 0 100% 0);
+  pointer-events: none;
+}
+.mz-route .mz-mark {
+  animation: mz-breathe 1.6s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .mz-intro .mz-logo,
+  .mz-intro .mz-bar,
+  .mz-route .mz-mark {
+    animation: none;
+  }
+  .mz-intro {
+    transition: opacity 0.3s ease;
+  }
+  .mz-intro[data-done="true"] {
+    clip-path: none;
+    opacity: 0;
+  }
+}
+html[data-mz-seen] .mz-intro {
+  display: none;
+}
+
+/* Car page: the mobile CTA bar replaces the floating WhatsApp button while it is visible. */
+@media (max-width: 1199px) {
+  html[data-cta-bar] .wa-fab { opacity: 0; pointer-events: none; }
+}

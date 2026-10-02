@@ -1,0 +1,85 @@
+div(Overview) [72,740 797x378] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:20px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Head) [72,740 797x34] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+    div(head) [72,740 797x34] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+      h5 [72,740 797x34] "Car Overview" {fontSize:26px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:33.8px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+  div(items) [72,793 797x324] {display:grid; justifyContent:center; gap:0px 20px; position:relative; overflow:clip; gridTemplateColumns:388.609px 388.625px; transition:all}
+    div(Body) [72,793 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [72,811 18x18] position:relative; overflow:hidden; transition:all
+      div(Body) [97,808 36x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [97,808 36x24] "Body" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Body Type Value) [140,808 321x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [140,808 321x24] "SUV" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+    div(Condition) [481,793 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [481,811 18x18] position:relative; overflow:hidden; transition:all
+      div(Condition Label) [506,808 68x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [506,808 68x24] "Condition" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Condition Value) [581,808 288x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [581,808 288x24] "Used" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+    div(Mileage) [72,847 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [72,865 18x18] position:relative; overflow:hidden; transition:all
+      div(Mileage Label) [97,862 53x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [97,862 53x24] "Mileage" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Mileage Value) [157,862 304x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [157,862 304x24] "14,200" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+    div(Engine Size) [481,847 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [481,865 18x18] position:relative; overflow:hidden; transition:all
+      div(Engine Label) [506,862 78x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [506,862 78x24] "Engine Size" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Engine Value) [590,862 279x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [590,862 279x24] "3.0L Turbo V6" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+    div(Fuel Type) [72,901 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [72,919 18x18] position:relative; overflow:hidden; transition:all
+      div(Fuel Type Label) [97,916 66x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [97,916 66x24] "Fuel Type" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Fuel Type Value) [170,916 290x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [170,916 290x24] "Petrol" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+    div(Doors) [481,901 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [481,919 18x18] position:relative; overflow:hidden; transition:all
+      div(Doors Label) [506,916 41x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [506,916 41x24] "Doors" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Doors Value) [554,916 315x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [554,916 315x24] "5-door" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+    div(Exterior Color) [72,955 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [72,973 18x18] position:relative; overflow:hidden; transition:all
+      div(Exterior Color Label) [97,970 95x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [97,970 95x24] "Exterior Color" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Exterior Color Value) [199,970 261x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [199,970 261x24] "Glacier White" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+    div(Interior Color) [481,955 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [481,973 18x18] position:relative; overflow:hidden; transition:all
+      div(Interior Color Label) [506,970 91x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [506,970 91x24] "Interior Color" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Interior Color Value) [604,970 265x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [604,970 265x24] "Black Leather" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+    div(Transmission) [72,1009 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [72,1027 18x18] position:relative; overflow:hidden; transition:all
+      div(Transmission Label) [97,1024 91x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [97,1024 91x24] "Transmission" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Transmission Value) [195,1024 266x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [195,1024 266x24] "Automatic" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+    div(Year) [481,1009 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [481,1027 18x18] position:relative; overflow:hidden; transition:all
+      div(Year Label) [506,1024 30x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [506,1024 30x24] "Year" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Year Value) [542,1024 327x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [542,1024 327x24] "2023" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+    div(Status) [72,1063 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [72,1081 18x18] position:relative; overflow:hidden; transition:all
+      div(Status Label) [97,1078 45x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [97,1078 45x24] "Status" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Status Value) [149,1078 312x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [149,1078 312x24] "Available" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+    div(VIN) [481,1063 389x54] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+      svg [481,1081 18x18] position:relative; overflow:hidden; transition:all
+      div(VIN Label) [506,1078 24x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [506,1078 24x24] "VIN" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(VIN Value) [537,1078 333x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [537,1078 333x24] "WA1VABF70PD012345" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); textAlign:end; transition:all}
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

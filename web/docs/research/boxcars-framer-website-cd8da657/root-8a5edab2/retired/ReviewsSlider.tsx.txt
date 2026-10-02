@@ -1,0 +1,131 @@
+"use client";
+
+import { Children, useCallback, useEffect, useRef, useState } from "react";
+import { ASSETS } from "./ui";
+
+const GAP = 20;
+
+/**
+ * Looping card slider: 2 cards visible >=1200px, 1 below. Arrow buttons + pointer drag/swipe.
+ * Step = first card's offsetWidth + 20px gap (tracked with a ResizeObserver).
+ */
+export function ReviewsSlider({
+  children,
+  prevLabel,
+  nextLabel,
+}: {
+  children: React.ReactNode;
+  prevLabel: string;
+  nextLabel: string;
+}) {
+  const items = Children.toArray(children);
+  const count = items.length;
+  const viewportRef = useRef<HTMLDivElement>(null);
+  const firstRef = useRef<HTMLDivElement>(null);
+  const [step, setStep] = useState(0);
+  const [visible, setVisible] = useState(1);
+  const [index, setIndex] = useState(0);
+  const [dragX, setDragX] = useState(0);
+  const drag = useRef<{ id: number; x: number; y: number; active: boolean } | null>(null);
+
+  useEffect(() => {
+    const vp = viewportRef.current;
+    const first = firstRef.current;
+    if (!vp || !first) return;
+    const measure = () => {
+      const w = first.offsetWidth;
+      if (!w) return;
+      setStep(w + GAP);
+      setVisible(Math.max(1, Math.round((vp.offsetWidth + GAP) / (w + GAP))));
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(vp);
+    ro.observe(first);
+    return () => ro.disconnect();
+  }, []);
+
+  const lastIndex = Math.max(0, count - visible);
+  const current = Math.min(index, lastIndex);
+  const canSlide = count > visible;
+
+  const next = useCallback(
+    () => setIndex((i) => (Math.min(i, lastIndex) >= lastIndex ? 0 : Math.min(i, lastIndex) + 1)),
+    [lastIndex],
+  );
+  const prev = useCallback(
+    () => setIndex((i) => (Math.min(i, lastIndex) <= 0 ? lastIndex : Math.min(i, lastIndex) - 1)),
+    [lastIndex],
+  );
+
+  const onPointerDown = (e: React.PointerEvent) => {
+    if (!canSlide || (e.pointerType === "mouse" && e.button !== 0)) return;
+    drag.current = { id: e.pointerId, x: e.clientX, y: e.clientY, active: false };
+  };
+  const onPointerMove = (e: React.PointerEvent) => {
+    const d = drag.current;
+    if (!d || d.id !== e.pointerId) return;
+    const dx = e.clientX - d.x;
+    if (!d.active) {
+      if (Math.abs(dx) < 5 || Math.abs(dx) < Math.abs(e.clientY - d.y)) return;
+      d.active = true;
+      e.currentTarget.setPointerCapture(e.pointerId);
+    }
+    setDragX(dx);
+  };
+  const endDrag = (e: React.PointerEvent) => {
+    const d = drag.current;
+    if (!d || d.id !== e.pointerId) return;
+    const dx = e.clientX - d.x;
+    drag.current = null;
+    setDragX(0);
+    if (!d.active) return;
+    if (dx <= -50) next();
+    else if (dx >= 50) prev();
+  };
+
+  const dragging = dragX !== 0;
+
+  return (
+    <div className="w-full">
+      <div ref={viewportRef} className="overflow-hidden">
+        <div
+          className={`flex gap-5 select-none ${canSlide ? "cursor-grab active:cursor-grabbing" : ""}`}
+          style={{
+            touchAction: "pan-y",
+            transform: `translateX(${-current * step + dragX}px)`,
+            transition: dragging ? "none" : "transform .5s cubic-bezier(.44,0,.56,1)",
+          }}
+          onPointerDown={onPointerDown}
+          onPointerMove={onPointerMove}
+          onPointerUp={endDrag}
+          onPointerCancel={endDrag}
+          onDragStart={(e) => e.preventDefault()}
+        >
+          {items.map((child, i) => (
+            <div
+              key={i}
+              ref={i === 0 ? firstRef : undefined}
+              className="w-full shrink-0 bxd:w-[calc((100%-20px)/2)]"
+              aria-hidden={i < current || i >= current + visible ? true : undefined}
+            >
+              {child}
+            </div>
+          ))}
+        </div>
+      </div>
+      {canSlide && (
+        <div className="mt-10 flex items-center justify-start gap-2.5">
+          <button type="button" aria-label={prevLabel} onClick={prev} className="size-10 shrink-0 rounded-full">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={`${ASSETS}/icons/arrow-prev.svg`} alt="" width={40} height={40} className="size-10" />
+          </button>
+          <button type="button" aria-label={nextLabel} onClick={next} className="size-10 shrink-0 rounded-full">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={`${ASSETS}/icons/arrow-next.svg`} alt="" width={40} height={40} className="size-10" />
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}

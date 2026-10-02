@@ -1,0 +1,92 @@
+section(Premium Brands Section) [0,900 1440x428] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); backgroundColor:rgb(249, 251, 252); padding:30px 0px 90px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Container) [42,930 1356x308] {padding:0px 30px; borderRadius:12px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:40px; position:relative; maxWidth:1356px; transition:all}
+    div(Head) [72,930 1296x82] {display:flex; justifyContent:center; alignItems:flex-end; gap:10px; position:relative; transition:all}
+      div(Premium Brands Title Group) [72,930 1148x82] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+        div [72,930 132x20] {position:relative; transition:all}
+          div(Variant 1) [72,930 132x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+            div(Circle) [72,937 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+            div(Text) [85,930 119x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [85,930 119x20] "PREMIUM BRANDS" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+        div(Title) [72,960 1148x52] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          h3 [72,960 1148x52] "Explore Our Premium Brands" {fontSize:40px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:52px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+      div [1230,988 138x24] {position:relative; transition:all}
+        a(No-Bg) [1230,988 138x24] href=./vehicles {color:rgb(0, 0, 238); backgroundColor:rgba(255, 255, 255, 0); display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+          div(Button) [1230,988 119x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [1230,988 119x24] "Browse by brand" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+          div(icon) [1357,995 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+            div [1358,996 9x9] {position:relative; transition:all; cursor:pointer}
+              div [1358,996 9x9] {transition:all; cursor:pointer}
+                svg [1358,996 9x9] overflow:hidden; transition:all; cursor:pointer
+          div(border) [1230,1011 1x1] {backgroundColor:rgb(64, 95, 242); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:136.203px; bottom:0px; opacity:0; transition:all; cursor:pointer}
+    div(List) [72,1052 1296x186] {display:flex; justifyContent:center; alignItems:center; gap:20px; position:relative; overflow:clip; transition:all}
+      div [72,1052 145x186] {position:relative; transition:all}
+        div(Variant 1) [72,1052 145x186] {backgroundColor:rgb(255, 255, 255); padding:30px 40px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=16px}
+          div(image 3) [94,1082 100x100] {position:relative; transition:all; cursor:pointer}
+            div [94,1082 100x100] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+              img [94,1082 100x100] src=https://framerusercontent.com/images/NZ5Nai9hlnvJCgzGYoY0rfusMWA.svg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+          div(Audi) [127,1182 34x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [127,1182 34x26] "Audi" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+      div [237,1052 145x186] {position:relative; transition:all}
+        div(Variant 1) [237,1052 145x186] {backgroundColor:rgb(255, 255, 255); padding:30px 40px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=16px}
+          div(image 3) [259,1082 100x100] {position:relative; transition:all; cursor:pointer}
+            div [259,1082 100x100] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+              img [259,1082 100x100] src=https://framerusercontent.com/images/H5nJvaAp0RJZBpzKWcOo4o3U.svg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+          div(Audi) [289,1182 39x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [289,1182 39x26] "BMW" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+      div [401,1052 145x186] {position:relative; transition:all}
+        div(Variant 1) [401,1052 145x186] {backgroundColor:rgb(255, 255, 255); padding:30px 40px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=16px}
+          div(image 3) [423,1082 100x100] {position:relative; transition:all; cursor:pointer}
+            div [423,1082 100x100] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+              img [423,1082 100x100] src=https://framerusercontent.com/images/SGv0AIcez4vr3mTULaA0GNR2Bhw.svg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+          div(Audi) [413,1182 120x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [413,1182 120x26] "Mercedes-Benz" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+      div [566,1052 145x186] {position:relative; transition:all}
+        div(Variant 1) [566,1052 145x186] {backgroundColor:rgb(255, 255, 255); padding:30px 40px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=16px}
+          div(image 3) [588,1082 100x100] {position:relative; transition:all; cursor:pointer}
+            div [588,1082 100x100] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+              img [588,1082 100x100] src=https://framerusercontent.com/images/6kH9yVHUBieAuu7DPHHtSzv2E8.svg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+          div(Audi) [619,1182 38x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [619,1182 38x26] "Tesla" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+      div [730,1052 145x186] {position:relative; transition:all}
+        div(Variant 1) [730,1052 145x186] {backgroundColor:rgb(255, 255, 255); padding:30px 40px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=16px}
+          div(image 3) [752,1082 100x100] {position:relative; transition:all; cursor:pointer}
+            div [752,1082 100x100] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+              img [752,1082 100x100] src=https://framerusercontent.com/images/RvtoIXt1tSlu6v6lElWteesHNw.svg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+          div(Audi) [774,1182 57x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [774,1182 57x26] "Bentley" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+      div [895,1052 145x186] {position:relative; transition:all}
+        div(Variant 1) [895,1052 145x186] {backgroundColor:rgb(255, 255, 255); padding:30px 40px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=16px}
+          div(image 3) [917,1082 100x100] {position:relative; transition:all; cursor:pointer}
+            div [917,1082 100x100] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+              img [917,1082 100x100] src=https://framerusercontent.com/images/s93DWrihqc4jV2vxdh9sXLXuPAM.svg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+          div(Audi) [945,1182 43x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [945,1182 43x26] "Lexus" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+      div [1059,1052 145x186] {position:relative; transition:all}
+        div(Variant 1) [1059,1052 145x186] {backgroundColor:rgb(255, 255, 255); padding:30px 40px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=16px}
+          div(image 3) [1081,1082 100x100] {position:relative; transition:all; cursor:pointer}
+            div [1081,1082 100x100] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+              img [1081,1082 100x100] src=https://framerusercontent.com/images/X2me5e2ytwEbj2JTZApYaUr3U.svg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+          div(Audi) [1111,1182 41x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [1111,1182 41x26] "Volvo" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+      div [1224,1052 145x186] {position:relative; transition:all}
+        div(Variant 1) [1224,1052 145x186] {backgroundColor:rgb(255, 255, 255); padding:30px 40px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=16px}
+          div(image 3) [1246,1082 100x100] {position:relative; transition:all; cursor:pointer}
+            div [1246,1082 100x100] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+              img [1246,1082 100x100] src=https://framerusercontent.com/images/b0780I6R3sLtnp22GvRcT4bgzNQ.svg alt="" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+          div(Audi) [1273,1182 46x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [1273,1182 46x26] "Skoda" {fontSize:16px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+
+=== IMAGES ===
+https://framerusercontent.com/images/NZ5Nai9hlnvJCgzGYoY0rfusMWA.svg | alt= | natural 100x100
+https://framerusercontent.com/images/H5nJvaAp0RJZBpzKWcOo4o3U.svg | alt= | natural 100x100
+https://framerusercontent.com/images/SGv0AIcez4vr3mTULaA0GNR2Bhw.svg | alt= | natural 100x100
+https://framerusercontent.com/images/6kH9yVHUBieAuu7DPHHtSzv2E8.svg | alt= | natural 100x100
+https://framerusercontent.com/images/RvtoIXt1tSlu6v6lElWteesHNw.svg | alt= | natural 100x100
+https://framerusercontent.com/images/s93DWrihqc4jV2vxdh9sXLXuPAM.svg | alt= | natural 100x100
+https://framerusercontent.com/images/X2me5e2ytwEbj2JTZApYaUr3U.svg | alt= | natural 100x100
+https://framerusercontent.com/images/b0780I6R3sLtnp22GvRcT4bgzNQ.svg | alt= | natural 100x100
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

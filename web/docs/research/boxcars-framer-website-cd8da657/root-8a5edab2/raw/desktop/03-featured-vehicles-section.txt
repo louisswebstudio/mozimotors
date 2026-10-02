@@ -1,0 +1,272 @@
+section(Featured Vehicles Section) [0,1328 1440x728] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); backgroundColor:rgb(255, 255, 255); padding:90px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Container) [42,1418 1356x548] {padding:0px 30px; borderRadius:12px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:40px; position:relative; maxWidth:1356px; transition:all}
+    div(Head) [72,1418 1296x82] {display:flex; justifyContent:center; alignItems:flex-end; gap:10px; position:relative; transition:all}
+      div(Featured Vehicles Title Group) [72,1418 1135x82] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+        div [72,1418 121x20] {position:relative; transition:all}
+          div(Variant 1) [72,1418 121x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+            div(Circle) [72,1425 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+            div(Text) [85,1418 108x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [85,1418 108x20] "OUR INVENTORY" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+        div(Title) [72,1448 1135x52] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          h3 [72,1448 1135x52] "Featured vehicles" {fontSize:40px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:52px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+      div [1217,1476 151x24] {position:relative; transition:all}
+        a(No-Bg) [1217,1476 151x24] href=./vehicles {color:rgb(0, 0, 238); backgroundColor:rgba(255, 255, 255, 0); display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+          div(Button) [1217,1476 132x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [1217,1476 132x24] "Browse all vehicles" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+          div(icon) [1357,1483 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+            div [1358,1484 9x9] {position:relative; transition:all; cursor:pointer}
+              div [1358,1484 9x9] {transition:all; cursor:pointer}
+                svg [1358,1484 9x9] overflow:hidden; transition:all; cursor:pointer
+          div(border) [1217,1499 2x1] {backgroundColor:rgb(64, 95, 242); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:149.766px; bottom:0px; opacity:0; transition:all; cursor:pointer}
+    div [72,1540 1296x426] {display:grid; justifyContent:center; gap:20px; position:relative; gridTemplateColumns:309px 309px 309px 309px; transition:all}
+      a [72,1540 309x426] href=./vehicles/audi-q7-55-tfsi-quattro {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+        div [72,1540 309x426] {position:relative; transition:all; cursor:pointer}
+          div(Default) [72,1540 309x426] {borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer}
+            div(img) [72,1540 309x206] {borderRadius:16px 16px 0px 0px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:pointer}
+              div [72,1540 309x206] {position:relative; transition:all; cursor:pointer}
+                div [72,1540 309x206] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+                  img [72,1540 309x206] src=https://framerusercontent.com/images/ICGsn9JbVA7ayukPFFYopYyH3o0.jpg alt="var(--variable-Je_o0kV5T)" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+              div(tag) [83,1550 58x30] {backgroundColor:rgb(255, 255, 255); padding:5px 10px; borderRadius:120px; display:flex; justifyContent:flex-start; alignItems:center; gap:4px; position:absolute; top:10px; left:11px; right:239.781px; bottom:166px; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+                div(Circle) [93,1563 4x4] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div(Text) [101,1555 30x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [101,1555 30x20] "Used" {fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+            div(content) [72,1746 309x220] {backgroundColor:rgb(255, 255, 255); padding:20px; borderRadius:0px 0px 16px 16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:15px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=0px 0px 16px 16px}
+              div(head) [92,1766 269x49] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:5px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                div(Mercedes-Benz, C Class) [92,1766 270x24] {display:flow-root; flexDirection:column; justifyContent:flex-start; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  h6 [92,1766 270x23] "Audi Q7 55 TFSI quattro" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                div [92,1795 269x20] {display:flex; justifyContent:center; alignItems:center; gap:5px; position:relative; transition:all; cursor:pointer}
+                  div(2023) [92,1795 34x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [92,1795 34x20] "2023" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                  div(Ellipse 1) [131,1804 3x3] {backgroundColor:rgb(5, 11, 32); borderRadius:100%; position:relative; transition:all; cursor:pointer}
+                  div(D250 X-Dynamic SE) [139,1795 222x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [139,1795 222x20] "3.0L Turbo V6" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+              div(center) [92,1830 269x50] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+                div(1) [92,1845 62x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [92,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [111,1845 43x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [111,1845 43x20] "14,200" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div(2) [164,1845 56x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [164,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [183,1845 37x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [183,1845 37x20] "Petrol" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div(3) [230,1845 87x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [230,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [249,1845 68x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [249,1845 68x20] "Automatic" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+              div(bottom) [92,1895 269x51] {display:flex; justifyContent:center; alignItems:flex-end; gap:10px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                div(price) [92,1895 154x51] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:5px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  div [92,1895 154x26] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                    div($399) [92,1895 12x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      h5 [92,1895 12x26] "$" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                    div($399) [104,1895 142x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      h5 [104,1895 142x26] "62,400" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                  div [92,1926 154x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:5px; position:relative; transition:all; cursor:pointer}
+                    div($789) [92,1926 30x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      p [92,1926 30x20] "from" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                    div [127,1926 61x20] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                      div($789) [127,1926 8x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [127,1926 8x20] "$" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                      div($789) [136,1926 27x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [136,1926 27x20] "980" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                      div($789) [162,1926 26x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [162,1926 26x20] "/mo" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div [256,1922 105x24] {position:relative; transition:all; cursor:pointer}
+                  div(No-Bg) [256,1922 105x24] {backgroundColor:rgba(255, 255, 255, 0); display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                    div(Button) [256,1922 86x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      p [256,1922 86x24] "View Details" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                    div(icon) [350,1929 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                      div [351,1930 9x9] {position:relative; transition:all; cursor:pointer}
+                        div [351,1930 9x9] {transition:all; cursor:pointer}
+                          svg [351,1930 9x9] overflow:hidden; transition:all; cursor:pointer
+                    div(border) [256,1945 1x100] {backgroundColor:rgb(64, 95, 242); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:104.141px; bottom:-99px; opacity:0; transition:all; cursor:pointer}
+      a [401,1540 309x426] href=./vehicles/bmw-330i-m-sport {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+        div [401,1540 309x426] {position:relative; transition:all; cursor:pointer}
+          div(Default) [401,1540 309x426] {borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer}
+            div(img) [401,1540 309x206] {borderRadius:16px 16px 0px 0px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:pointer}
+              div [401,1540 309x206] {position:relative; transition:all; cursor:pointer}
+                div [401,1540 309x206] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+                  img [401,1540 309x206] src=https://framerusercontent.com/images/kDJbsQO4yekr9NrfUQAnuhEenE.jpg alt="var(--variable-Je_o0kV5T)" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+              div(tag) [412,1550 58x30] {backgroundColor:rgb(255, 255, 255); padding:5px 10px; borderRadius:120px; display:flex; justifyContent:flex-start; alignItems:center; gap:4px; position:absolute; top:10px; left:11px; right:239.781px; bottom:166px; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+                div(Circle) [422,1563 4x4] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div(Text) [430,1555 30x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [430,1555 30x20] "Used" {fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+            div(content) [401,1746 309x220] {backgroundColor:rgb(255, 255, 255); padding:20px; borderRadius:0px 0px 16px 16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:15px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=0px 0px 16px 16px}
+              div(head) [421,1766 269x49] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:5px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                div(Mercedes-Benz, C Class) [421,1766 270x24] {display:flow-root; flexDirection:column; justifyContent:flex-start; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  h6 [421,1766 270x23] "BMW 330i M Sport" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                div [421,1795 269x20] {display:flex; justifyContent:center; alignItems:center; gap:5px; position:relative; transition:all; cursor:pointer}
+                  div(2023) [421,1795 34x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [421,1795 34x20] "2022" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                  div(Ellipse 1) [460,1804 3x3] {backgroundColor:rgb(5, 11, 32); borderRadius:100%; position:relative; transition:all; cursor:pointer}
+                  div(D250 X-Dynamic SE) [468,1795 223x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [468,1795 223x20] "2.0L Turbo I4" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+              div(center) [421,1830 269x50] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+                div(1) [421,1845 61x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [421,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [440,1845 42x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [440,1845 42x20] "32,100" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div(2) [492,1845 56x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [492,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [511,1845 37x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [511,1845 37x20] "Petrol" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div(3) [559,1845 65x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [559,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [578,1845 46x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [578,1845 46x20] "Manual" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+              div(bottom) [421,1895 269x51] {display:flex; justifyContent:center; alignItems:flex-end; gap:10px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                div(price) [421,1895 154x51] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:5px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  div [421,1895 154x26] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                    div($399) [421,1895 12x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      h5 [421,1895 12x26] "$" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                    div($399) [433,1895 142x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      h5 [433,1895 142x26] "41,500" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                  div [421,1926 154x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:5px; position:relative; transition:all; cursor:pointer}
+                    div($789) [421,1926 30x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      p [421,1926 30x20] "from" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                    div [456,1926 61x20] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                      div($789) [456,1926 8x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [456,1926 8x20] "$" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                      div($789) [465,1926 27x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [465,1926 27x20] "650" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                      div($789) [491,1926 26x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [491,1926 26x20] "/mo" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div [585,1922 105x24] {position:relative; transition:all; cursor:pointer}
+                  div(No-Bg) [585,1922 105x24] {backgroundColor:rgba(255, 255, 255, 0); display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                    div(Button) [585,1922 86x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      p [585,1922 86x24] "View Details" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                    div(icon) [679,1929 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                      div [680,1930 9x9] {position:relative; transition:all; cursor:pointer}
+                        div [680,1930 9x9] {transition:all; cursor:pointer}
+                          svg [680,1930 9x9] overflow:hidden; transition:all; cursor:pointer
+                    div(border) [585,1945 1x100] {backgroundColor:rgb(64, 95, 242); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:104.141px; bottom:-99px; opacity:0; transition:all; cursor:pointer}
+      a [730,1540 309x426] href=./vehicles/tesla-model-y-performance {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+        div [730,1540 309x426] {position:relative; transition:all; cursor:pointer}
+          div(Default) [730,1540 309x426] {borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer}
+            div(img) [730,1540 309x206] {borderRadius:16px 16px 0px 0px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:pointer}
+              div [730,1540 309x206] {position:relative; transition:all; cursor:pointer}
+                div [730,1540 309x206] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+                  img [730,1540 309x206] src=https://framerusercontent.com/images/6xIDNneAXmC2U69GeSLot7tELI.jpg alt="var(--variable-Je_o0kV5T)" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+              div(tag) [741,1550 55x30] {backgroundColor:rgb(255, 255, 255); padding:5px 10px; borderRadius:120px; display:flex; justifyContent:flex-start; alignItems:center; gap:4px; position:absolute; top:10px; left:11px; right:242.891px; bottom:166px; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+                div(Circle) [751,1563 4x4] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div(Text) [759,1555 27x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [759,1555 27x20] "New" {fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+            div(content) [730,1746 309x220] {backgroundColor:rgb(255, 255, 255); padding:20px; borderRadius:0px 0px 16px 16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:15px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=0px 0px 16px 16px}
+              div(head) [750,1766 269x49] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:5px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                div(Mercedes-Benz, C Class) [750,1766 270x24] {display:flow-root; flexDirection:column; justifyContent:flex-start; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  h6 [750,1766 270x23] "Tesla Model Y Performance" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                div [750,1795 269x20] {display:flex; justifyContent:center; alignItems:center; gap:5px; position:relative; transition:all; cursor:pointer}
+                  div(2023) [750,1795 34x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [750,1795 34x20] "2024" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                  div(Ellipse 1) [789,1804 3x3] {backgroundColor:rgb(5, 11, 32); borderRadius:100%; position:relative; transition:all; cursor:pointer}
+                  div(D250 X-Dynamic SE) [797,1795 222x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [797,1795 222x20] "Dual Motor Electric" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+              div(center) [750,1830 269x50] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+                div(1) [750,1845 54x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [750,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [769,1845 35x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [769,1845 35x20] "5,100" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div(2) [814,1845 68x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [814,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [833,1845 49x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [833,1845 49x20] "Electric" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div(3) [891,1845 87x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [891,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [910,1845 68x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [910,1845 68x20] "Automatic" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+              div(bottom) [750,1895 269x51] {display:flex; justifyContent:center; alignItems:flex-end; gap:10px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                div(price) [750,1895 154x51] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:5px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  div [750,1895 154x26] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                    div($399) [750,1895 12x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      h5 [750,1895 12x26] "$" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                    div($399) [762,1895 142x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      h5 [762,1895 142x26] "58,900" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                  div [750,1926 154x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:5px; position:relative; transition:all; cursor:pointer}
+                    div($789) [750,1926 30x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      p [750,1926 30x20] "from" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                    div [785,1926 61x20] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                      div($789) [785,1926 8x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [785,1926 8x20] "$" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                      div($789) [794,1926 26x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [794,1926 26x20] "930" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                      div($789) [820,1926 26x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [820,1926 26x20] "/mo" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div [914,1922 105x24] {position:relative; transition:all; cursor:pointer}
+                  div(No-Bg) [914,1922 105x24] {backgroundColor:rgba(255, 255, 255, 0); display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                    div(Button) [914,1922 86x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      p [914,1922 86x24] "View Details" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                    div(icon) [1008,1929 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                      div [1009,1930 9x9] {position:relative; transition:all; cursor:pointer}
+                        div [1009,1930 9x9] {transition:all; cursor:pointer}
+                          svg [1009,1930 9x9] overflow:hidden; transition:all; cursor:pointer
+                    div(border) [914,1945 1x100] {backgroundColor:rgb(64, 95, 242); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:104.141px; bottom:-99px; opacity:0; transition:all; cursor:pointer}
+      a [1059,1540 309x426] href=./vehicles/bentley-continental-gt-v8 {color:rgb(0, 0, 238); display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+        div [1059,1540 309x426] {position:relative; transition:all; cursor:pointer}
+          div(Default) [1059,1540 309x426] {borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; cursor:pointer}
+            div(img) [1059,1540 309x206] {borderRadius:16px 16px 0px 0px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:pointer}
+              div [1059,1540 309x206] {position:relative; transition:all; cursor:pointer}
+                div [1059,1540 309x206] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:pointer}
+                  img [1059,1540 309x206] src=https://framerusercontent.com/images/UEY7iriseYBLBtfPlSJPKJ3DKM.jpg alt="var(--variable-Je_o0kV5T)" {overflow:clip; objectFit:cover; transition:all; cursor:pointer}
+              div(tag) [1070,1550 85x30] {backgroundColor:rgb(255, 255, 255); padding:5px 10px; borderRadius:120px; display:flex; justifyContent:flex-start; alignItems:center; gap:4px; position:absolute; top:10px; left:11px; right:212.734px; bottom:166px; overflow:clip; zIndex:1; transition:all; cursor:pointer}
+                div(Circle) [1080,1563 4x4] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div(Text) [1088,1555 57x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [1088,1555 57x20] "Certified" {fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+            div(content) [1059,1746 309x220] {backgroundColor:rgb(255, 255, 255); padding:20px; borderRadius:0px 0px 16px 16px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:15px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=0px 0px 16px 16px}
+              div(head) [1079,1766 269x49] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:5px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                div(Mercedes-Benz, C Class) [1079,1766 270x24] {display:flow-root; flexDirection:column; justifyContent:flex-start; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  h6 [1079,1766 270x23] "Bentley Continental GT V8" {fontSize:18px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:23.4px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                div [1079,1795 269x20] {display:flex; justifyContent:center; alignItems:center; gap:5px; position:relative; transition:all; cursor:pointer}
+                  div(2023) [1079,1795 34x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [1079,1795 34x20] "2022" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                  div(Ellipse 1) [1118,1804 3x3] {backgroundColor:rgb(5, 11, 32); borderRadius:100%; position:relative; transition:all; cursor:pointer}
+                  div(D250 X-Dynamic SE) [1126,1795 223x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [1126,1795 223x20] "4.0L Twin-Turbo V8" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+              div(center) [1079,1830 269x50] {padding:15px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+                div(1) [1079,1845 58x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [1079,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [1098,1845 39x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [1098,1845 39x20] "9,800" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div(2) [1147,1845 56x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [1147,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [1166,1845 37x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [1166,1845 37x20] "Petrol" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div(3) [1213,1845 87x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:3px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  svg [1213,1847 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+                  div(72,925 miles) [1232,1845 68x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                    p [1232,1845 68x20] "Automatic" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+              div(bottom) [1079,1895 269x51] {display:flex; justifyContent:center; alignItems:flex-end; gap:10px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                div(price) [1079,1895 154x51] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:5px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                  div [1079,1895 154x26] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                    div($399) [1079,1895 12x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      h5 [1079,1895 12x26] "$" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                    div($399) [1091,1895 142x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      h5 [1091,1895 142x26] "198,900" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                  div [1079,1926 154x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:5px; position:relative; transition:all; cursor:pointer}
+                    div($789) [1079,1926 30x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      p [1079,1926 30x20] "from" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                    div [1114,1926 67x20] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                      div($789) [1114,1926 8x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [1114,1926 8x20] "$" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                      div($789) [1123,1926 33x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [1123,1926 33x20] "3,130" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                      div($789) [1156,1926 26x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                        p [1156,1926 26x20] "/mo" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all; cursor:pointer}
+                div [1243,1922 105x24] {position:relative; transition:all; cursor:pointer}
+                  div(No-Bg) [1243,1922 105x24] {backgroundColor:rgba(255, 255, 255, 0); display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+                    div(Button) [1243,1922 86x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                      p [1243,1922 86x24] "View Details" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+                    div(icon) [1337,1929 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                      div [1338,1930 9x9] {position:relative; transition:all; cursor:pointer}
+                        div [1338,1930 9x9] {transition:all; cursor:pointer}
+                          svg [1338,1930 9x9] overflow:hidden; transition:all; cursor:pointer
+                    div(border) [1243,1945 1x100] {backgroundColor:rgb(64, 95, 242); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:104.141px; bottom:-99px; opacity:0; transition:all; cursor:pointer}
+
+=== IMAGES ===
+https://framerusercontent.com/images/ICGsn9JbVA7ayukPFFYopYyH3o0.jpg | alt=var(--variable-Je_o0kV5T) | natural 309x205
+https://framerusercontent.com/images/kDJbsQO4yekr9NrfUQAnuhEenE.jpg | alt=var(--variable-Je_o0kV5T) | natural 309x205
+https://framerusercontent.com/images/6xIDNneAXmC2U69GeSLot7tELI.jpg | alt=var(--variable-Je_o0kV5T) | natural 309x205
+https://framerusercontent.com/images/UEY7iriseYBLBtfPlSJPKJ3DKM.jpg | alt=var(--variable-Je_o0kV5T) | natural 309x205
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

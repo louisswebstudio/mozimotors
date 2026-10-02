@@ -1,0 +1,163 @@
+div [0,10679 810x908] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); position:relative; textAlign:start; transition:all}
+  div(Tablet) [0,10679 810x908] {backgroundColor:rgb(5, 11, 32); padding:70px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+    div(Newsletter) [0,10749 810x196] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all; ::afterBORDER:0px/0px/1px/0px solid rgba(255, 255, 255, 0.1) r=0px}
+      div(Container) [0,10749 810x196] {padding:60px 30px; display:flex; justifyContent:flex-start; alignItems:center; gap:40px; position:relative; maxWidth:1356px; transition:all}
+        div(left) [30,10809 355x76] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:5px; position:relative; overflow:clip; transition:all}
+          div(Join BoxCar) [30,10809 300x31] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            h4 [30,10809 300x31] "Get new arrivals by email" {fontSize:24px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:31.2px; textTransform:capitalize; color:rgb(255, 255, 255); transition:all}
+          div(Receive pricing updates, shopping tips & more!) [30,10845 355x40] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [30,10845 355x40] "A short email when something new reaches the floor. No daily deals, no spam." {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all}
+        div(right) [425,10814 355x65] {display:flex; justifyContent:flex-end; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+          form [496,10814 284x65] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:16px; position:relative; overflow:hidden; transition:all}
+            label [496,10814 284x65] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all; cursor:default}
+              div [496,10814 284x65] {backgroundColor:rgba(255, 255, 255, 0.07); padding:10px 10px 10px 24px; borderRadius:120px; display:flex; alignItems:center; position:relative; overflow:hidden; transition:background, box-shadow; cursor:default}
+                input [520,10824 250x45] {fontSize:14px; fontFamily:'DM Sans'; lineHeight:19.6px; color:rgb(165, 173, 202); overflow:clip; transition:all; cursor:text}
+            div [725,10824 45x45] {position:absolute; top:10px; left:229px; right:10px; bottom:10px; zIndex:1; transition:all}
+              button(Default) [725,10824 45x45] {backgroundColor:rgb(64, 95, 242); padding:8px 16px; borderRadius:50px; display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; textAlign:center; transition:all; cursor:pointer}
+                svg [740,10839 16x16] position:relative; overflow:hidden; transition:all; cursor:pointer
+    div(Center) [0,10955 810x392] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all}
+      div(Container) [0,10955 810x392] {padding:60px 30px; display:flex; justifyContent:flex-start; alignItems:flex-start; gap:0px; position:relative; maxWidth:1356px; transition:all}
+        div(About) [30,11015 228x206] {padding:0px 60px 0px 0px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; transition:all}
+          div [30,11015 105x26] {position:relative; transition:all}
+            a(light) [30,11015 105x26] href=null {position:relative; overflow:clip; transition:all}
+              div(logo) [30,11015 105x26] {position:absolute; top:0px; left:-0.5px; right:0.5px; bottom:0px; transition:all}
+                div [30,11015 105x26] {transition:all}
+                  svg [30,11015 105x26] overflow:hidden; transition:all
+          div [30,11061 168x100] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [30,11061 168x100] "Inspected vehicles, honest pricing, and straight answers from the people who sold you the car." {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all}
+          div(social) [30,11181 168x40] {display:flex; justifyContent:flex-start; alignItems:center; gap:5px; position:relative; overflow:clip; transition:all}
+            div [30,11181 40x40] {position:relative; transition:all}
+              a(Icon) [30,11181 40x40] href=https://www.instagram.com/ {color:rgb(0, 0, 238); padding:5px; borderRadius:100%; display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                svg [41,11192 18x18] position:relative; overflow:hidden; transition:all; cursor:pointer
+            div [75,11181 40x40] {position:relative; transition:all}
+              a(Icon) [75,11181 40x40] href=https://www.facebook.com/ {color:rgb(0, 0, 238); padding:5px; borderRadius:100%; display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                svg [86,11192 18x18] position:relative; overflow:hidden; transition:all; cursor:pointer
+            div [120,11181 40x40] {position:relative; transition:all}
+              a(Icon) [120,11181 40x40] href=https://x.com/ {color:rgb(0, 0, 238); padding:5px; borderRadius:100%; display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                svg [131,11192 18x18] position:relative; overflow:hidden; transition:all; cursor:pointer
+            div [165,11181 40x40] {position:relative; transition:all}
+              a(Icon) [165,11181 40x40] href=https://www.linkedin.com/ {color:rgb(0, 0, 238); padding:5px; borderRadius:100%; display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                svg [176,11192 18x18] position:relative; overflow:hidden; transition:all; cursor:pointer
+            div [210,11181 40x40] {position:relative; transition:all}
+              a(Icon) [210,11181 40x40] href=https://www.youtube.com/ {color:rgb(0, 0, 238); padding:5px; borderRadius:100%; display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all; cursor:pointer}
+                svg [221,11192 18x18] position:relative; overflow:hidden; transition:all; cursor:pointer
+        div(company) [258,11015 168x202] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; transition:all}
+          div(Explore) [258,11015 78x22] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            h5 [258,11015 78x22] "Company" {fontSize:17px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:22.1px; color:rgb(255, 255, 255); transition:all}
+          div(nav) [258,11057 55x160] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:15px; position:relative; overflow:clip; transition:all}
+            div [258,11057 40x20] {position:relative; transition:all}
+              a(Small) [258,11057 40x20] href=./about {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [258,11057 40x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [258,11057 40x20] "About" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [258,11076 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:38.875px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+            div [258,11092 55x20] {position:relative; transition:all}
+              a(Small) [258,11092 55x20] href=./services {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [258,11092 55x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [258,11092 55x20] "Services" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [258,11111 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:53.9844px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+            div [258,11127 27x20] {position:relative; transition:all}
+              a(Small) [258,11127 27x20] href=./blog {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [258,11127 27x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [258,11127 27x20] "Blog" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [258,11146 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:26.3906px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+            div [258,11162 26x20] {position:relative; transition:all}
+              a(Small) [258,11162 26x20] href=./faq {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [258,11162 26x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [258,11162 26x20] "FAQ" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [258,11181 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:25.0781px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+            div [258,11197 53x20] {position:relative; transition:all}
+              a(Small) [258,11197 53x20] href=./contact {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [258,11197 53x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [258,11197 53x20] "Contact" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [258,11216 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:51.7812px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+        div(Inventory) [427,11015 168x272] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; transition:all}
+          div(Explore) [427,11015 76x22] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            h5 [427,11015 76x22] "Inventory" {fontSize:17px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:22.1px; color:rgb(255, 255, 255); transition:all}
+          div(nav) [427,11057 82x230] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:15px; position:relative; overflow:clip; transition:all}
+            div [427,11057 49x20] {position:relative; transition:all}
+              a(Small) [427,11057 49x20] href=./vehicles {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [427,11057 49x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [427,11057 49x20] "All Cars" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [427,11076 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:48.1406px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+            div [427,11092 62x20] {position:relative; transition:all}
+              a(Small) [427,11092 62x20] href=./new-cars {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [427,11092 62x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [427,11092 62x20] "New Cars" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [427,11111 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:60.625px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+            div [427,11127 67x20] {position:relative; transition:all}
+              a(Small) [427,11127 67x20] href=./used-cars {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [427,11127 67x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [427,11127 67x20] "Used Cars" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [427,11146 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:65.5156px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+            div [427,11162 57x20] {position:relative; transition:all}
+              a(Small) [427,11162 57x20] href=./certified-cars {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [427,11162 57x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [427,11162 57x20] "Certified" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [427,11181 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:55.6406px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+            div [427,11197 33x20] {position:relative; transition:all}
+              a(Small) [427,11197 33x20] href=./suvs-for-sale {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [427,11197 33x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [427,11197 33x20] "SUVs" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [427,11216 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:31.8906px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+            div [427,11232 48x20] {position:relative; transition:all}
+              a(Small) [427,11232 48x20] href=./sedans-for-sale {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [427,11232 48x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [427,11232 48x20] "Sedans" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [427,11251 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:46.5312px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+            div [427,11267 82x20] {position:relative; transition:all}
+              a(Small) [427,11267 82x20] href=./electric-cars {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+                div [427,11267 82x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                  p [427,11267 82x20] "Electric Cars" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+                div(Line) [427,11286 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:81.4219px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+        div(Contact) [595,11015 185x208] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; transition:all}
+          div [595,11015 99x22] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            h5 [595,11015 99x22] "Get in touch" {fontSize:17px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:22.1px; color:rgb(255, 255, 255); transition:all}
+          div(Address) [595,11057 185x166] {display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:20px; position:relative; overflow:clip; transition:all}
+            div(Address) [595,11057 185x42] {display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+              div(Icon) [595,11057 42x42] {backgroundColor:rgba(255, 255, 255, 0.05); borderRadius:16px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+                svg [608,11070 16x16] position:relative; overflow:hidden; transition:all
+              div [647,11058 133x40] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                p [647,11058 133x40] "1250 Broadway, New York, NY 10001" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all}
+            div(Call) [595,11119 185x42] {display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+              div(Icon) [595,11119 42x42] {backgroundColor:rgba(255, 255, 255, 0.05); borderRadius:16px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+                svg [608,11132 16x16] position:relative; overflow:hidden; transition:all
+              div [647,11130 133x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                p [647,11130 133x20] {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all}
+                  a [647,11131 115x18] "+1 (555) 012 3456" href=tel:+15550123456 {display:inline; transition:all; cursor:pointer}
+            div(Email) [595,11181 185x42] {display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+              div(Icon) [595,11181 42x42] {backgroundColor:rgba(255, 255, 255, 0.05); borderRadius:16px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+                svg [608,11194 16x16] position:relative; overflow:hidden; transition:all
+              div [647,11192 133x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                p [647,11192 133x20] {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all}
+                  a [647,11193 127x18] "hello@boxcars.com" href=mailto:hello@boxcars.com {display:inline; transition:all; cursor:pointer}
+    div(bottom) [0,11357 810x80] {display:flex; justifyContent:center; alignItems:center; gap:40px; position:relative; transition:all}
+      div(Container) [0,11357 810x80] {padding:30px; display:flex; justifyContent:flex-start; alignItems:center; gap:40px; position:relative; maxWidth:1356px; transition:all}
+        div [30,11387 532x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          p [30,11387 532x20] "© 2026 Boxcars. All rights reserved." {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all}
+        div(nav) [602,11387 178x20] {display:flex; justifyContent:center; alignItems:flex-start; gap:20px; position:relative; overflow:clip; transition:all}
+          div [602,11387 39x20] {position:relative; transition:all}
+            a(Small) [602,11387 39x20] href=./terms {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+              div [602,11387 39x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [602,11387 39x20] "Terms" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+              div(Line) [602,11406 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:38.2344px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+          div [661,11387 47x20] {position:relative; transition:all}
+            a(Small) [661,11387 47x20] href=./privacy {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+              div [661,11387 47x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [661,11387 47x20] "Privacy" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+              div(Line) [661,11406 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:46.1094px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+          div [728,11387 52x20] {position:relative; transition:all}
+            a(Small) [728,11387 52x20] href=./cookies {color:rgb(0, 0, 238); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+              div [728,11387 52x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+                p [728,11387 52x20] "Cookies" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(165, 173, 202); transition:all; cursor:pointer}
+              div(Line) [728,11406 1x1] {backgroundColor:rgb(165, 173, 202); position:absolute; top:19px; left:0px; right:51.0469px; bottom:0px; opacity:0; overflow:hidden; zIndex:1; transition:all; cursor:pointer}
+    div(top-bar) [0,10679 810x70] {backgroundColor:rgb(255, 255, 255); borderRadius:70px 70px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:absolute; top:0px; left:0px; right:0px; bottom:838.297px; transform:matrix(-1, 0, 0, -1, 0, 0); overflow:clip; zIndex:4; transition:all}
+    div(Brand) [0,11487 810x140] {padding:0px 30px; display:flex; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, 0, 40); overflow:hidden; maxWidth:1356px; transition:all}
+      img [30,11487 750x183] src=DATA alt="" {position:relative; overflow:clip; transition:all}
+
+=== IMAGES ===
+DATA:data:image/svg+xml,<svg display="block" id="3263834977" role="presentation" viewBox="0 0 1133 276" xmlns="http://www.w3.org/2000/svg"><defs ><linearGradient id="qkMblddXi-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="f9RlYgBiZ-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="RaLRM36Fc-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="mAlxyyIYu-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="OJj9k_g1x-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="vCIyEGUNm-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient><linearGradient id="UGf53UVJf-3263834977-linear-gradient" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1"><stop offset="0" stop-color="rgba(255, 255, 255, 0.07)"/><stop offset="1" stop-color="rgba(255, 255, 255, 0)"/></linearGradient></defs><g fill="transparent" height="276px" id="Vu4diIGm7" width="1133.000025611394px"><path d="M 61.671 276 C 41.369 276 26.014 270.25 15.608 258.75 C 5.203 246.995 0 230.255 0 208.533 L 0 193.2 L 39.591 193.2 L 39.591 211.6 C 39.591 228.978 46.824 237.667 61.291 237.667 C 68.397 237.667 73.727 235.622 77.279 231.533 C 81.092 227.189 82.995 220.289 82.995 210.833 C 82.995 199.589 80.45 189.75 75.376 181.317 C 70.301 172.628 60.91 162.278 47.205 150.267 C 29.948 134.933 17.892 121.133 11.04 108.867 C 4.188 96.344 0.761 82.289 0.761 66.7 C 0.761 45.489 6.091 29.133 16.75 17.633 C 27.409 5.878 42.891 0 63.194 0 C 83.245 0 98.342 5.878 108.501 17.633 C 118.899 29.133 124.109 45.744 124.109 67.467 L 124.109 78.583 L 84.518 78.583 L 84.518 64.783 C 84.518 55.583 82.734 48.939 79.183 44.85 C 75.63 40.506 70.427 38.333 63.575 38.333 C 49.617 38.333 42.637 46.894 42.637 64.017 C 42.637 73.728 45.176 82.8 50.251 91.233 C 55.58 99.667 65.097 109.889 78.802 121.9 C 96.319 137.233 108.371 151.161 114.973 163.683 C 121.564 176.205 124.871 190.9 124.871 207.767 C 124.871 229.745 119.411 246.611 108.501 258.367 C 97.842 270.122 82.234 276 61.671 276 Z" fill="url(%23qkMblddXi-3263834977-linear-gradient)" height="276px" id="qkMblddXi" transform="translate(1008.129 0)" width="124.87069211530024px"/><path d="M 0 0 L 62.052 0 C 83.624 0 99.359 5.111 109.257 15.333 C 119.155 25.3 124.104 40.761 124.104 61.717 L 124.104 78.2 C 124.104 106.055 114.967 123.689 96.694 131.1 L 96.694 131.867 C 106.846 134.934 113.952 141.194 118.013 150.65 C 122.327 160.105 124.485 172.755 124.485 188.6 L 124.485 235.75 C 124.485 243.417 124.738 249.677 125.246 254.534 C 125.753 259.134 127.022 263.734 129.053 268.334 L 86.416 268.334 C 84.893 263.989 83.877 259.9 83.37 256.067 C 82.862 252.234 82.609 245.334 82.609 235.367 L 82.609 186.3 C 82.609 174.034 80.578 165.472 76.518 160.617 C 72.711 155.761 65.985 153.334 56.342 153.334 L 41.876 153.334 L 41.876 268.334 L 0 268.334 Z M 57.103 115 C 65.478 115 71.695 112.827 75.757 108.484 C 80.07 104.139 82.228 96.856 82.228 86.633 L 82.228 65.933 C 82.228 56.222 80.451 49.194 
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

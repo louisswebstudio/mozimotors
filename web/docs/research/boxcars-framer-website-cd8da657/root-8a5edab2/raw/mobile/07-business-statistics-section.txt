@@ -1,0 +1,41 @@
+section(Business Statistics Section) [0,7929 390x238] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); padding:30px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Container) [0,7959 390x178] {padding:0px 30px; borderRadius:12px; display:grid; justifyContent:center; gap:30px 0px; position:relative; maxWidth:1356px; gridTemplateColumns:165px 165px; transition:all}
+    div(Cars in Stock Statistic) [30,7959 165x74] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+      div(Cars in Stock Value) [87,7959 51x40] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+        div(Title) [87,7959 51x40] {position:relative; transition:all}
+          div [87,7959 51x40] {position:relative; transition:all}
+            span [87,7959 51x40] "0+" {fontSize:40px; fontWeight:600; fontFamily:'DM Sans'; lineHeight:40px; color:rgb(26, 26, 26); textAlign:left; transition:all}
+      div(Cars Sold Label) [72,8009 81x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [72,8009 81x24] "CARS SOLD" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+    div(Average Rating Statistic) [195,7959 165x74] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+      div(Average Rating Value) [231,7959 92x40] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+        div(Title) [231,7959 62x40] {position:relative; transition:all}
+          div [231,7959 62x40] {position:relative; transition:all}
+            span [231,7959 62x40] "0.0" {fontSize:40px; fontWeight:600; fontFamily:'DM Sans'; lineHeight:40px; color:rgb(26, 26, 26); textAlign:left; transition:all}
+        div [304,7969 20x20] {position:relative; transition:all}
+          div [304,7969 20x20] {transition:all}
+            svg [304,7969 20x20] overflow:hidden; transition:all
+      div(Average Rating Label) [217,8009 120x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [217,8009 120x24] "AVERAGE RATING" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+    div(Years in Business Statistic) [30,8063 165x74] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+      div(Years in Business Value) [87,8063 51x40] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+        div(Title) [87,8063 51x40] {position:relative; transition:all}
+          div [87,8063 51x40] {position:relative; transition:all}
+            span [87,8063 51x40] "0+" {fontSize:40px; fontWeight:600; fontFamily:'DM Sans'; lineHeight:40px; color:rgb(26, 26, 26); textAlign:left; transition:all}
+      div(Years in Business Label) [46,8113 134x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [46,8113 134x24] "YEARS IN BUSINESS" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+    div(Customer Satisfaction Statistic) [195,8063 165x74] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+      div(Customer Satisfaction Value) [246,8063 63x40] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+        div(Title) [246,8063 63x40] {position:relative; transition:all}
+          div [246,8063 63x40] {position:relative; transition:all}
+            span [246,8063 63x40] "0%" {fontSize:40px; fontWeight:600; fontFamily:'DM Sans'; lineHeight:40px; color:rgb(26, 26, 26); textAlign:left; transition:all}
+      div(Satisfaction Label) [228,8113 99x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [228,8113 99x24] "SATISFACTION" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

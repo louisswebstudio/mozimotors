@@ -1,0 +1,171 @@
+import type { Metadata } from "next";
+import { BadgeCheck, Clock, FileText, Percent } from "lucide-react";
+import { FinanceWidget } from "@/components/finance-widget";
+import { LeadForm } from "@/components/lead-form";
+import { getSettings } from "@/lib/wp";
+import { FaqList } from "@/components/sites/boxcars-framer-website-cd8da657/root-8a5edab2/FaqList";
+import { Reveal } from "@/components/sites/boxcars-framer-website-cd8da657/root-8a5edab2/reveal";
+import {
+  ASSETS,
+  BxButton,
+  Container,
+  Eyebrow,
+  H3,
+  SECTION_Y,
+} from "@/components/sites/boxcars-framer-website-cd8da657/root-8a5edab2/ui";
+import {
+  Card,
+  CheckBadge,
+  FeatureRow,
+  H5,
+  PageIntro,
+  PageSheet,
+} from "@/components/sites/boxcars-framer-website-cd8da657/shared/page";
+
+export const metadata: Metadata = {
+  title: "Financement auto — pré-approbation en ligne",
+  description: "Calculez votre budget et obtenez une pré-approbation de crédit auto en ligne, sans engagement.",
+};
+
+const FAQ = [
+  ["Quels documents dois-je fournir ?", "Pièce d'identité, 3 derniers bulletins de salaire (ou bilans pour les indépendants), relevés bancaires récents et justificatif de domicile."],
+  ["Puis-je financer sans apport ?", "Oui, selon votre profil. Un apport améliore toutefois vos conditions et réduit vos mensualités."],
+  ["Combien de temps pour une réponse ?", "Une réponse de principe sous 48h ouvrées après réception du dossier complet."],
+  ["La pré-approbation m'engage-t-elle ?", "Non. Elle est gratuite et sans engagement : elle vous permet simplement de connaître votre budget réel."],
+].map(([q, a]) => ({ q, a }));
+
+const DOCUMENTS = [
+  "Pièce d'identité",
+  "3 derniers bulletins de salaire (ou bilans pour les indépendants)",
+  "Relevés bancaires récents",
+  "Justificatif de domicile",
+];
+
+export default async function FinancePage() {
+  const settings = await getSettings();
+  const perks = [
+    { icon: Clock, t: "Réponse sous 48h" },
+    { icon: Percent, t: `Taux dès ${settings.loanRate.toLocaleString("fr-FR")} %` },
+    { icon: FileText, t: "Dossier 100 % en ligne" },
+    { icon: BadgeCheck, t: "Jusqu'à 84 mois" },
+  ];
+
+  return (
+    <PageSheet>
+      <PageIntro
+        eyebrow="Financement"
+        title="Roulez maintenant, payez à votre rythme"
+        lead="Nous comparons pour vous les offres de nos partenaires bancaires et montons votre dossier. Vous n'avez qu'à signer."
+        text={
+          <div className="grid grid-cols-1 gap-2.5 min-[480px]:grid-cols-2">
+            {perks.map(({ icon: Icon, t }) => (
+              <p key={t} className="flex items-center gap-2.5 rounded-xl bg-bx-lavender px-4 py-3 text-[15px] font-medium leading-6 text-bx-navy">
+                <Icon className="size-[18px] shrink-0 text-bx-navy" strokeWidth={1.5} aria-hidden />
+                {t}
+              </p>
+            ))}
+          </div>
+        }
+      />
+
+      {/* Budget calculator */}
+      <section id="calculateur" className="pb-[30px] bxt:pb-[60px] bxd:pb-[90px]">
+        <Container className="flex flex-col gap-[30px] bxd:flex-row bxd:items-center bxd:gap-[60px]">
+          <Reveal y={24} className="flex flex-1 flex-col items-start gap-2.5">
+            <Eyebrow>Calculateur</Eyebrow>
+            <h2 className={`${H3} text-bx-navy`}>Votre budget voiture en un coup d&apos;œil</h2>
+            <p className="max-w-[520px] text-[15px] leading-6 text-bx-ink">
+              Choisissez la mensualité qui vous convient et votre apport : nous estimons instantanément le prix de la
+              voiture que vous pouvez financer, puis vous montrons les modèles disponibles dans ce budget.
+            </p>
+          </Reveal>
+          <Reveal y={20} className="w-full flex-1">
+            <FinanceWidget rate={settings.loanRate} months={settings.loanMonths} />
+          </Reveal>
+        </Container>
+      </section>
+
+      <FeatureRow
+        sticky={false}
+        image={`${ASSETS}/images/step-2.jpg`}
+        imageAlt="Conseiller MoziMotors préparant un dossier de financement"
+        eyebrow="Pré-approbation"
+        title="Connaissez votre budget avant de choisir"
+        text="Gratuit, sans engagement et sans impact sur votre dossier bancaire."
+        bullets={["Réponse de principe sous 48h", "Dossier monté par nos conseillers", "Partenaires bancaires comparés pour vous"]}
+        cta={{ label: "Demander ma pré-approbation", href: "#pre-approbation" }}
+      />
+
+      {/* Pre-approval form */}
+      <section id="pre-approbation" className={`scroll-mt-[50px] ${SECTION_Y}`}>
+        <Container className="flex flex-col gap-[30px] bxd:flex-row bxd:items-start bxd:gap-[60px]">
+          <div className="flex min-w-0 flex-1 flex-col gap-[30px]">
+            <Reveal y={24} className="flex flex-col items-start gap-2.5">
+              <Eyebrow>Pré-approbation</Eyebrow>
+              <h2 className={`${H3} text-bx-navy`}>Demander ma pré-approbation</h2>
+              <p className="text-[15px] leading-6 text-bx-ink">
+                Remplissez le formulaire : un conseiller vous rappelle pour finaliser votre dossier.
+              </p>
+            </Reveal>
+            <LeadForm
+              type="financement"
+              submitLabel="Obtenir ma pré-approbation"
+              fields={[
+                { name: "name", label: "Nom complet", required: true },
+                { name: "phone", label: "Téléphone", type: "tel", required: true, half: true },
+                { name: "email", label: "Email", type: "email", half: true },
+                { name: "status", label: "Situation", type: "select", options: ["Salarié(e) privé", "Fonctionnaire", "Profession libérale", "Commerçant / Indépendant", "Retraité(e)", "MRE"], required: true, half: true },
+                { name: "income", label: "Revenu mensuel net (DH)", type: "number", required: true, half: true },
+                { name: "budget", label: "Budget voiture (DH)", type: "number", half: true },
+                { name: "deposit", label: "Apport (DH)", type: "number", half: true },
+              ]}
+            />
+          </div>
+          <Reveal y={20} className="w-full bxd:w-[439px] bxd:shrink-0">
+            <Card className="flex flex-col gap-5 p-[30px]">
+              <div className="flex flex-col items-start gap-2.5">
+                <Eyebrow>Dossier</Eyebrow>
+                <h3 className={H5}>Documents à prévoir</h3>
+                <p className="text-[15px] leading-6 text-bx-ink">
+                  Préparez ces pièces pour recevoir une réponse de principe sous 48h ouvrées.
+                </p>
+              </div>
+              <ul className="flex flex-col gap-[15px]">
+                {DOCUMENTS.map((d) => (
+                  <li key={d} className="flex items-start gap-[5px] text-[15px] leading-6 text-bx-ink">
+                    <CheckBadge />
+                    {d}
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          </Reveal>
+        </Container>
+      </section>
+
+      {/* FAQ */}
+      <section id="faq" className="pb-[30px] bxt:pb-[60px] bxd:pb-[90px]">
+        <Container className="flex flex-col gap-[30px] bxt:flex-row bxt:items-start bxt:gap-0">
+          <div className="flex-[1_1_0] bxt:sticky bxt:top-[50px]">
+            <div className="flex flex-col items-start gap-[30px] pr-0 bxt:pr-[30px] bxd:pr-[180px]">
+              <Reveal y={24} className="flex flex-col items-start gap-2.5">
+                <Eyebrow>Financement</Eyebrow>
+                <h3 className={`${H3} text-bx-navy`}>Questions sur le crédit auto</h3>
+                <p className="text-[15px] leading-6 text-bx-ink">
+                  Documents, apport, délais : les réponses aux questions les plus fréquentes sur le financement de votre
+                  voiture.
+                </p>
+              </Reveal>
+              <Reveal y={20}>
+                <BxButton href="/contact">Nous contacter</BxButton>
+              </Reveal>
+            </div>
+          </div>
+          <Reveal x={20} y={0} className="w-full flex-[1_1_0]">
+            <FaqList items={FAQ} />
+          </Reveal>
+        </Container>
+      </section>
+    </PageSheet>
+  );
+}

@@ -1,0 +1,71 @@
+div(Right) [929,194 439x512] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); padding:40px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:20px; position:sticky; textAlign:start; zIndex:1; transition:all; ::afterBORDER:1px/1px/1px/1px solid rgb(225, 225, 225) r=16px}
+  div(Title) [969,234 359x117] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+    div(tag) [969,234 73x34] {backgroundColor:rgb(238, 241, 251); padding:7px 15px; borderRadius:120px; display:flex; justifyContent:flex-start; alignItems:center; gap:4px; position:relative; overflow:clip; zIndex:1; transition:all}
+      div(Circle) [984,249 4x4] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+      div(Text) [992,241 35x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [992,241 35x20] "Used" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(32, 33, 36); transition:all}
+    div(Title) [969,278 359x39] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+      h1 [969,278 359x39] "Audi Q7 55 TFSI quattro" {fontSize:30px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:39px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+    div(Center) [969,327 359x24] {display:flex; justifyContent:flex-start; alignItems:center; gap:5px; position:relative; transition:all}
+      div(Year Value) [969,327 36x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [969,327 36x24] "2023" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Separator Dot) [1010,338 3x3] {backgroundColor:rgb(5, 11, 32); borderRadius:100%; position:relative; transition:all}
+      div(Engine Value) [1018,327 96x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [1018,327 96x24] "3.0L Turbo V6" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div(Separator Dot) [1120,338 3x3] {backgroundColor:rgb(5, 11, 32); borderRadius:100%; position:relative; transition:all}
+      div(Model Value) [1128,327 20x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [1128,327 20x24] "Q7" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+  div(Bottom) [969,371 359x64] {padding:20px 0px; display:flex; justifyContent:flex-start; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all; ::afterBORDER:1px/0px/1px/0px solid rgb(225, 225, 225) r=0px}
+    div(Mileage) [969,391 113x24] {display:flex; justifyContent:flex-start; alignItems:center; gap:5px; position:relative; overflow:clip; transition:all}
+      svg [969,394 18x18] position:relative; overflow:hidden; transition:all
+      div(Mileage Value) [992,391 46x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [992,391 46x24] "14,200" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+    div(Fuel Type) [1092,391 113x24] {display:flex; justifyContent:flex-start; alignItems:center; gap:5px; position:relative; overflow:clip; transition:all}
+      svg [1092,394 18x18] position:relative; overflow:hidden; transition:all
+      div(Fuel Type Value) [1115,391 40x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [1115,391 40x24] "Petrol" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+    div(Transmission) [1215,391 113x24] {display:flex; justifyContent:flex-start; alignItems:center; gap:5px; position:relative; overflow:clip; transition:all}
+      svg [1215,394 18x18] position:relative; overflow:hidden; transition:all
+      div(Transmission Value) [1238,391 72x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [1238,391 72x24] "Automatic" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+  div(Price) [969,455 359x93] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:5px; position:relative; overflow:clip; transition:all}
+    div(Price Label) [969,455 65x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+      p [969,455 65x24] "Our Price" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+    div(Price Row) [969,484 359x39] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; transition:all}
+      div(Price Symbol) [969,484 18x39] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        h4 [969,484 18x39] "$" {fontSize:30px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:39px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+      div(Price Value) [987,484 341x39] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        h4 [987,484 341x39] "62,400" {fontSize:30px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:39px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+    div(Monthly Row) [969,528 359x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:5px; position:relative; transition:all}
+      div(From Label) [969,528 30x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+        p [969,528 30x20] "from" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all}
+      div(Monthly Value) [1005,528 61x20] {display:flex; justifyContent:center; alignItems:center; gap:0px; position:relative; transition:all}
+        div(Monthly Payment Symbol) [1005,528 8x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          p [1005,528 8x20] "$" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all}
+        div(Monthly Payment Value) [1013,528 27x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          p [1013,528 27x20] "980" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all}
+        div(Per Month Label) [1039,528 26x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          p [1039,528 26x20] "/mo" {fontSize:14px; fontFamily:'DM Sans'; lineHeight:20px; color:rgb(32, 33, 36); transition:all}
+  div(Actions) [969,568 359x98] {display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; transition:all}
+    div(Test Drive Button) [969,568 359x44] {position:relative; transition:all}
+      div(Primary) [969,568 359x44] {backgroundColor:rgb(64, 95, 242); padding:10px 24px; borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+        div(Button) [1070,578 139x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+          p [1070,578 139x24] "Schedule Test Drive" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+        div(icon) [1217,585 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+          div [1218,586 9x9] {backgroundImage:url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 9.096 9.096%22 overflow=%22visible%22><path d=%22M 8.551 0 L 1.612 0 C; position:relative; transition:all; cursor:pointer}
+    div(Make Offer Button) [969,622 359x44] {position:relative; transition:all}
+      div(Border) [969,622 359x44] {backgroundColor:rgba(233, 242, 255, 0); padding:10px 24px; borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer; ::afterBORDER:1px/1px/1px/1px solid rgb(64, 95, 242) r=12px}
+        div(Button) [1090,632 98x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+          p [1090,632 98x24] "Make an Offer" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(64, 95, 242); transition:all; cursor:pointer}
+        div(icon) [1196,639 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+          div [1197,640 9x9] {position:relative; transition:all; cursor:pointer}
+            div [1197,640 9x9] {transition:all; cursor:pointer}
+              svg [1197,640 9x9] overflow:hidden; transition:all; cursor:pointer
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 9.096 9.096%22 overflow=%22visible%22><path d=%22M 8.551 0 L 1.612 0 C 1.512 0 1.417 0.04 1.347 0.11 C 1.276 0.18 1.237 0.276 1.237 0.375 C 1.237 0.474 1.276 0.57 1.347 0.64 C 1.417 0.71 1.512 0.75 1.612 0.75 L 7.816 0.75 L 0.121 8.445 C 0.084 8.479 0.054 8.521 0.033 8.567 C 0.012 8.613 0.001 8.663 0 8.713 C -0.001 8.764 0.008 8.814 0.027 8.861 C 0.046 8.908 0.074 8.95 0.11 8.986 C 0.146 9.022 0.188 9.05 0.235 9.069 C 0.282 9.088 0.332 9.097 0.383 9.096 C 0.433 9.095 0.483 9.084 0.529 9.063 C 0.575 9.042 0.617 9.012 0.651 8.975 L 8.346 1.28 L 8.346 7.484 C 8.346 7.584 8.385 7.679 8.456 7.749 C 8.526 7.82 8.621 7.859 8.721 7.859 C 8.82 7.859 8.916 7.82 8.986 7.749 C 9.056 7.679 9.096 7.584 9.096 7.484 L 9.096 0.545 C 9.096 0.401 9.038 0.262 8.936 0.16 C 8.834 0.058 8.696 0 8.551 0 Z%22 fill=%22rgb(255,255,255)%22></path></svg>")
+
+=== MASKS ===

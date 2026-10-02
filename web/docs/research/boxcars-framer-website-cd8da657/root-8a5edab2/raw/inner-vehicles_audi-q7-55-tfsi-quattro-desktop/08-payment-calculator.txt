@@ -1,0 +1,37 @@
+div(Payment Calculator) [72,2066 797x481] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); position:relative; textAlign:start; transition:all}
+  div [72,2066 797x481] {backgroundColor:rgb(255, 255, 255); padding:24px; borderRadius:16px; border:1px solid rgb(225, 225, 225)|R:1px|B:1px rgb(225, 225, 225)|L:1px; display:flex; flexDirection:column; gap:20px; position:relative; transition:all}
+    div [97,2091 747x26] "Estimate your monthly payment" {fontSize:20px; fontFamily:DMSans-SemiBold; lineHeight:26px; letterSpacing:-0.4px; color:rgb(5, 11, 32); transition:all}
+    div [97,2137 747x48] {display:flex; flexDirection:column; gap:8px; transition:all}
+      div [97,2137 747x20] {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(107, 114, 128); display:flex; justifyContent:space-between; alignItems:baseline; gap:12px; transition:all}
+        span [97,2137 47x20] "Deposit" {transition:all}
+        span [763,2137 82x20] "$6,240 · 10 %" {color:rgb(5, 11, 32); transition:all}
+      input [99,2167 747x16] {color:rgb(16, 16, 16); backgroundColor:rgb(255, 255, 255); margin:2px; transition:all; cursor:pointer}
+    div [97,2205 747x67] {display:flex; flexDirection:column; gap:8px; transition:all}
+      div [97,2205 747x20] {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(107, 114, 128); display:flex; justifyContent:space-between; alignItems:baseline; gap:12px; transition:all}
+        span [97,2205 31x20] "Term" {transition:all}
+        span [780,2205 64x20] "72 months" {color:rgb(5, 11, 32); transition:all}
+      div [97,2232 747x40] {display:flex; flexWrap:wrap; gap:8px; transition:all}
+        button [97,2232 143x40] "24" {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(5, 11, 32); backgroundColor:rgb(244, 246, 249); padding:9px 4px; borderRadius:8px; border:1px solid rgb(225, 225, 225)|R:1px|B:1px rgb(225, 225, 225)|L:1px; textAlign:center; transition:all; cursor:pointer}
+        button [248,2232 143x40] "36" {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(5, 11, 32); backgroundColor:rgb(244, 246, 249); padding:9px 4px; borderRadius:8px; border:1px solid rgb(225, 225, 225)|R:1px|B:1px rgb(225, 225, 225)|L:1px; textAlign:center; transition:all; cursor:pointer}
+        button [399,2232 143x40] "48" {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(5, 11, 32); backgroundColor:rgb(244, 246, 249); padding:9px 4px; borderRadius:8px; border:1px solid rgb(225, 225, 225)|R:1px|B:1px rgb(225, 225, 225)|L:1px; textAlign:center; transition:all; cursor:pointer}
+        button [550,2232 143x40] "60" {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(5, 11, 32); backgroundColor:rgb(244, 246, 249); padding:9px 4px; borderRadius:8px; border:1px solid rgb(225, 225, 225)|R:1px|B:1px rgb(225, 225, 225)|L:1px; textAlign:center; transition:all; cursor:pointer}
+        button [701,2232 143x40] "72" {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(255, 255, 255); backgroundColor:rgb(64, 95, 242); padding:9px 4px; borderRadius:8px; border:1px solid rgb(64, 95, 242)|R:1px|B:1px rgb(64, 95, 242)|L:1px; textAlign:center; transition:all; cursor:pointer}
+    div [97,2292 747x48] {display:flex; flexDirection:column; gap:8px; transition:all}
+      div [97,2292 747x20] {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(107, 114, 128); display:flex; justifyContent:space-between; alignItems:baseline; gap:12px; transition:all}
+        span [97,2292 28x20] "APR" {transition:all}
+        span [813,2292 31x20] "7.9 %" {color:rgb(5, 11, 32); transition:all}
+      input [99,2322 747x16] {color:rgb(16, 16, 16); backgroundColor:rgb(255, 255, 255); margin:2px; transition:all; cursor:pointer}
+    div [97,2360 747x123] {backgroundColor:rgb(244, 246, 249); padding:18px; borderRadius:12px; display:flex; flexDirection:column; gap:4px; transition:all}
+      span [115,2378 711x20] "Estimated monthly payment" {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(107, 114, 128); transition:all}
+      span [115,2401 711x40] "$982" {fontSize:36px; fontFamily:DMSans-Bold; lineHeight:39.6px; letterSpacing:-1.08px; color:rgb(64, 95, 242); transition:all}
+        span [191,2420 27x16] "/mo" {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(107, 114, 128); display:inline; transition:all}
+      span [115,2445 711x20] "$56,160 financed · $76,939  total" {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(107, 114, 128); transition:all}
+    span [97,2502 747x20] "Estimate only. Your actual rate depends on credit history and lender terms." {fontSize:14px; fontFamily:DMSans-Medium; lineHeight:19.6px; letterSpacing:-0.14px; color:rgb(107, 114, 128); transition:all}
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

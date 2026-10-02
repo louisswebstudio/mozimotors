@@ -1,0 +1,284 @@
+import Image from "next/image";
+import Link from "next/link";
+import {
+  ArrowRight, BadgeCheck, BatteryCharging, CalendarCheck, ClipboardCheck, Droplet, FileSearch,
+  Flame, KeyRound, Leaf, Mail, MapPin, Phone, ShieldCheck, Truck, Wallet,
+} from "lucide-react";
+import { SearchBar } from "@/components/search-bar";
+import { CarCard } from "@/components/car-card";
+import { BodyIcon } from "@/components/body-icons";
+import { FinanceWidget } from "@/components/finance-widget";
+import { Testimonials } from "@/components/testimonials";
+import { Button, SectionHead } from "@/components/ui";
+import { buildCatalog, getCars, getSettings, getTestimonials } from "@/lib/wp";
+import { BODY_LABELS, CITIES } from "@/lib/format";
+import type { BodyType } from "@/lib/types";
+
+const HERO = "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2000&q=80";
+
+const BODIES: BodyType[] = ["suv", "berline", "citadine", "compacte", "break", "monospace", "coupe", "cabriolet", "pickup", "utilitaire"];
+
+const BUDGETS = [
+  { label: "< 120 000 DH", max: 120000 },
+  { label: "< 180 000 DH", max: 180000 },
+  { label: "< 250 000 DH", max: 250000 },
+  { label: "< 350 000 DH", max: 350000 },
+];
+
+const PERKS = [
+  { icon: ClipboardCheck, title: "Inspection 140+ points", text: "Mécanique, carrosserie, électronique : chaque voiture passe entre les mains de nos experts." },
+  { icon: FileSearch, title: "Rapport d'état détaillé", text: "Photos des imperfections, historique d'entretien et kilométrage vérifié, en toute transparence." },
+  { icon: ShieldCheck, title: "Contrôle d'opposition", text: "Nous vérifions l'absence de gage ou d'opposition auprès de la NARSA avant toute vente." },
+  { icon: Wallet, title: "Financement en ligne", text: "Pré-approbation en quelques minutes auprès de nos organismes partenaires." },
+  { icon: KeyRound, title: "Démarches incluses", text: "Mutation de carte grise, assurance, paperasse : nos conseillers s'en chargent." },
+  { icon: BadgeCheck, title: "Paiement sécurisé", text: "Transactions encadrées, sans espèces ni mauvaise surprise pour l'acheteur comme le vendeur." },
+];
+
+const STEPS = [
+  { icon: FileSearch, title: "Choisissez", text: "Parcourez des centaines de voitures inspectées, avec prix affiché, photos HD et rapport d'expertise." },
+  { icon: CalendarCheck, title: "Réservez", text: "Réservez en ligne, obtenez votre financement et suivez votre dossier avec un conseiller dédié." },
+  { icon: Truck, title: "Roulez", text: "Récupérez les clés au showroom ou faites-vous livrer partout au Maroc." },
+];
+
+const FUELS = [
+  { key: "essence", label: "Essence", icon: Flame },
+  { key: "diesel", label: "Diesel", icon: Droplet },
+  { key: "hybride", label: "Hybride", icon: Leaf },
+  { key: "electrique", label: "Électrique", icon: BatteryCharging },
+];
+
+export default async function Home() {
+  const [cars, testimonials, settings] = await Promise.all([getCars(), getTestimonials(), getSettings()]);
+  const catalog = buildCatalog(cars);
+  const featured = (cars.filter((c) => c.featured).length ? cars.filter((c) => c.featured) : cars).slice(0, 8);
+  const cities = [...new Set([...cars.map((c) => c.city), ...CITIES])].sort();
+
+  return (
+    <>
+      {/* HERO */}
+      <section className="relative">
+        <div className="container-x pt-4 lg:pt-6">
+          <div className="relative overflow-hidden rounded-[2rem] bg-ink">
+            <Image src={HERO} alt="" fill priority sizes="100vw" className="object-cover opacity-55" />
+            <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/10" />
+            <div className="relative px-6 pb-36 pt-14 sm:px-12 sm:pt-20 lg:pb-40 lg:pt-24">
+              <p className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3.5 py-1.5 text-xs font-semibold text-white/90 ring-1 ring-white/15 backdrop-blur">
+                <span className="size-1.5 rounded-full bg-brand" /> Voitures inspectées · Financement · Livraison
+              </p>
+              <h1 className="mt-5 max-w-3xl font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl">
+                La voiture d&apos;occasion, <span className="text-brand">sans le stress.</span>
+              </h1>
+              <p className="mt-5 max-w-xl text-lg text-white/75">
+                Achetez une voiture certifiée ou vendez la vôtre en 24h. Prix justes, rapport d&apos;expertise complet et
+                accompagnement de A à Z, partout au Maroc.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Button href="/acheter">Voir les voitures <ArrowRight className="size-4" /></Button>
+                <Button href="/vendre" variant="light">Vendre ma voiture</Button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-x relative -mt-24 lg:-mt-20">
+          <div className="mx-auto max-w-6xl px-0 sm:px-6">
+            <SearchBar catalog={catalog} cities={cities} />
+            <div className="mt-5 grid grid-cols-2 gap-4 text-center sm:grid-cols-4">
+              {[
+                ["140+", "points d'inspection"],
+                ["24h", "offre ferme pour votre voiture"],
+                [`${cars.length}+`, "voitures disponibles"],
+                ["4,8/5", "satisfaction clients"],
+              ].map(([n, l]) => (
+                <div key={l} className="py-2">
+                  <p className="font-display text-2xl font-extrabold text-ink">{n}</p>
+                  <p className="text-xs text-muted">{l}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* BODY TYPES */}
+      <section className="container-x py-16 lg:py-20">
+        <SectionHead eyebrow="Explorer" title="Trouvez le style qui vous ressemble" href="/acheter" />
+        <div className="no-scrollbar -mx-4 flex gap-3 overflow-x-auto px-4 pb-2 sm:mx-0 sm:grid sm:grid-cols-5 sm:px-0">
+          {BODIES.map((b) => (
+            <Link
+              key={b}
+              href={`/acheter?body=${b}`}
+              className="group flex w-32 shrink-0 flex-col items-center gap-2 rounded-2xl bg-white p-4 ring-1 ring-line transition hover:-translate-y-0.5 hover:ring-brand sm:w-auto"
+            >
+              <BodyIcon type={b} className="h-10 w-16 text-ink-2 transition group-hover:text-brand" />
+              <span className="text-sm font-bold text-ink">{BODY_LABELS[b]}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* FEATURED */}
+      <section className="bg-sand py-16 lg:py-20">
+        <div className="container-x">
+          <SectionHead
+            eyebrow="Sélection de la semaine"
+            title="Des voitures inspectées, prêtes à rouler"
+            sub="Chaque véhicule est contrôlé par nos experts avant publication. Prix affichés, sans frais cachés."
+            href="/acheter"
+          />
+          <div className="mb-6 flex flex-wrap gap-2">
+            {BUDGETS.map((b) => (
+              <Link key={b.max} href={`/acheter?maxPrice=${b.max}`} className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-ink-2 ring-1 ring-line hover:ring-ink">
+                {b.label}
+              </Link>
+            ))}
+          </div>
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {featured.map((c, i) => (
+              <CarCard key={c.id} car={c} rate={settings.loanRate} months={settings.loanMonths} priority={i < 4} />
+            ))}
+          </div>
+          <div className="mt-10 text-center">
+            <Button href="/acheter" variant="dark">Voir tout le stock <ArrowRight className="size-4" /></Button>
+          </div>
+        </div>
+      </section>
+
+      {/* BRANDS */}
+      <section className="container-x py-16 lg:py-20">
+        <SectionHead eyebrow="Marques" title="Parcourir par marque" href="/acheter" />
+        <div className="flex flex-wrap gap-2.5">
+          {catalog.map((b) => (
+            <Link
+              key={b.slug}
+              href={`/acheter?brand=${b.slug}`}
+              className="group inline-flex items-center gap-2 rounded-2xl bg-white px-5 py-3 ring-1 ring-line transition hover:ring-ink"
+            >
+              <span className="font-display font-bold text-ink">{b.name}</span>
+              <span className="rounded-full bg-sand px-2 py-0.5 text-xs font-bold text-muted group-hover:bg-brand-50 group-hover:text-brand">{b.count}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* FINANCE */}
+      <section className="container-x pb-16 lg:pb-20">
+        <div className="grid items-center gap-10 overflow-hidden rounded-[2rem] bg-ink p-6 sm:p-10 lg:grid-cols-2 lg:p-14">
+          <div className="text-white">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand">Financement</p>
+            <h2 className="mt-3 font-display text-3xl font-bold tracking-tight sm:text-5xl">Votre prochaine voiture commence par votre budget.</h2>
+            <p className="mt-4 max-w-md text-white/70">
+              Indiquez votre mensualité idéale et votre apport : on vous montre instantanément les voitures accessibles, puis on
+              monte votre dossier de crédit avec nos partenaires.
+            </p>
+            <ul className="mt-6 space-y-2 text-sm text-white/80">
+              {["Pré-approbation en ligne gratuite", "Jusqu'à 84 mois de financement", "Réponse de principe sous 48h"].map((t) => (
+                <li key={t} className="flex items-center gap-2"><BadgeCheck className="size-4 text-brand" /> {t}</li>
+              ))}
+            </ul>
+            <Link href="/financement" className="mt-8 inline-flex items-center gap-2 font-bold text-white hover:text-brand">
+              Obtenir ma pré-approbation <ArrowRight className="size-4" />
+            </Link>
+          </div>
+          <FinanceWidget rate={settings.loanRate} months={settings.loanMonths} />
+        </div>
+      </section>
+
+      {/* SELL CTA */}
+      <section className="container-x pb-16 lg:pb-20">
+        <div className="relative grid overflow-hidden rounded-[2rem] bg-brand lg:grid-cols-[1.2fr_1fr]">
+          <div className="relative z-10 p-8 sm:p-12 lg:p-14">
+            <h2 className="font-display text-3xl font-bold tracking-tight text-white sm:text-5xl">Combien vaut votre voiture&nbsp;?</h2>
+            <p className="mt-4 max-w-lg text-white/85">
+              Estimation gratuite en 2 minutes, inspection à domicile et offre ferme sous 24h. Vous êtes payé par virement,
+              on gère les papiers.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Button href="/vendre" variant="dark">Estimer ma voiture <ArrowRight className="size-4" /></Button>
+              <Button href="/vendre#comment" variant="light">Comment ça marche</Button>
+            </div>
+          </div>
+          <div className="relative min-h-64">
+            <Image
+              src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=1200&q=80"
+              alt=""
+              fill
+              sizes="(min-width:1024px) 40vw, 100vw"
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-brand via-brand/20 to-transparent lg:via-brand/10" />
+          </div>
+        </div>
+      </section>
+
+      {/* PERKS + STEPS */}
+      <section className="bg-sand py-16 lg:py-24">
+        <div className="container-x">
+          <SectionHead center eyebrow="L'avantage MoziMotors" title="La confiance, incluse dans le prix" sub="Tout ce qu'un achat d'occasion devrait toujours comprendre — sans supplément." />
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {PERKS.map(({ icon: Icon, title, text }) => (
+              <div key={title} className="rounded-3xl bg-white p-6 ring-1 ring-line">
+                <span className="grid size-11 place-items-center rounded-2xl bg-brand-50 text-brand"><Icon className="size-5" /></span>
+                <h3 className="mt-4 font-display text-lg font-bold text-ink">{title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-muted">{text}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-20">
+            <SectionHead center eyebrow="Comment ça marche" title="Votre voiture en 3 étapes" />
+            <ol className="grid gap-6 md:grid-cols-3">
+              {STEPS.map(({ icon: Icon, title, text }, i) => (
+                <li key={title} className="relative rounded-3xl bg-ink p-7 text-white">
+                  <span className="font-display text-6xl font-extrabold text-white/10">0{i + 1}</span>
+                  <Icon className="absolute right-7 top-7 size-7 text-brand" />
+                  <h3 className="mt-2 font-display text-xl font-bold">{title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-white/70">{text}</p>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      {/* FUEL */}
+      <section className="container-x py-16 lg:py-20">
+        <SectionHead eyebrow="Motorisation" title="Par type de carburant" />
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+          {FUELS.map(({ key, label, icon: Icon }) => (
+            <Link key={key} href={`/acheter?fuel=${key}`} className="group flex items-center justify-between rounded-3xl bg-white p-6 ring-1 ring-line transition hover:bg-ink hover:text-white">
+              <span className="font-display text-lg font-bold">{label}</span>
+              <Icon className="size-6 text-brand" />
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* TESTIMONIALS */}
+      <section className="bg-sand py-16 lg:py-20">
+        <div className="container-x">
+          <SectionHead eyebrow="Avis clients" title="Ils ont roulé avec nous" />
+        </div>
+        <Testimonials items={testimonials} />
+      </section>
+
+      {/* CONTACT */}
+      <section className="container-x py-16 lg:py-20">
+        <div className="grid gap-4 md:grid-cols-3">
+          {[
+            { icon: Phone, label: "Appelez-nous", value: settings.phone, href: `tel:${settings.phone.replace(/\s/g, "")}` },
+            { icon: Mail, label: "Écrivez-nous", value: settings.email, href: `mailto:${settings.email}` },
+            { icon: MapPin, label: "Venez nous voir", value: settings.address, href: settings.mapsUrl ?? "/contact" },
+          ].map(({ icon: Icon, label, value, href }) => (
+            <a key={label} href={href} className="flex items-center gap-4 rounded-3xl bg-white p-6 ring-1 ring-line transition hover:ring-ink">
+              <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-ink text-white"><Icon className="size-5" /></span>
+              <span>
+                <span className="block text-xs font-bold uppercase tracking-wider text-muted">{label}</span>
+                <span className="block font-bold text-ink">{value}</span>
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+    </>
+  );
+}

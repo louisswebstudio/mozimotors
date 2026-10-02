@@ -1,0 +1,86 @@
+[
+  {
+    "i": 0,
+    "name": "navigation",
+    "y": 0,
+    "h": 104
+  },
+  {
+    "i": 1,
+    "name": "hero-section",
+    "y": 0,
+    "h": 900
+  },
+  {
+    "i": 2,
+    "name": "premium-brands-section",
+    "y": 900,
+    "h": 428
+  },
+  {
+    "i": 3,
+    "name": "featured-vehicles-section",
+    "y": 1328,
+    "h": 728
+  },
+  {
+    "i": 4,
+    "name": "buyer-and-seller-banner-section",
+    "y": 2056,
+    "h": 490
+  },
+  {
+    "i": 5,
+    "name": "how-it-works-section",
+    "y": 2546,
+    "h": 1754
+  },
+  {
+    "i": 6,
+    "name": "trust-story-section",
+    "y": 4300,
+    "h": 650
+  },
+  {
+    "i": 7,
+    "name": "business-statistics-section",
+    "y": 4950,
+    "h": 174
+  },
+  {
+    "i": 8,
+    "name": "customer-testimonials-section",
+    "y": 5124,
+    "h": 738
+  },
+  {
+    "i": 9,
+    "name": "find-your-car-cta-section",
+    "y": 5862,
+    "h": 500
+  },
+  {
+    "i": 10,
+    "name": "expert-team-section",
+    "y": 6362,
+    "h": 627
+  },
+  {
+    "i": 11,
+    "name": "frequently-asked-questions-section",
+    "y": 6989,
+    "h": 547
+  },
+  {
+    "i": 12,
+    "name": "car-advice-blog-section",
+    "y": 7536,
+    "h": 684
+  },
+  {
+    "i": 13,
+    "name": "footer",
+    "y": 8220,
+    "h": 961
+  }
+]

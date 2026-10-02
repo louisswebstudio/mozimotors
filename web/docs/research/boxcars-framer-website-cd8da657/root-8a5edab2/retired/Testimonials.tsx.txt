@@ -1,0 +1,90 @@
+import Image from "next/image";
+import type { ReviewCardData } from "./content";
+import { REVIEWS } from "./content";
+import { ReviewsSlider } from "./ReviewsSlider";
+import { Container, SectionHead } from "./ui";
+
+function SmallStar() {
+  return (
+    <svg viewBox="0 0 11 10.983" className="size-[11px] shrink-0" fill="#405FF2" aria-hidden>
+      <path d="M2.555 7.023 1.974 10.583c-.046.283.256.495.506.356L5.5 9.27l3.021 1.67c.247.137.552-.071.505-.356l-.581-3.56 2.457-2.518c.195-.2.083-.538-.194-.58L7.327 3.409 5.811.181c-.113-.241-.509-.241-.622 0L3.674 3.409.292 3.925c-.278.043-.389.381-.194.58Z" />
+    </svg>
+  );
+}
+
+function initials(name: string) {
+  return name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((p) => p.charAt(0).toUpperCase())
+    .join("");
+}
+
+function ReviewCard({ r }: { r: ReviewCardData }) {
+  return (
+    <article className="flex h-auto min-h-[320px] flex-row rounded-2xl bg-bx-lavender p-1.5 bxt:h-[355px] bxt:min-h-0">
+      <div className="flex flex-1 flex-col justify-between gap-2.5 p-5 bxt:pr-[60px]">
+        <div className="flex flex-col gap-2.5">
+          <div className="flex items-center gap-2.5">
+            <div className="flex items-center gap-[7px]" role="img" aria-label={`Note ${r.rating} sur 5`}>
+              {Array.from({ length: 5 }, (_, i) => (
+                <SmallStar key={i} />
+              ))}
+            </div>
+            <span className="text-[15px] leading-6 text-bx-blue">{r.rating}</span>
+          </div>
+          <h6 className="text-base font-medium leading-[21px] text-bx-navy bxt:text-[18px] bxt:leading-[23.4px]">
+            {r.title}
+          </h6>
+          <p className="line-clamp-5 text-[15px] leading-6 text-bx-ink">{r.text}</p>
+        </div>
+        <div className="flex items-center gap-2.5">
+          {r.avatar ? (
+            <Image
+              src={r.avatar}
+              alt={r.name}
+              width={50}
+              height={50}
+              className="size-[50px] shrink-0 rounded-full object-cover"
+            />
+          ) : (
+            <span
+              aria-hidden
+              className="grid size-[50px] shrink-0 place-items-center rounded-full bg-bx-blue text-base font-medium text-white"
+            >
+              {initials(r.name)}
+            </span>
+          )}
+          <div className="flex flex-col">
+            <p className="text-base font-medium leading-[26px] text-bx-ink">{r.name}</p>
+            <p className="text-sm leading-5 text-bx-ink">{r.meta}</p>
+          </div>
+        </div>
+      </div>
+      <div className="relative hidden w-[273px] shrink-0 overflow-hidden rounded-xl bxt:block">
+        <Image src={r.image} alt="" fill sizes="273px" className="object-cover" draggable={false} />
+      </div>
+    </article>
+  );
+}
+
+/** Customer stories: header + looping review card slider. */
+export function Testimonials({ reviews }: { reviews: ReviewCardData[] }) {
+  return (
+    <section className="bg-white py-[30px] bxt:py-[60px] bxd:py-[90px]">
+      <Container className="flex flex-col gap-10">
+        <SectionHead
+          eyebrow={REVIEWS.eyebrow}
+          title={REVIEWS.title}
+          right={<p className="text-[15px] leading-6 text-bx-ink bxt:text-right">{REVIEWS.subtitle}</p>}
+        />
+        <ReviewsSlider prevLabel={REVIEWS.prev} nextLabel={REVIEWS.next}>
+          {reviews.map((r, i) => (
+            <ReviewCard key={`${r.name}-${i}`} r={r} />
+          ))}
+        </ReviewsSlider>
+      </Container>
+    </section>
+  );
+}

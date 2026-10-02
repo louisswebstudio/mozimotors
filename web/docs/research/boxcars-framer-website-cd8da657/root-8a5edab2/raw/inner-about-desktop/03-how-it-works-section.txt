@@ -1,0 +1,103 @@
+section(How It Works Section) [0,1038 1440x1754] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); backgroundImage:linear-gradient(rgb(238, 241, 251) 0%, rgb(255, 255, 255) 100%); padding:90px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:0px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Container) [42,1128 1356x1574] {padding:0px 30px; display:flex; justifyContent:flex-start; alignItems:flex-start; gap:0px; position:relative; maxWidth:1356px; zIndex:2; transition:all}
+    div(How It Works Content) [72,1128 648x407] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:30px; position:sticky; zIndex:1; transition:all}
+      div(How It Works Content Inner) [72,1128 648x407] {padding:0px 180px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:30px; position:relative; overflow:clip; transition:all}
+        div(Head) [72,1128 468x254] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:15px; position:relative; overflow:clip; transition:all}
+          div [72,1128 115x20] {position:relative; transition:all}
+            div(Variant 1) [72,1128 115x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+              div(Circle) [72,1135 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+              div(Text) [85,1128 102x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+                p [85,1128 102x20] "HOW IT WORKS" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+          div(head) [72,1163 468x156] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            h3 [72,1163 468x156] "From browsing to driving, in four simple steps" {fontSize:40px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:52px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+          div(text) [72,1334 468x48] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [72,1334 468x48] "No pressure, no jargon. We've made buying a car as clear and simple as it should be." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        div(Team Avatar Summary) [72,1412 247x49] {display:flex; justifyContent:flex-start; alignItems:center; gap:15px; position:relative; transition:all}
+          div(Team Avatar Stack) [72,1412 122x49] {display:flex; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all}
+            div(Team Avatar One) [72,1412 49x49] {gap:0px; position:absolute; top:0px; left:0px; right:73px; bottom:0px; zIndex:1; transition:all}
+              div(Team Portrait One) [72,1412 49x49] {borderRadius:100%; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; ::afterBORDER:2px/2px/2px/2px solid rgb(255, 255, 255) r=100%}
+                div [72,1412 49x49] {borderRadius:100%; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+                  img [72,1412 49x49] src=https://framerusercontent.com/images/f0VyG7epm01Zf9bLGF1jg55Sn4.jpg alt="avatar" {borderRadius:100%; overflow:clip; objectFit:cover; transition:all}
+            div(Team Avatar Two) [107,1412 49x49] {gap:0px; position:absolute; top:0px; left:35.4844px; right:37.5156px; bottom:0px; zIndex:1; transition:all}
+              div(Team Portrait Two) [107,1412 49x49] {borderRadius:100%; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; ::afterBORDER:2px/2px/2px/2px solid rgb(255, 255, 255) r=100%}
+                div [107,1412 49x49] {borderRadius:100%; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+                  img [107,1412 49x49] src=https://framerusercontent.com/images/pTuTcG3cC2VdJMeM4xhRO3VHWYM.jpg alt="man avatar" {borderRadius:100%; overflow:clip; objectFit:cover; transition:all}
+            div(Team Avatar Three) [145,1412 49x49] {gap:0px; position:absolute; top:0px; left:73px; right:0px; bottom:0px; zIndex:1; transition:all}
+              div(Team Portrait Three) [145,1412 49x49] {borderRadius:100%; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; ::afterBORDER:2px/2px/2px/2px solid rgb(255, 255, 255) r=100%}
+                div [145,1412 49x49] {borderRadius:100%; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+                  img [145,1412 49x49] src=https://framerusercontent.com/images/qGQqFJ0V7ezdzgnBv6ojEZn1kjI.jpg alt="man avatar" {borderRadius:100%; overflow:clip; objectFit:cover; transition:all}
+          div(Team Count) [209,1425 110x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+            p [209,1425 110x24] "12-person team" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+        div [72,1491 210x44] {position:relative; transition:all}
+          a(Primary) [72,1491 210x44] href=./services {color:rgb(0, 0, 238); backgroundColor:rgb(64, 95, 242); padding:10px 24px; borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+            div(Button) [96,1501 143x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+              p [96,1501 143x24] "Explore our services" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(255, 255, 255); transition:all; cursor:pointer}
+            div(icon) [247,1508 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+              div [248,1509 9x9] {backgroundImage:url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 9.096 9.096%22 overflow=%22visible%22><path d=%22M 8.551 0 L 1.612 0 C; position:relative; transition:all; cursor:pointer}
+    div(How It Works Steps) [720,1128 648x1574] {borderRadius:16px 0px 0px 16px; display:flex; flexDirection:column; justifyContent:center; alignItems:flex-end; gap:30px; position:relative; overflow:clip; transition:all}
+      div [868,1128 500x371] {position:sticky; zIndex:1; transition:all}
+        div(Default) [868,1128 500x371] {backgroundColor:rgb(255, 255, 255); padding:6px 6px 0px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all}
+          div(images) [874,1134 488x241] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+            div(img) [874,1134 488x241] {borderRadius:12px; position:relative; transition:all}
+              div [874,1134 488x241] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+                img [874,1134 488x241] src=https://framerusercontent.com/images/aeucp7FH86HpvzN5rd7gKdbe8.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all}
+            div(03) [1286,1154 56x68] {display:flex; flexDirection:column; justifyContent:flex-start; position:absolute; top:20px; left:412.453px; right:20px; bottom:153.406px; zIndex:1; transition:all}
+              h2 [1286,1154 56x68] "01" {fontSize:52px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:67.6px; color:rgb(255, 255, 255); transition:all}
+          div(Content) [874,1375 488x124] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all}
+            div(head) [894,1395 408x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              h5 [894,1395 408x26] "Browse & choose" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all}
+            div [894,1431 408x48] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [894,1431 408x48] "Explore every inspected vehicle in our stock and filter by make, price, or body type to find your match." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div [868,1529 500x371] {position:sticky; zIndex:1; transition:all}
+        div(Default) [868,1529 500x371] {backgroundColor:rgb(255, 255, 255); padding:6px 6px 0px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all}
+          div(images) [874,1535 488x241] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+            div(img) [874,1535 488x241] {borderRadius:12px; position:relative; transition:all}
+              div [874,1535 488x241] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+                img [874,1535 488x241] src=https://framerusercontent.com/images/cDK4KtjafKId0VH1hZbttvV8GTU.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all}
+            div(03) [1276,1555 66x68] {display:flex; flexDirection:column; justifyContent:flex-start; position:absolute; top:20px; left:401.594px; right:20px; bottom:153.406px; zIndex:1; transition:all}
+              h2 [1276,1555 66x68] "02" {fontSize:52px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:67.6px; color:rgb(255, 255, 255); transition:all}
+          div(Content) [874,1776 488x124] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all}
+            div(head) [894,1796 408x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              h5 [894,1796 408x26] "Get pre-approved" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all}
+            div [894,1832 408x48] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [894,1832 408x48] "Flexible financing with quick approval — know exactly what you can afford before you commit." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div [868,1930 500x371] {position:sticky; zIndex:1; transition:all}
+        div(Default) [868,1930 500x371] {backgroundColor:rgb(255, 255, 255); padding:6px 6px 0px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all}
+          div(images) [874,1936 488x241] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+            div(img) [874,1936 488x241] {borderRadius:12px; position:relative; transition:all}
+              div [874,1936 488x241] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+                img [874,1936 488x241] src=https://framerusercontent.com/images/pKIeOa5m9aAbhIG69E6xDFIlA8.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all}
+            div(03) [1274,1956 68x68] {display:flex; flexDirection:column; justifyContent:flex-start; position:absolute; top:20px; left:400.031px; right:20px; bottom:153.406px; zIndex:1; transition:all}
+              h2 [1274,1956 68x68] "03" {fontSize:52px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:67.6px; color:rgb(255, 255, 255); transition:all}
+          div(Content) [874,2177 488x124] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all}
+            div(head) [894,2197 408x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              h5 [894,2197 408x26] "Trade or pay" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all}
+            div [894,2233 408x48] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [894,2233 408x48] "Bring your current car for a fair trade-in, or choose the payment option that works best for you. No hidden costs." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      div [868,2331 500x371] {position:sticky; zIndex:1; transition:all}
+        div(Default) [868,2331 500x371] {backgroundColor:rgb(255, 255, 255); padding:6px 6px 0px; borderRadius:16px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; transition:all}
+          div(images) [874,2337 488x241] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+            div(img) [874,2337 488x241] {borderRadius:12px; position:relative; transition:all}
+              div [874,2337 488x241] {borderRadius:12px; position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all}
+                img [874,2337 488x241] src=https://framerusercontent.com/images/AfsLNxCYoKl1Uti50ad50bmJJ4.jpg alt="" {borderRadius:12px; overflow:clip; objectFit:cover; transition:all}
+            div(03) [1272,2357 70x68] {display:flex; flexDirection:column; justifyContent:flex-start; position:absolute; top:20px; left:397.578px; right:20px; bottom:153.406px; zIndex:1; transition:all}
+              h2 [1272,2357 70x68] "04" {fontSize:52px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:67.6px; color:rgb(255, 255, 255); transition:all}
+          div(Content) [874,2578 488x124] {padding:20px 60px 20px 20px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; gap:10px; position:relative; transition:all}
+            div(head) [894,2598 408x26] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              h5 [894,2598 408x26] "Drive away" {fontSize:20px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:26px; color:rgb(5, 11, 32); transition:all}
+            div [894,2634 408x48] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [894,2634 408x48] "Same-day delivery with all the paperwork handled. Simply get in and go." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+
+=== IMAGES ===
+https://framerusercontent.com/images/f0VyG7epm01Zf9bLGF1jg55Sn4.jpg | alt=avatar | natural 49x49
+https://framerusercontent.com/images/pTuTcG3cC2VdJMeM4xhRO3VHWYM.jpg | alt=man avatar | natural 49x49
+https://framerusercontent.com/images/qGQqFJ0V7ezdzgnBv6ojEZn1kjI.jpg | alt=man avatar | natural 49x49
+https://framerusercontent.com/images/aeucp7FH86HpvzN5rd7gKdbe8.jpg | alt= | natural 1428x952
+https://framerusercontent.com/images/cDK4KtjafKId0VH1hZbttvV8GTU.jpg | alt= | natural 1428x952
+https://framerusercontent.com/images/pKIeOa5m9aAbhIG69E6xDFIlA8.jpg | alt= | natural 1428x800
+https://framerusercontent.com/images/AfsLNxCYoKl1Uti50ad50bmJJ4.jpg | alt= | natural 1428x548
+
+=== BG IMAGES ===
+url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 9.096 9.096%22 overflow=%22visible%22><path d=%22M 8.551 0 L 1.612 0 C 1.512 0 1.417 0.04 1.347 0.11 C 1.276 0.18 1.237 0.276 1.237 0.375 C 1.237 0.474 1.276 0.57 1.347 0.64 C 1.417 0.71 1.512 0.75 1.612 0.75 L 7.816 0.75 L 0.121 8.445 C 0.084 8.479 0.054 8.521 0.033 8.567 C 0.012 8.613 0.001 8.663 0 8.713 C -0.001 8.764 0.008 8.814 0.027 8.861 C 0.046 8.908 0.074 8.95 0.11 8.986 C 0.146 9.022 0.188 9.05 0.235 9.069 C 0.282 9.088 0.332 9.097 0.383 9.096 C 0.433 9.095 0.483 9.084 0.529 9.063 C 0.575 9.042 0.617 9.012 0.651 8.975 L 8.346 1.28 L 8.346 7.484 C 8.346 7.584 8.385 7.679 8.456 7.749 C 8.526 7.82 8.621 7.859 8.721 7.859 C 8.82 7.859 8.916 7.82 8.986 7.749 C 9.056 7.679 9.096 7.584 9.096 7.484 L 9.096 0.545 C 9.096 0.401 9.038 0.262 8.936 0.16 C 8.834 0.058 8.696 0 8.551 0 Z%22 fill=%22rgb(255,255,255)%22></path></svg>")
+
+=== MASKS ===

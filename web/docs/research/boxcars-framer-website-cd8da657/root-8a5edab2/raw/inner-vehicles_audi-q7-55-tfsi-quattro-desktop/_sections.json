@@ -1,0 +1,80 @@
+[
+  {
+    "i": 0,
+    "name": "navigation",
+    "y": 0,
+    "h": 104
+  },
+  {
+    "i": 1,
+    "name": "hero-section",
+    "y": 104,
+    "h": 70
+  },
+  {
+    "i": 2,
+    "name": "right",
+    "y": 194,
+    "h": 512
+  },
+  {
+    "i": 3,
+    "name": "gallery",
+    "y": 194,
+    "h": 486
+  },
+  {
+    "i": 4,
+    "name": "overview",
+    "y": 740,
+    "h": 378
+  },
+  {
+    "i": 5,
+    "name": "description",
+    "y": 1177,
+    "h": 222
+  },
+  {
+    "i": 6,
+    "name": "features",
+    "y": 1459,
+    "h": 289
+  },
+  {
+    "i": 7,
+    "name": "specifications",
+    "y": 1808,
+    "h": 198
+  },
+  {
+    "i": 8,
+    "name": "payment-calculator",
+    "y": 2066,
+    "h": 481
+  },
+  {
+    "i": 9,
+    "name": "location",
+    "y": 2607,
+    "h": 697
+  },
+  {
+    "i": 10,
+    "name": "similar-vehicles-section",
+    "y": 3394,
+    "h": 638
+  },
+  {
+    "i": 11,
+    "name": "find-your-car-cta-section",
+    "y": 4032,
+    "h": 520
+  },
+  {
+    "i": 12,
+    "name": "footer",
+    "y": 4552,
+    "h": 961
+  }
+]

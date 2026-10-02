@@ -1,0 +1,76 @@
+section(Expert Team Section) [0,8049 810x1116] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); padding:60px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Container) [0,8109 810x996] {padding:0px 30px; borderRadius:12px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:40px; position:relative; maxWidth:1356px; transition:all}
+    div(Head) [30,8109 750x106] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; transition:all}
+      div(Expert Team Title Group) [30,8109 750x72] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+        div [30,8109 119x20] {position:relative; transition:all}
+          div(Variant 1) [30,8109 119x20] {display:flex; justifyContent:flex-start; alignItems:center; gap:7px; position:relative; overflow:clip; transition:all}
+            div(Circle) [30,8116 6x6] {backgroundColor:rgb(5, 11, 32); borderRadius:6px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all}
+            div(Text) [43,8109 106x20] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+              p [43,8109 106x20] "MEET THE TEAM" {fontSize:14px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:20px; textTransform:uppercase; color:rgb(5, 11, 32); transition:all}
+        div(Title) [30,8139 750x42] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+          h3 [30,8139 750x42] "A team of experts, here for you" {fontSize:32px; fontWeight:700; fontFamily:'DM Sans'; lineHeight:41.6px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+      div [30,8191 122x24] {position:relative; zIndex:1; transition:all}
+        a(No-Bg) [30,8191 122x24] href=./about {color:rgb(0, 0, 238); backgroundColor:rgba(255, 255, 255, 0); display:flex; justifyContent:center; alignItems:center; gap:8px; position:relative; overflow:clip; transition:all; cursor:pointer}
+          div(Button) [30,8191 103x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:pointer}
+            p [30,8191 103x24] "About Boxcars" {fontSize:15px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(5, 11, 32); transition:all; cursor:pointer}
+          div(icon) [141,8197 11x11] {display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; transition:all; cursor:pointer}
+            div [142,8198 9x9] {position:relative; transition:all; cursor:pointer}
+              div [142,8198 9x9] {transition:all; cursor:pointer}
+                svg [142,8198 9x9] overflow:hidden; transition:all; cursor:pointer
+          div(border) [30,8214 1x1] {backgroundColor:rgb(64, 95, 242); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:10px; position:absolute; top:23px; left:0px; right:120.984px; bottom:0px; opacity:0; transition:all; cursor:pointer}
+    div(List) [30,8255 750x850] {display:grid; justifyContent:center; gap:20px; position:relative; overflow:clip; gridTemplateColumns:365px 365px; transition:all}
+      div [30,8255 365x415] {position:relative; transition:all}
+        div(Variant 1) [30,8255 365x415] {backgroundColor:rgb(249, 251, 252); borderRadius:16px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:hidden; transition:all; cursor:default}
+          div(inner) [30,8255 365x81] {padding:30px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:5px; position:relative; transition:all; cursor:default}
+            div(head) [156,8285 113x22] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+              h5 [156,8285 113x22] "Sarah Mitchell" {fontSize:17px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:22.1px; color:rgb(5, 11, 32); transition:all; cursor:default}
+            div(role) [154,8312 117x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+              p [154,8312 117x24] "Sales Consultant" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:default}
+          div(img) [30,8336 365x330] {borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:default}
+            div(image 1786) [55,8336 315x330] {position:relative; transition:all; cursor:default}
+              div [55,8336 315x330] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:default}
+                img [55,8336 315x330] src=https://framerusercontent.com/images/jAwV3r5ta0cTDhA6lJjBjzPNA4.png alt="" {overflow:clip; objectFit:cover; transition:all; cursor:default}
+      div [415,8255 365x415] {position:relative; transition:all}
+        div(Variant 1) [415,8255 365x415] {backgroundColor:rgb(249, 251, 252); borderRadius:16px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:hidden; transition:all; cursor:default}
+          div(inner) [415,8255 365x81] {padding:30px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:5px; position:relative; transition:all; cursor:default}
+            div(head) [546,8285 103x22] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+              h5 [546,8285 103x22] "David Okafor" {fontSize:17px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:22.1px; color:rgb(5, 11, 32); transition:all; cursor:default}
+            div(role) [535,8312 125x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+              p [535,8312 125x24] "Finance Specialist" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:default}
+          div(img) [415,8336 365x330] {borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:default}
+            div(image 1786) [440,8336 315x330] {position:relative; transition:all; cursor:default}
+              div [440,8336 315x330] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:default}
+                img [440,8336 315x330] src=https://framerusercontent.com/images/uNFrpfVf9vEBA2uLgLLXSUPfsQ.png alt="" {overflow:clip; objectFit:cover; transition:all; cursor:default}
+      div [30,8690 365x415] {position:relative; transition:all}
+        div(Variant 1) [30,8690 365x415] {backgroundColor:rgb(249, 251, 252); borderRadius:16px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:hidden; transition:all; cursor:default}
+          div(inner) [30,8690 365x81] {padding:30px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:5px; position:relative; transition:all; cursor:default}
+            div(head) [152,8720 120x22] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+              h5 [152,8720 120x22] "James Bennett" {fontSize:17px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:22.1px; color:rgb(5, 11, 32); transition:all; cursor:default}
+            div(role) [147,8747 131x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+              p [147,8747 131x24] "Trade-In Appraiser" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:default}
+          div(img) [30,8771 365x330] {borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:default}
+            div(image 1786) [55,8771 315x330] {position:relative; transition:all; cursor:default}
+              div [55,8771 315x330] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:default}
+                img [55,8771 315x330] src=https://framerusercontent.com/images/R1sMTr2ZimpypRGRPfZyiqOJuxI.png alt="" {overflow:clip; objectFit:cover; transition:all; cursor:default}
+      div [415,8690 365x415] {position:relative; transition:all}
+        div(Variant 1) [415,8690 365x415] {backgroundColor:rgb(249, 251, 252); borderRadius:16px; display:flex; flexDirection:column; justifyContent:flex-start; alignItems:center; gap:0px; position:relative; overflow:hidden; transition:all; cursor:default}
+          div(inner) [415,8690 365x81] {padding:30px 0px 0px; display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:5px; position:relative; transition:all; cursor:default}
+            div(head) [553,8720 89x22] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+              h5 [553,8720 89x22] "Elena Rossi" {fontSize:17px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:22.1px; color:rgb(5, 11, 32); transition:all; cursor:default}
+            div(role) [535,8747 125x24] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all; cursor:default}
+              p [535,8747 125x24] "Customer Advisor" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all; cursor:default}
+          div(img) [415,8771 365x330] {borderRadius:12px; display:flex; justifyContent:center; alignItems:center; gap:10px; position:relative; overflow:hidden; transition:all; cursor:default}
+            div(image 1786) [440,8771 315x330] {position:relative; transition:all; cursor:default}
+              div [440,8771 315x330] {position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all; cursor:default}
+                img [440,8771 315x330] src=https://framerusercontent.com/images/OqWHXEyPKSzWq4qIXSbBLz4.png alt="" {overflow:clip; objectFit:cover; transition:all; cursor:default}
+
+=== IMAGES ===
+https://framerusercontent.com/images/jAwV3r5ta0cTDhA6lJjBjzPNA4.png | alt= | natural 315x330
+https://framerusercontent.com/images/uNFrpfVf9vEBA2uLgLLXSUPfsQ.png | alt= | natural 315x330
+https://framerusercontent.com/images/R1sMTr2ZimpypRGRPfZyiqOJuxI.png | alt= | natural 315x330
+https://framerusercontent.com/images/OqWHXEyPKSzWq4qIXSbBLz4.png | alt= | natural 315x330
+
+=== BG IMAGES ===
+
+
+=== MASKS ===

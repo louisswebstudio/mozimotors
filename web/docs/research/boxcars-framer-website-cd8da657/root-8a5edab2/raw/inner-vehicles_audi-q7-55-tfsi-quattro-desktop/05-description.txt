@@ -1,0 +1,16 @@
+div(Description) [72,1177 797x222] {fontSize:12px; fontWeight:400; fontFamily:sans-serif; lineHeight:normal; letterSpacing:normal; textTransform:none; color:rgb(0, 0, 0); display:flex; flexDirection:column; justifyContent:center; alignItems:center; gap:20px; position:relative; overflow:clip; textAlign:start; transition:all}
+  div(Head) [72,1177 797x34] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+    div(head) [72,1177 797x34] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+      h5 [72,1177 797x34] "Description" {fontSize:26px; fontWeight:500; fontFamily:'DM Sans'; lineHeight:33.8px; textTransform:capitalize; color:rgb(5, 11, 32); transition:all}
+  div(items) [72,1231 797x168] {display:flex; flexDirection:column; justifyContent:center; alignItems:flex-start; gap:10px; position:relative; overflow:clip; transition:all}
+    div(text) [72,1231 797x168] {display:flex; flexDirection:column; justifyContent:flex-start; position:relative; transition:all}
+      p [72,1231 797x96] "The Audi Q7 55 TFSI quattro is a refined seven-seat SUV that blends commanding performance with everyday practicality. Its 3.0L turbocharged V6 delivers effortless power, while the quattro all-wheel-drive system provides confident handling in every condition. Inside, premium leather, the Virtual Coc" {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+      p [72,1327 797x72] "This example has been meticulously maintained with a complete service history and has passed our comprehensive 150-point inspection. With low mileage and a clean record, it's ready to drive away today. Book a test drive to experience the quiet confidence of the Q7 for yourself." {fontSize:15px; fontFamily:'DM Sans'; lineHeight:24px; color:rgb(32, 33, 36); transition:all}
+
+=== IMAGES ===
+
+
+=== BG IMAGES ===
+
+
+=== MASKS ===
