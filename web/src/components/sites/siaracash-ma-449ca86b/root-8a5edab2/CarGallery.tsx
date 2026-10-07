@@ -4,7 +4,7 @@
  * Car photo gallery from siaracash.ma/voiture/…
  * - Desktop: category pill bar over a 4:3 photo, prev/next, save heart, thumbnail strip.
  * - Mobile: full-width swipe carousel with « 1 / n » counter, round category buttons underneath.
- * Categories come from WordPress (Extérieur, Intérieur, Moteur, Tableau de bord, Pneus, Imperfections);
+ * Categories come from Studio (Extérieur, Intérieur, Moteur, Tableau de bord, Pneus, Imperfections);
  * « Toutes » shows every photo. Empty categories are hidden.
  */
 import { useEffect, useMemo, useRef, useState } from "react";

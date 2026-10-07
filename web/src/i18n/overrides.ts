@@ -1,5 +1,5 @@
 /**
- * Text overrides edited in WordPress › Textes du site. They are a flat map of dictionary paths
+ * Text overrides edited in Studio › Textes du site. They are a flat map of dictionary paths
  * (`hero.title`, `faq.items.0.q`) to replacement strings and are applied over the built-in
  * dictionary. Only paths that already hold a string are touched, so a stale key (renamed in code)
  * is ignored and can never break the page structure.

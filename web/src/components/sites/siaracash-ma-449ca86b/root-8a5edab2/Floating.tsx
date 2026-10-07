@@ -11,7 +11,7 @@ export function WhatsAppFab({ number }: { number: string }) {
   // Car and sell pages have their own bottom CTA bar on mobile.
   const { t } = useV2();
   const path = v2BasePath(usePathname());
-  const carPage = path.startsWith("/v2/voiture/") || path.startsWith("/v2/vendre");
+  const carPage = path.startsWith("/voiture/") || path.startsWith("/vendre");
   return (
     <a
       href={waLink(number)}
@@ -67,7 +67,7 @@ export function CookieBanner() {
         </h2>
         <p className="text-[13px] sm:text-sm leading-snug sm:leading-relaxed text-[color:var(--color-ink-muted)] mb-3 sm:mb-4">
           {t("Les cookies nous permettent de vous proposer du contenu adapté à vos préférences et d'améliorer MoziMotors chaque jour. En acceptant, vous contribuez à une expérience plus pertinente — uniquement pour vous.")}{" "}
-          <a className="text-[color:var(--color-brand-purple)] font-medium underline" href={href("/v2/cookies")}>
+          <a className="text-[color:var(--color-brand-purple)] font-medium underline" href={href("/cookies")}>
             {t("En savoir plus")}
           </a>
         </p>
@@ -80,7 +80,7 @@ export function CookieBanner() {
             >
               {t("Refuser")}
             </button>
-            <a href={href("/v2/cookies")} className="text-sm font-medium text-[color:var(--color-ink-muted)] hover:text-[color:var(--color-ink-strong)] px-2 py-1.5">
+            <a href={href("/cookies")} className="text-sm font-medium text-[color:var(--color-ink-muted)] hover:text-[color:var(--color-ink-strong)] px-2 py-1.5">
               {t("Personnaliser")}
             </a>
           </div>

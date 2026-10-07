@@ -10,7 +10,7 @@ export async function BodyTypeRail() {
           {t("Voitures d'occasion par type de carrosserie")}
         </h2>
         <div className="flex snap-x snap-mandatory gap-3 overflow-x-auto scroll-smooth pb-2 scrollbar-hide lg:grid lg:grid-cols-3 lg:overflow-visible lg:pb-0 lg:snap-none">
-          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/v2/acheter?body=berline")}>
+          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/acheter?body=berline")}>
             <img
               src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/body-types-v2/sedan_2x_car.webp"
               alt=""
@@ -20,7 +20,7 @@ export async function BodyTypeRail() {
             />
             <span className="text-center text-[13px] font-semibold leading-tight text-[color:var(--color-brand-dark)]">{t("Berline")}</span>
           </a>
-          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/v2/acheter?body=cabriolet")}>
+          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/acheter?body=cabriolet")}>
             <img
               src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/body-types-v2/convertible_2x_car.webp"
               alt=""
@@ -30,7 +30,7 @@ export async function BodyTypeRail() {
             />
             <span className="text-center text-[13px] font-semibold leading-tight text-[color:var(--color-brand-dark)]">{t("Cabriolet")}</span>
           </a>
-          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/v2/acheter?body=citadine")}>
+          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/acheter?body=citadine")}>
             <img
               src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/body-types-v2/compact_2x_car.webp"
               alt=""
@@ -40,7 +40,7 @@ export async function BodyTypeRail() {
             />
             <span className="text-center text-[13px] font-semibold leading-tight text-[color:var(--color-brand-dark)]">{t("Compacte")}</span>
           </a>
-          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/v2/acheter?body=pickup")}>
+          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/acheter?body=pickup")}>
             <img
               src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/home/body-pickup.webp"
               alt=""
@@ -50,7 +50,7 @@ export async function BodyTypeRail() {
             />
             <span className="text-center text-[13px] font-semibold leading-tight text-[color:var(--color-brand-dark)]">{t("Pick-up")}</span>
           </a>
-          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/v2/acheter?body=suv")}>
+          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/acheter?body=suv")}>
             <img
               src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/body-types-v2/suv_2x_car.webp"
               alt=""
@@ -60,7 +60,7 @@ export async function BodyTypeRail() {
             />
             <span className="text-center text-[13px] font-semibold leading-tight text-[color:var(--color-brand-dark)]">SUV</span>
           </a>
-          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/v2/acheter?body=monospace")}>
+          <a className="group flex w-[112px] flex-shrink-0 snap-start flex-col items-center gap-2 lg:w-auto" href={href("/acheter?body=monospace")}>
             <img
               src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/body-types-v2/van_2x_car.webp"
               alt=""

@@ -2,7 +2,7 @@
 export const A = "/sites/siaracash-ma-449ca86b/root-8a5edab2";
 
 /** Home of this version of the site. */
-export const HOME = "/v2";
+export const HOME = "/";
 
 /** MoziMotors logo in place of the SIARACA$H wordmark (same 1.47em-tall footprint). */
 export function Logo({ white = false, height = 32 }: { white?: boolean; height?: number }) {

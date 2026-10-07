@@ -11,16 +11,16 @@ import { useV2 } from "./V2Locale";
 import { localizeV2, v2BasePath, type V2Locale } from "./locale";
 
 const NAV = [
-  { label: "Acheter", href: "/v2/acheter" },
-  { label: "Vendre", href: "/v2/vendre" },
-  { label: "Certifié MoziMotors", href: "/v2/pourquoi-mozimotors" },
+  { label: "Acheter", href: "/acheter" },
+  { label: "Vendre", href: "/vendre" },
+  { label: "Certifié MoziMotors", href: "/pourquoi-mozimotors" },
 ];
 
 const DRAWER_NAV = [
-  { label: "Acheter", href: "/v2/acheter" },
-  { label: "Vendre", href: "/v2/vendre" },
-  { label: "Pourquoi MoziMotors ?", href: "/v2/pourquoi-mozimotors" },
-  { label: "FAQ", href: "/v2/faq" },
+  { label: "Acheter", href: "/acheter" },
+  { label: "Vendre", href: "/vendre" },
+  { label: "Pourquoi MoziMotors ?", href: "/pourquoi-mozimotors" },
+  { label: "FAQ", href: "/faq" },
 ];
 
 const LANGS: { code: V2Locale; label: string; flag: string }[] = [
@@ -134,7 +134,7 @@ function LanguageMenu() {
 function HeaderSearch() {
   const { t, href } = useV2();
   return (
-    <form action={href("/v2/acheter")} className="relative hidden items-center xl:flex">
+    <form action={href("/acheter")} className="relative hidden items-center xl:flex">
       <div className="flex items-center gap-2 rounded-full border border-[color:var(--color-line-soft)] bg-[color:var(--color-surface-soft)] ps-3.5 pe-2 focus-within:border-[color:var(--color-brand-teal)] focus-within:ring-2 focus-within:ring-[color:var(--color-brand-teal)]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -298,13 +298,13 @@ export function Drawer({ onClose, whatsapp }: { onClose: () => void; whatsapp: s
         <div className="mx-4 space-y-3 pb-8">
           <a
             className="block w-full rounded-xl bg-[color:var(--color-brand-teal)] py-3.5 text-center text-[15px] font-semibold text-white transition-colors hover:bg-[color:var(--color-brand-teal-hover)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-            href={href("/v2/acheter")}
+            href={href("/acheter")}
           >
             {t("Acheter")}
           </a>
           <a
             className="block w-full rounded-xl border-2 border-[color:var(--color-brand-teal)] bg-white text-[color:var(--color-brand-teal)] hover:bg-[color:var(--color-brand-teal-soft)] py-3.5 text-center text-[15px] font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-            href={href("/v2/vendre")}
+            href={href("/vendre")}
           >
             {t("Vendre")}
           </a>
@@ -319,7 +319,7 @@ export function SiteHeader({ whatsapp }: { whatsapp: string }) {
   const [menu, setMenu] = useState(false);
   const { t, href } = useV2();
   const path = v2BasePath(usePathname());
-  const listing = path.startsWith("/v2/acheter") || path.startsWith("/v2/voiture/");
+  const listing = path.startsWith("/acheter") || path.startsWith("/voiture/");
   return (
     <header
       className={`${listing ? "hidden lg:block" : ""} sticky top-0 z-50 border-b border-[color:var(--color-line-soft)] bg-white text-[color:var(--color-brand-dark)]`}

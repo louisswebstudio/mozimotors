@@ -7,7 +7,7 @@ import { fr } from "./dictionaries/fr";
 import { en } from "./dictionaries/en";
 import { ar } from "./dictionaries/ar";
 import { applyOverrides } from "./overrides";
-import { getTextOverrides } from "@/lib/wp";
+import { getTextOverrides } from "@/lib/cms";
 
 /** Server side: every dictionary is available; only the current one is sent to the client. */
 export const DICTIONARIES = { fr, en, ar } satisfies Record<Locale, typeof fr>;
@@ -19,7 +19,7 @@ export async function getLocale(): Promise<Locale> {
   return l;
 }
 
-/** The dictionary for `locale` with the client's edits from WordPress applied (deduplicated per request). */
+/** The dictionary for `locale` with the client's edits from Studio › Textes du site applied (deduplicated per request). */
 export const getDictionary = cache(async (locale: Locale) =>
   applyOverrides(DICTIONARIES[locale] as typeof fr, await getTextOverrides(locale)),
 );

@@ -4,7 +4,7 @@
  * /v2/vendre/demande — siaracash.ma/sell/demande look (purple band, « Étape n sur 4 », teal progress,
  * overlapping white card) over the MoziMotors sell flow of src/components/sell-wizard.tsx:
  * 1 Ville (coverage) → 2 Coordonnées → 3 Véhicule → 4 Créneau d'inspection → one "estimation" lead to /api/leads.
- * Copy comes from the main site's dictionary for the current language (t.sellWizard), so it stays editable from WordPress.
+ * Copy comes from the main site's dictionary for the current language (t.sellWizard), so it stays editable from Studio › Textes du site.
  * The lead payload stays in French for the back office.
  */
 import { useEffect, useMemo, useState } from "react";
@@ -214,7 +214,6 @@ export function V2SellWizard({
     const body = {
       type: "estimation",
       lang: "fr",
-      source: "v2",
       name: d.name.trim(),
       phone: phone ?? d.phone,
       email: d.email.trim(),
@@ -282,7 +281,7 @@ export function V2SellWizard({
               {w.backHome}
             </a>
             <a
-              href={href("/v2/acheter")}
+              href={href("/acheter")}
               className="flex h-[50px] flex-1 items-center justify-center rounded-full bg-[color:var(--color-brand-teal)] hover:bg-[color:var(--color-brand-teal-hover)] text-[15px] font-bold text-white"
             >
               {w.seeCars}

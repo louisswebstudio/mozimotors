@@ -1,31 +1,21 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { DEFAULT_LOCALE, LOCALES } from "./i18n/config";
 
-/** Locales of the siaracash.ma-style version (app/v2/[lang]). */
-const V2_LOCALES = ["fr", "en", "ar"];
-
 /**
  * Locale routing. All pages live under app/[lang]; French (default) keeps the unprefixed URLs:
  * - `/acheter`      → rewritten to `/fr/acheter` (URL bar unchanged)
  * - `/en/acheter`   → served as is
  * - `/fr/acheter`   → 308 to `/acheter`, so each page has exactly one French URL
- * The /v2 version (app/v2/[lang]) follows the same scheme below /v2: `/v2/acheter` (fr), `/v2/en/acheter`, `/v2/ar/acheter`.
+ * - `/v2/...`       → 308 to the same page without `/v2` (the redesign was previewed there before going live)
  */
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const parts = pathname.split("/");
 
   if (parts[1] === "v2") {
-    const seg = parts[2];
-    if (seg === DEFAULT_LOCALE) {
-      const url = request.nextUrl.clone();
-      url.pathname = `/v2${pathname.slice(`/v2/${DEFAULT_LOCALE}`.length)}`;
-      return NextResponse.redirect(url, 308);
-    }
-    if (V2_LOCALES.includes(seg)) return NextResponse.next();
     const url = request.nextUrl.clone();
-    url.pathname = `/v2/${DEFAULT_LOCALE}${pathname.slice(3)}`;
-    return NextResponse.rewrite(url);
+    url.pathname = pathname.slice(3) || "/";
+    return NextResponse.redirect(url, 308);
   }
 
   const first = parts[1];

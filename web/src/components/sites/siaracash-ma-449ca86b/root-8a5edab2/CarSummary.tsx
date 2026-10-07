@@ -146,7 +146,7 @@ export function MobileTopBar({ car }: { car: ListedCar }) {
         <button
           type="button"
           aria-label={t("Retour")}
-          onClick={() => (history.length > 1 ? router.back() : router.push(href("/v2/acheter")))}
+          onClick={() => (history.length > 1 ? router.back() : router.push(href("/acheter")))}
           className="-ms-1 grid size-9 shrink-0 place-items-center rounded-full hover:bg-[var(--cc-soft)]"
         >
           <ChevronLeft className="size-6 text-[var(--cc-ink)]" aria-hidden="true" />

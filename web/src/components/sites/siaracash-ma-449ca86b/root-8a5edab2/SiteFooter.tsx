@@ -26,15 +26,15 @@ const ICON = {
 };
 
 const SERVICES = [
-  { label: "Vente de voiture", href: "/v2/vendre" },
-  { label: "Achat de voiture", href: "/v2/acheter" },
-  { label: "Certifié MoziMotors", href: "/v2/pourquoi-mozimotors" },
-  { label: "Offres de la semaine", href: "/v2/acheter" },
+  { label: "Vente de voiture", href: "/vendre" },
+  { label: "Achat de voiture", href: "/acheter" },
+  { label: "Certifié MoziMotors", href: "/pourquoi-mozimotors" },
+  { label: "Offres de la semaine", href: "/acheter" },
 ];
 const ABOUT = [
-  { label: "À propos de nous", href: "/v2/pourquoi-mozimotors" },
-  { label: "Comment ça marche", href: "/v2/pourquoi-mozimotors" },
-  { label: "FAQ", href: "/v2/faq" },
+  { label: "À propos de nous", href: "/pourquoi-mozimotors" },
+  { label: "Comment ça marche", href: "/pourquoi-mozimotors" },
+  { label: "FAQ", href: "/faq" },
 ];
 
 export function SiteFooter({ settings }: { settings: SiteSettings }) {
@@ -139,13 +139,13 @@ export function SiteFooter({ settings }: { settings: SiteSettings }) {
         </div>
         <div className="mt-[36px] flex flex-col gap-[16px] border-t border-white/10 pt-[24px] text-[14px] font-medium leading-[18px] tracking-[-0.42px] text-white/80 lg:mt-[48px] lg:flex-row lg:items-center lg:justify-between">
           <div className="flex flex-wrap items-center gap-x-[28px] gap-y-[10px]">
-            <a className="transition-opacity hover:opacity-70" href={href("/v2/conditions-generales")}>
+            <a className="transition-opacity hover:opacity-70" href={href("/conditions-generales")}>
               {t("Conditions générales")}
             </a>
-            <a className="transition-opacity hover:opacity-70" href={href("/v2/politique-de-confidentialite")}>
+            <a className="transition-opacity hover:opacity-70" href={href("/politique-de-confidentialite")}>
               {t("Politique de confidentialité")}
             </a>
-            <a className="transition-opacity hover:opacity-70" href={href("/v2/cookies")}>
+            <a className="transition-opacity hover:opacity-70" href={href("/cookies")}>
               {t("Cookies")}
             </a>
             <button type="button" className="transition-opacity hover:opacity-70" onClick={() => window.dispatchEvent(new Event("mozi:v2-cookies"))}>

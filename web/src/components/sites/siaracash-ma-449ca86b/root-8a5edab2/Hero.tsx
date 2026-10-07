@@ -4,7 +4,7 @@
  * - QuickNav: floating icon tab row overlapping the hero (desktop) / 2-up card (mobile).
  *   Financement and Le Neuf are left out on request.
  */
-import type { Catalog } from "@/lib/wp";
+import type { Catalog } from "@/lib/cms";
 import { A, HOME } from "./assets";
 import { SearchCard } from "./SearchCard";
 import { getV2 } from "./server-locale";
@@ -36,14 +36,14 @@ export async function DesktopHero({ catalog, cities }: { catalog: Catalog; citie
             <div className="flex flex-wrap items-center" style={{ gap: 16 }}>
               <a
                 className="inline-flex h-[56px] items-center justify-center gap-2 rounded-full bg-[color:var(--color-brand-teal)] px-8 text-[16px] font-semibold text-white shadow-sm transition-colors hover:bg-[color:var(--color-brand-teal-hover)]"
-                href={href("/v2/acheter")}
+                href={href("/acheter")}
               >
                 {t("Voir les voitures")}
                 <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="size-4 rtl:rotate-180"><path d="m9 18 6-6-6-6" /></svg>
               </a>
               <a
                 className="inline-flex h-[56px] items-center justify-center gap-2 rounded-full border-2 border-[color:var(--color-brand-teal)] bg-white px-8 text-[16px] font-semibold text-[color:var(--color-brand-teal)] transition-colors hover:bg-[color:var(--color-brand-teal-soft)]"
-                href={href("/v2/vendre")}
+                href={href("/vendre")}
               >
                 {t("Vendre ma voiture")}
                 <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="size-4 rtl:rotate-180"><path d="m9 18 6-6-6-6" /></svg>
@@ -75,8 +75,8 @@ export function MobileSearch({ catalog, cities }: { catalog: Catalog; cities: st
 
 const DESKTOP_TABS = [
   { label: "Accueil", href: HOME, img: "nav-home", active: true },
-  { label: "Acheter", href: "/v2/acheter", img: "nav-buy" },
-  { label: "Vendre", href: "/v2/vendre", img: "nav-sell" },
+  { label: "Acheter", href: "/acheter", img: "nav-buy" },
+  { label: "Vendre", href: "/vendre", img: "nav-sell" },
 ];
 
 export async function QuickNavDesktop() {

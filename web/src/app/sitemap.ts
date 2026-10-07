@@ -1,5 +1,5 @@
 ﻿import type { MetadataRoute } from "next";
-import { getCars } from "@/lib/wp";
+import { getCars } from "@/lib/cms";
 import { INTL_LOCALE, LOCALES, localizePath } from "@/i18n/config";
 
 /** Every page in every language, each entry listing its translations (hreflang) for search engines. */

@@ -28,7 +28,7 @@ export function CarListings({ featured, all }: { featured: ListedCar[]; all: Lis
 
   const r = RANGES[range];
   const cars = tab === "featured" ? featured : all.filter((c) => c.priceValue >= r.min && c.priceValue < r.max).slice(0, 8);
-  const seeAll = href(tab === "featured" ? "/v2/acheter" : `/v2/acheter?minPrice=${r.min}${Number.isFinite(r.max) ? `&maxPrice=${r.max}` : ""}`);
+  const seeAll = href(tab === "featured" ? "/acheter" : `/acheter?minPrice=${r.min}${Number.isFinite(r.max) ? `&maxPrice=${r.max}` : ""}`);
 
   const tabs = [
     { id: "featured" as const, label: "Sélectionné pour vous" },

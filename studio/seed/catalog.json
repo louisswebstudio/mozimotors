@@ -1,0 +1,1552 @@
+[
+  {
+    "name": "Alfa Romeo",
+    "slug": "alfa-romeo",
+    "models": [
+      {
+        "name": "Giulia",
+        "slug": "giulia"
+      },
+      {
+        "name": "Junior",
+        "slug": "junior"
+      },
+      {
+        "name": "Stelvio",
+        "slug": "stelvio"
+      },
+      {
+        "name": "Tonale",
+        "slug": "tonale"
+      }
+    ]
+  },
+  {
+    "name": "Audi",
+    "slug": "audi",
+    "models": [
+      {
+        "name": "A3 Berline",
+        "slug": "a3-berline"
+      },
+      {
+        "name": "A3 Sportback",
+        "slug": "a3-sportback"
+      },
+      {
+        "name": "A4",
+        "slug": "a4"
+      },
+      {
+        "name": "A5 Coupé",
+        "slug": "a5-coupe"
+      },
+      {
+        "name": "A5 SportBack",
+        "slug": "a5-sportback"
+      },
+      {
+        "name": "A6",
+        "slug": "a6"
+      },
+      {
+        "name": "A7 Sportback",
+        "slug": "a7-sportback"
+      },
+      {
+        "name": "A8",
+        "slug": "a8"
+      },
+      {
+        "name": "E-tron",
+        "slug": "e-tron"
+      },
+      {
+        "name": "E-tron Sportback",
+        "slug": "e-tron-sportback"
+      },
+      {
+        "name": "Q2",
+        "slug": "q2"
+      },
+      {
+        "name": "Q3",
+        "slug": "q3"
+      },
+      {
+        "name": "Q3 Sportback",
+        "slug": "q3-sportback"
+      },
+      {
+        "name": "Q5",
+        "slug": "q5"
+      },
+      {
+        "name": "Q5 Sportback",
+        "slug": "q5-sportback"
+      },
+      {
+        "name": "Q7",
+        "slug": "q7"
+      },
+      {
+        "name": "Q8",
+        "slug": "q8"
+      }
+    ]
+  },
+  {
+    "name": "BAIC",
+    "slug": "baic",
+    "models": []
+  },
+  {
+    "name": "BMW",
+    "slug": "bmw",
+    "models": [
+      {
+        "name": "i4",
+        "slug": "i4"
+      },
+      {
+        "name": "iX",
+        "slug": "ix"
+      },
+      {
+        "name": "Série 1",
+        "slug": "serie-1"
+      },
+      {
+        "name": "Série 2 Gran Coupé",
+        "slug": "serie-2-gran-coupe"
+      },
+      {
+        "name": "Série 3",
+        "slug": "serie-3"
+      },
+      {
+        "name": "Série 4 Cabriolet",
+        "slug": "serie-4-cabriolet"
+      },
+      {
+        "name": "Série 4 Coupé",
+        "slug": "serie-4-coupe"
+      },
+      {
+        "name": "Série 5",
+        "slug": "serie-5"
+      },
+      {
+        "name": "Série 7",
+        "slug": "serie-7"
+      },
+      {
+        "name": "X1",
+        "slug": "x1"
+      },
+      {
+        "name": "X3",
+        "slug": "x3"
+      },
+      {
+        "name": "X4",
+        "slug": "x4"
+      },
+      {
+        "name": "X5",
+        "slug": "x5"
+      },
+      {
+        "name": "X6",
+        "slug": "x6"
+      },
+      {
+        "name": "X7",
+        "slug": "x7"
+      },
+      {
+        "name": "Z4 Roadster",
+        "slug": "z4-roadster"
+      }
+    ]
+  },
+  {
+    "name": "BYD",
+    "slug": "byd",
+    "models": [
+      {
+        "name": "ATTO 2",
+        "slug": "atto-2"
+      },
+      {
+        "name": "Atto 3",
+        "slug": "atto-3"
+      },
+      {
+        "name": "ATTO 3 EVO",
+        "slug": "atto-3-evo"
+      },
+      {
+        "name": "Han",
+        "slug": "han"
+      },
+      {
+        "name": "Seagull",
+        "slug": "seagull"
+      },
+      {
+        "name": "Seal",
+        "slug": "seal"
+      },
+      {
+        "name": "Seal 5",
+        "slug": "seal-5"
+      },
+      {
+        "name": "Seal U",
+        "slug": "seal-u"
+      },
+      {
+        "name": "SEALION 5 PHEV",
+        "slug": "sealion-5-phev"
+      },
+      {
+        "name": "Ti 7",
+        "slug": "ti-7"
+      }
+    ]
+  },
+  {
+    "name": "CHANGAN",
+    "slug": "changan",
+    "models": [
+      {
+        "name": "Alsvin",
+        "slug": "alsvin"
+      },
+      {
+        "name": "CS15",
+        "slug": "cs15"
+      },
+      {
+        "name": "CS35+",
+        "slug": "cs35-2"
+      },
+      {
+        "name": "CS55 PHEV",
+        "slug": "cs55-phev"
+      },
+      {
+        "name": "CS55+",
+        "slug": "cs55"
+      },
+      {
+        "name": "Uni-K",
+        "slug": "uni-k"
+      }
+    ]
+  },
+  {
+    "name": "Chery",
+    "slug": "chery",
+    "models": [
+      {
+        "name": "EQ1",
+        "slug": "eq1"
+      },
+      {
+        "name": "Tiggo 2 Pro",
+        "slug": "tiggo-2-pro"
+      },
+      {
+        "name": "Tiggo 4 Pro",
+        "slug": "tiggo-4-pro"
+      },
+      {
+        "name": "Tiggo 7 Pro",
+        "slug": "tiggo-7-pro"
+      },
+      {
+        "name": "Tiggo 8 Pro",
+        "slug": "tiggo-8-pro"
+      }
+    ]
+  },
+  {
+    "name": "Citroën",
+    "slug": "citroen",
+    "models": [
+      {
+        "name": "Ami",
+        "slug": "ami"
+      },
+      {
+        "name": "Berlingo",
+        "slug": "berlingo"
+      },
+      {
+        "name": "C3",
+        "slug": "c3"
+      },
+      {
+        "name": "C3 AirCross",
+        "slug": "c3-aircross"
+      },
+      {
+        "name": "C4",
+        "slug": "c4"
+      },
+      {
+        "name": "C4 X",
+        "slug": "c4-x"
+      },
+      {
+        "name": "C5 AirCross",
+        "slug": "c5-aircross"
+      },
+      {
+        "name": "C5 AirCross FL",
+        "slug": "c5-aircross-fl"
+      }
+    ]
+  },
+  {
+    "name": "Cupra",
+    "slug": "cupra",
+    "models": [
+      {
+        "name": "Cupra Ateca",
+        "slug": "cupra-ateca"
+      },
+      {
+        "name": "CUPRA Leon",
+        "slug": "cupra-leon"
+      },
+      {
+        "name": "Formentor",
+        "slug": "formentor"
+      },
+      {
+        "name": "Formentor PHEV",
+        "slug": "formentor-phev"
+      },
+      {
+        "name": "Terramar",
+        "slug": "terramar"
+      },
+      {
+        "name": "Terramar PHEV",
+        "slug": "terramar-phev"
+      }
+    ]
+  },
+  {
+    "name": "Dacia",
+    "slug": "dacia",
+    "models": [
+      {
+        "name": "Bigster",
+        "slug": "bigster"
+      },
+      {
+        "name": "Duster",
+        "slug": "duster"
+      },
+      {
+        "name": "Jogger",
+        "slug": "jogger"
+      },
+      {
+        "name": "Lodgy",
+        "slug": "lodgy"
+      },
+      {
+        "name": "Logan",
+        "slug": "logan"
+      },
+      {
+        "name": "Sandero",
+        "slug": "sandero"
+      },
+      {
+        "name": "Spring",
+        "slug": "spring"
+      }
+    ]
+  },
+  {
+    "name": "Deepal",
+    "slug": "deepal",
+    "models": []
+  },
+  {
+    "name": "DENZA",
+    "slug": "denza",
+    "models": []
+  },
+  {
+    "name": "DFSK",
+    "slug": "dfsk",
+    "models": [
+      {
+        "name": "DFSK E5",
+        "slug": "dfsk-e5"
+      },
+      {
+        "name": "Glory 580",
+        "slug": "glory-580"
+      },
+      {
+        "name": "Glory IX5",
+        "slug": "glory-ix5"
+      }
+    ]
+  },
+  {
+    "name": "DS",
+    "slug": "ds",
+    "models": [
+      {
+        "name": "4",
+        "slug": "4"
+      },
+      {
+        "name": "4 LIGNE OR",
+        "slug": "4-ligne-or"
+      },
+      {
+        "name": "7",
+        "slug": "7"
+      },
+      {
+        "name": "7 E-Tense",
+        "slug": "7-e-tense"
+      },
+      {
+        "name": "7 LIGNE OR",
+        "slug": "7-ligne-or"
+      },
+      {
+        "name": "N°4",
+        "slug": "n4"
+      }
+    ]
+  },
+  {
+    "name": "Exeed",
+    "slug": "exeed",
+    "models": [
+      {
+        "name": "Exlantix ES",
+        "slug": "exlantix-es"
+      },
+      {
+        "name": "Exlantix ET",
+        "slug": "exlantix-et"
+      },
+      {
+        "name": "RX",
+        "slug": "rx"
+      }
+    ]
+  },
+  {
+    "name": "Fiat",
+    "slug": "fiat",
+    "models": [
+      {
+        "name": "500",
+        "slug": "500"
+      },
+      {
+        "name": "500C",
+        "slug": "500c"
+      },
+      {
+        "name": "500X",
+        "slug": "500x"
+      },
+      {
+        "name": "600",
+        "slug": "600"
+      },
+      {
+        "name": "Panda",
+        "slug": "panda"
+      },
+      {
+        "name": "Tipo",
+        "slug": "tipo"
+      },
+      {
+        "name": "Tipo Hatchback",
+        "slug": "tipo-hatchback"
+      }
+    ]
+  },
+  {
+    "name": "Ford",
+    "slug": "ford",
+    "models": [
+      {
+        "name": "Explorer",
+        "slug": "explorer"
+      },
+      {
+        "name": "Focus",
+        "slug": "focus"
+      },
+      {
+        "name": "Focus Sedan",
+        "slug": "focus-sedan"
+      },
+      {
+        "name": "Fusion",
+        "slug": "fusion"
+      },
+      {
+        "name": "Kuga",
+        "slug": "kuga"
+      },
+      {
+        "name": "Mustang",
+        "slug": "mustang"
+      },
+      {
+        "name": "Ranger",
+        "slug": "ranger"
+      }
+    ]
+  },
+  {
+    "name": "GAC",
+    "slug": "gac",
+    "models": [
+      {
+        "name": "Emkoo",
+        "slug": "emkoo"
+      },
+      {
+        "name": "Emzoom",
+        "slug": "emzoom"
+      },
+      {
+        "name": "S7",
+        "slug": "s7"
+      }
+    ]
+  },
+  {
+    "name": "Geely",
+    "slug": "geely",
+    "models": [
+      {
+        "name": "Cityray",
+        "slug": "cityray"
+      },
+      {
+        "name": "Coolray",
+        "slug": "coolray"
+      },
+      {
+        "name": "Emgrand",
+        "slug": "emgrand"
+      },
+      {
+        "name": "EX2",
+        "slug": "ex2"
+      },
+      {
+        "name": "EX5 PHEV",
+        "slug": "ex5-phev"
+      },
+      {
+        "name": "Geometry C",
+        "slug": "geometry-c"
+      },
+      {
+        "name": "GX3 Pro",
+        "slug": "gx3-pro"
+      }
+    ]
+  },
+  {
+    "name": "GWM Haval",
+    "slug": "gwm-haval",
+    "models": [
+      {
+        "name": "H6",
+        "slug": "h6"
+      },
+      {
+        "name": "Jolion",
+        "slug": "jolion"
+      }
+    ]
+  },
+  {
+    "name": "GWM Ora",
+    "slug": "gwm-ora",
+    "models": [
+      {
+        "name": "03",
+        "slug": "03"
+      }
+    ]
+  },
+  {
+    "name": "GWM Poer",
+    "slug": "gwm-poer",
+    "models": [
+      {
+        "name": "Elite 4x4",
+        "slug": "elite-4x4"
+      }
+    ]
+  },
+  {
+    "name": "GWM Tank",
+    "slug": "gwm-tank",
+    "models": [
+      {
+        "name": "300",
+        "slug": "300"
+      }
+    ]
+  },
+  {
+    "name": "GWM Wey",
+    "slug": "gwm-wey",
+    "models": []
+  },
+  {
+    "name": "Honda",
+    "slug": "honda",
+    "models": [
+      {
+        "name": "CR-V",
+        "slug": "cr-v"
+      },
+      {
+        "name": "HR-V",
+        "slug": "hr-v"
+      },
+      {
+        "name": "Jazz",
+        "slug": "jazz"
+      }
+    ]
+  },
+  {
+    "name": "Hyundai",
+    "slug": "hyundai",
+    "models": [
+      {
+        "name": "Accent",
+        "slug": "accent"
+      },
+      {
+        "name": "Bayon",
+        "slug": "bayon"
+      },
+      {
+        "name": "Creta",
+        "slug": "creta"
+      },
+      {
+        "name": "Elantra",
+        "slug": "elantra"
+      },
+      {
+        "name": "Grand i10 Sedan",
+        "slug": "grand-i10-sedan"
+      },
+      {
+        "name": "i10",
+        "slug": "i10"
+      },
+      {
+        "name": "i20",
+        "slug": "i20"
+      },
+      {
+        "name": "Ioniq 5",
+        "slug": "ioniq-5"
+      },
+      {
+        "name": "IONIQ 6",
+        "slug": "ioniq-6"
+      },
+      {
+        "name": "Kona",
+        "slug": "kona"
+      },
+      {
+        "name": "Santa Fe HEV",
+        "slug": "santa-fe-hev"
+      },
+      {
+        "name": "Sonata",
+        "slug": "sonata"
+      },
+      {
+        "name": "Tucson",
+        "slug": "tucson"
+      }
+    ]
+  },
+  {
+    "name": "JAC",
+    "slug": "jac",
+    "models": []
+  },
+  {
+    "name": "JAECOO",
+    "slug": "jaecoo",
+    "models": [
+      {
+        "name": "J7",
+        "slug": "j7"
+      },
+      {
+        "name": "J7 PHEV",
+        "slug": "j7-phev"
+      }
+    ]
+  },
+  {
+    "name": "Jaguar",
+    "slug": "jaguar",
+    "models": [
+      {
+        "name": "F-Pace",
+        "slug": "f-pace"
+      }
+    ]
+  },
+  {
+    "name": "Jeep",
+    "slug": "jeep",
+    "models": [
+      {
+        "name": "Avenger",
+        "slug": "avenger"
+      },
+      {
+        "name": "Compass",
+        "slug": "compass"
+      },
+      {
+        "name": "Renegade",
+        "slug": "renegade"
+      },
+      {
+        "name": "Wrangler",
+        "slug": "wrangler"
+      }
+    ]
+  },
+  {
+    "name": "JETOUR",
+    "slug": "jetour",
+    "models": [
+      {
+        "name": "Dashing",
+        "slug": "dashing"
+      },
+      {
+        "name": "T2",
+        "slug": "t2"
+      }
+    ]
+  },
+  {
+    "name": "KGM",
+    "slug": "kgm",
+    "models": []
+  },
+  {
+    "name": "KIA",
+    "slug": "kia",
+    "models": [
+      {
+        "name": "Carnival",
+        "slug": "carnival"
+      },
+      {
+        "name": "EV3",
+        "slug": "ev3"
+      },
+      {
+        "name": "EV5",
+        "slug": "ev5"
+      },
+      {
+        "name": "EV6",
+        "slug": "ev6"
+      },
+      {
+        "name": "EV9",
+        "slug": "ev9"
+      },
+      {
+        "name": "Picanto",
+        "slug": "picanto"
+      },
+      {
+        "name": "Seltos",
+        "slug": "seltos"
+      },
+      {
+        "name": "Sonet",
+        "slug": "sonet"
+      },
+      {
+        "name": "Sorento",
+        "slug": "sorento"
+      },
+      {
+        "name": "Sportage",
+        "slug": "sportage"
+      },
+      {
+        "name": "Tasman",
+        "slug": "tasman"
+      }
+    ]
+  },
+  {
+    "name": "Land Rover",
+    "slug": "land-rover",
+    "models": [
+      {
+        "name": "Defender",
+        "slug": "defender"
+      },
+      {
+        "name": "Discovery",
+        "slug": "discovery"
+      },
+      {
+        "name": "Discovery Sport",
+        "slug": "discovery-sport"
+      },
+      {
+        "name": "Range Rover",
+        "slug": "range-rover"
+      },
+      {
+        "name": "Range Rover Evoque",
+        "slug": "range-rover-evoque"
+      },
+      {
+        "name": "Range Rover Sport",
+        "slug": "range-rover-sport"
+      },
+      {
+        "name": "Range Rover Velar",
+        "slug": "range-rover-velar"
+      }
+    ]
+  },
+  {
+    "name": "Leapmotor",
+    "slug": "leapmotor",
+    "models": [
+      {
+        "name": "C10 REEV",
+        "slug": "c10-reev"
+      },
+      {
+        "name": "T03",
+        "slug": "t03"
+      }
+    ]
+  },
+  {
+    "name": "Lexus",
+    "slug": "lexus",
+    "models": [
+      {
+        "name": "ES",
+        "slug": "es"
+      },
+      {
+        "name": "IS",
+        "slug": "is"
+      },
+      {
+        "name": "lexus RX",
+        "slug": "lexus-rx"
+      },
+      {
+        "name": "LS",
+        "slug": "ls"
+      },
+      {
+        "name": "NX",
+        "slug": "nx"
+      },
+      {
+        "name": "UX",
+        "slug": "ux"
+      }
+    ]
+  },
+  {
+    "name": "Lynk & Co",
+    "slug": "lynk-et-co",
+    "models": []
+  },
+  {
+    "name": "Mahindra",
+    "slug": "mahindra",
+    "models": [
+      {
+        "name": "KUV 100",
+        "slug": "kuv-100"
+      },
+      {
+        "name": "Scorpio",
+        "slug": "scorpio"
+      },
+      {
+        "name": "XUV 300",
+        "slug": "xuv-300"
+      }
+    ]
+  },
+  {
+    "name": "Maserati",
+    "slug": "maserati",
+    "models": []
+  },
+  {
+    "name": "Mazda",
+    "slug": "mazda",
+    "models": [
+      {
+        "name": "3",
+        "slug": "3"
+      },
+      {
+        "name": "3 Berline",
+        "slug": "3-berline"
+      },
+      {
+        "name": "6",
+        "slug": "6"
+      },
+      {
+        "name": "CX-3",
+        "slug": "cx-3"
+      },
+      {
+        "name": "CX-5",
+        "slug": "cx-5"
+      }
+    ]
+  },
+  {
+    "name": "Mercedes",
+    "slug": "mercedes",
+    "models": [
+      {
+        "name": "CLA",
+        "slug": "cla"
+      },
+      {
+        "name": "Classe A",
+        "slug": "classe-a"
+      },
+      {
+        "name": "Classe A Berline",
+        "slug": "classe-a-berline"
+      },
+      {
+        "name": "Classe B",
+        "slug": "classe-b"
+      },
+      {
+        "name": "Classe C",
+        "slug": "classe-c"
+      },
+      {
+        "name": "Classe C Coupé",
+        "slug": "classe-c-coupe"
+      },
+      {
+        "name": "Classe E",
+        "slug": "classe-e"
+      },
+      {
+        "name": "Classe E Coupé",
+        "slug": "classe-e-coupe"
+      },
+      {
+        "name": "Classe G",
+        "slug": "classe-g"
+      },
+      {
+        "name": "Classe S",
+        "slug": "classe-s"
+      },
+      {
+        "name": "CLS Coupé",
+        "slug": "cls-coupe"
+      },
+      {
+        "name": "GLA",
+        "slug": "gla"
+      },
+      {
+        "name": "GLC",
+        "slug": "glc"
+      },
+      {
+        "name": "GLC Coupé",
+        "slug": "glc-coupe"
+      },
+      {
+        "name": "GLE",
+        "slug": "gle"
+      },
+      {
+        "name": "GLE Coupé",
+        "slug": "gle-coupe"
+      },
+      {
+        "name": "GLS",
+        "slug": "gls"
+      }
+    ]
+  },
+  {
+    "name": "MG",
+    "slug": "mg",
+    "models": [
+      {
+        "name": "HS",
+        "slug": "hs"
+      },
+      {
+        "name": "HS PHEV",
+        "slug": "hs-phev"
+      },
+      {
+        "name": "Marvel-R",
+        "slug": "marvel-r"
+      },
+      {
+        "name": "MG3",
+        "slug": "mg3"
+      },
+      {
+        "name": "MG3 Hybrid+",
+        "slug": "mg3-hybrid"
+      },
+      {
+        "name": "MG4 EV",
+        "slug": "mg4-ev"
+      },
+      {
+        "name": "MG5",
+        "slug": "mg5"
+      },
+      {
+        "name": "ZS",
+        "slug": "zs"
+      },
+      {
+        "name": "ZS EV",
+        "slug": "zs-ev"
+      }
+    ]
+  },
+  {
+    "name": "MINI",
+    "slug": "mini",
+    "models": [
+      {
+        "name": "3 portes",
+        "slug": "3-portes"
+      },
+      {
+        "name": "5 portes",
+        "slug": "5-portes"
+      },
+      {
+        "name": "Cabrio",
+        "slug": "cabrio"
+      },
+      {
+        "name": "Countryman",
+        "slug": "countryman"
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi",
+    "slug": "mitsubishi",
+    "models": [
+      {
+        "name": "Outlander",
+        "slug": "outlander"
+      },
+      {
+        "name": "Pajero Sport",
+        "slug": "pajero-sport"
+      }
+    ]
+  },
+  {
+    "name": "Nissan",
+    "slug": "nissan",
+    "models": [
+      {
+        "name": "Juke",
+        "slug": "juke"
+      },
+      {
+        "name": "Magnite",
+        "slug": "magnite"
+      },
+      {
+        "name": "Qashqai epower",
+        "slug": "qashqai-epower"
+      }
+    ]
+  },
+  {
+    "name": "OMODA",
+    "slug": "omoda",
+    "models": [
+      {
+        "name": "C5",
+        "slug": "c5"
+      },
+      {
+        "name": "E5",
+        "slug": "e5"
+      },
+      {
+        "name": "OMODA 3",
+        "slug": "omoda-3"
+      }
+    ]
+  },
+  {
+    "name": "Opel",
+    "slug": "opel",
+    "models": [
+      {
+        "name": "Astra",
+        "slug": "astra"
+      },
+      {
+        "name": "Combo",
+        "slug": "combo"
+      },
+      {
+        "name": "Corsa",
+        "slug": "corsa"
+      },
+      {
+        "name": "Crossland",
+        "slug": "crossland"
+      },
+      {
+        "name": "Frontera",
+        "slug": "frontera"
+      },
+      {
+        "name": "Grandland",
+        "slug": "grandland"
+      },
+      {
+        "name": "Mokka",
+        "slug": "mokka"
+      },
+      {
+        "name": "Rocks-e",
+        "slug": "rocks-e"
+      }
+    ]
+  },
+  {
+    "name": "Peugeot",
+    "slug": "peugeot",
+    "models": [
+      {
+        "name": "208",
+        "slug": "208"
+      },
+      {
+        "name": "308",
+        "slug": "308"
+      },
+      {
+        "name": "408",
+        "slug": "408"
+      },
+      {
+        "name": "508",
+        "slug": "508"
+      },
+      {
+        "name": "2008 Hybrid",
+        "slug": "2008-hybrid"
+      },
+      {
+        "name": "3008",
+        "slug": "3008"
+      },
+      {
+        "name": "3008 Hybrid",
+        "slug": "3008-hybrid"
+      },
+      {
+        "name": "5008",
+        "slug": "5008"
+      },
+      {
+        "name": "LandTrek",
+        "slug": "landtrek"
+      },
+      {
+        "name": "Rifter",
+        "slug": "rifter"
+      }
+    ]
+  },
+  {
+    "name": "Porsche",
+    "slug": "porsche",
+    "models": [
+      {
+        "name": "Cayenne",
+        "slug": "cayenne"
+      },
+      {
+        "name": "Cayenne Coupé",
+        "slug": "cayenne-coupe"
+      },
+      {
+        "name": "Macan",
+        "slug": "macan"
+      },
+      {
+        "name": "Panamera",
+        "slug": "panamera"
+      },
+      {
+        "name": "Taycan",
+        "slug": "taycan"
+      },
+      {
+        "name": "Taycan Cross Turismo",
+        "slug": "taycan-cross-turismo"
+      }
+    ]
+  },
+  {
+    "name": "Renault",
+    "slug": "renault",
+    "models": [
+      {
+        "name": "Arkana",
+        "slug": "arkana"
+      },
+      {
+        "name": "AUSTRAL",
+        "slug": "austral"
+      },
+      {
+        "name": "Clio",
+        "slug": "clio"
+      },
+      {
+        "name": "Clio E-tech",
+        "slug": "clio-e-tech"
+      },
+      {
+        "name": "Express",
+        "slug": "express"
+      },
+      {
+        "name": "Express VAN",
+        "slug": "express-van"
+      },
+      {
+        "name": "Kangoo",
+        "slug": "kangoo"
+      },
+      {
+        "name": "Kardian",
+        "slug": "kardian"
+      },
+      {
+        "name": "Mégane",
+        "slug": "megane"
+      },
+      {
+        "name": "Megane E-Tech",
+        "slug": "megane-e-tech"
+      },
+      {
+        "name": "Mégane Sedan",
+        "slug": "megane-sedan"
+      }
+    ]
+  },
+  {
+    "name": "Seat",
+    "slug": "seat",
+    "models": [
+      {
+        "name": "Arona",
+        "slug": "arona"
+      },
+      {
+        "name": "Ateca",
+        "slug": "ateca"
+      },
+      {
+        "name": "Ibiza",
+        "slug": "ibiza"
+      },
+      {
+        "name": "Leon",
+        "slug": "leon"
+      },
+      {
+        "name": "Tarraco",
+        "slug": "tarraco"
+      }
+    ]
+  },
+  {
+    "name": "ŠKODA",
+    "slug": "skoda",
+    "models": [
+      {
+        "name": "Fabia",
+        "slug": "fabia"
+      },
+      {
+        "name": "Kamiq",
+        "slug": "kamiq"
+      },
+      {
+        "name": "Kodiaq",
+        "slug": "kodiaq"
+      },
+      {
+        "name": "Octavia",
+        "slug": "octavia"
+      },
+      {
+        "name": "Scala",
+        "slug": "scala"
+      },
+      {
+        "name": "Superb",
+        "slug": "superb"
+      }
+    ]
+  },
+  {
+    "name": "Smart",
+    "slug": "smart",
+    "models": []
+  },
+  {
+    "name": "Soueast",
+    "slug": "soueast",
+    "models": [
+      {
+        "name": "S06",
+        "slug": "s06"
+      },
+      {
+        "name": "S07",
+        "slug": "s07"
+      },
+      {
+        "name": "S08",
+        "slug": "s08"
+      },
+      {
+        "name": "S09",
+        "slug": "s09"
+      }
+    ]
+  },
+  {
+    "name": "SsangYong",
+    "slug": "ssangyong",
+    "models": []
+  },
+  {
+    "name": "Suzuki",
+    "slug": "suzuki",
+    "models": [
+      {
+        "name": "Jimny",
+        "slug": "jimny"
+      },
+      {
+        "name": "Swift",
+        "slug": "swift"
+      }
+    ]
+  },
+  {
+    "name": "Tesla",
+    "slug": "tesla",
+    "models": [
+      {
+        "name": "Model 3",
+        "slug": "model-3"
+      }
+    ]
+  },
+  {
+    "name": "Toyota",
+    "slug": "toyota",
+    "models": [
+      {
+        "name": "BZ4X",
+        "slug": "bz4x"
+      },
+      {
+        "name": "C-HR",
+        "slug": "c-hr"
+      },
+      {
+        "name": "Corolla Prestige",
+        "slug": "corolla-prestige"
+      },
+      {
+        "name": "Corolla Sport",
+        "slug": "corolla-sport"
+      },
+      {
+        "name": "Corolla X SUV",
+        "slug": "corolla-x-suv"
+      },
+      {
+        "name": "Fortuner",
+        "slug": "fortuner"
+      },
+      {
+        "name": "Land Cruiser Prado",
+        "slug": "land-cruiser-prado"
+      },
+      {
+        "name": "RAV 4",
+        "slug": "rav-4"
+      },
+      {
+        "name": "Yaris Cross",
+        "slug": "yaris-cross"
+      },
+      {
+        "name": "Yaris Cross SMART PILOT",
+        "slug": "yaris-cross-smart-pilot"
+      },
+      {
+        "name": "Yaris HV",
+        "slug": "yaris-hv"
+      }
+    ]
+  },
+  {
+    "name": "Volkswagen",
+    "slug": "volkswagen",
+    "models": [
+      {
+        "name": "Caddy",
+        "slug": "caddy"
+      },
+      {
+        "name": "Golf",
+        "slug": "golf"
+      },
+      {
+        "name": "New T-Roc",
+        "slug": "new-t-roc"
+      },
+      {
+        "name": "Taigo",
+        "slug": "taigo"
+      },
+      {
+        "name": "Tiguan",
+        "slug": "tiguan"
+      },
+      {
+        "name": "Touareg",
+        "slug": "touareg"
+      }
+    ]
+  },
+  {
+    "name": "Volvo",
+    "slug": "volvo",
+    "models": [
+      {
+        "name": "EX30",
+        "slug": "ex30"
+      },
+      {
+        "name": "S90",
+        "slug": "s90"
+      },
+      {
+        "name": "XC40",
+        "slug": "xc40"
+      },
+      {
+        "name": "XC60",
+        "slug": "xc60"
+      },
+      {
+        "name": "XC90",
+        "slug": "xc90"
+      }
+    ]
+  },
+  {
+    "name": "XPENG",
+    "slug": "xpeng",
+    "models": [
+      {
+        "name": "G6",
+        "slug": "g6"
+      },
+      {
+        "name": "G9",
+        "slug": "g9"
+      },
+      {
+        "name": "P7+",
+        "slug": "p7-plus"
+      }
+    ]
+  },
+  {
+    "name": "Zeekr",
+    "slug": "zeekr",
+    "models": [
+      {
+        "name": "001",
+        "slug": "001"
+      },
+      {
+        "name": "X",
+        "slug": "x"
+      }
+    ]
+  }
+]

@@ -41,7 +41,7 @@ function RdvModal({ car, kind, extra, onClose }: { car: RdvCar; kind: Kind; extr
       const res = await fetch("/api/leads", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type: kind, car: `${car.title} ${car.version}`.trim(), carSlug: car.id, city: car.city, source: "v2", ...extra, ...data }),
+        body: JSON.stringify({ type: kind, car: `${car.title} ${car.version}`.trim(), carSlug: car.id, city: car.city, ...extra, ...data }),
       });
       setState(res.ok ? "ok" : "error");
     } catch {

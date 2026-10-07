@@ -43,7 +43,7 @@ export function WhyHero() {
           </p>
           <a
             className="mt-7 inline-flex h-[52px] items-center justify-center gap-2 rounded-[12px] bg-[color:var(--color-brand-teal)] px-7 text-[15px] font-semibold text-white shadow-[0_8px_24px_rgba(0,0,0,0.25)] transition-colors hover:bg-[color:var(--color-brand-teal-hover)] lg:text-[16px]"
-            href={href("/v2/acheter?type=certifie")}
+            href={href("/acheter?type=certifie")}
           >
             {t("Voir les voitures certifiées")}{CHEV}
           </a>
@@ -401,7 +401,7 @@ export function TwoThings() {
       img: "essai-mozi",
       w: 1586,
       h: 992,
-      link: ["Choisir une voiture à essayer", "/v2/acheter"],
+      link: ["Choisir une voiture à essayer", "/acheter"],
       imgFirst: true,
     },
     {
@@ -411,7 +411,7 @@ export function TwoThings() {
       img: "demarches-mozi",
       w: 1448,
       h: 1086,
-      link: ["Découvrir les voitures certifiées", "/v2/acheter?type=certifie"],
+      link: ["Découvrir les voitures certifiées", "/acheter?type=certifie"],
       imgFirst: false,
     },
   ];
@@ -480,7 +480,7 @@ export function BrowseCars({ cars }: { cars: ListedCar[] }) {
           </h2>
           <a
             className="flex-shrink-0 text-[14px] font-medium text-[color:var(--color-brand-teal)] hover:underline lg:text-[22px] lg:font-semibold"
-            href={href("/v2/acheter")}
+            href={href("/acheter")}
           >
             {t("Afficher tout")}
           </a>
@@ -507,7 +507,7 @@ export function BrowseCars({ cars }: { cars: ListedCar[] }) {
         <div className="flex justify-center">
           <a
             className="inline-flex h-[52px] items-center justify-center gap-2 rounded-[16px] bg-[color:var(--color-brand-teal)] px-7 text-[15px] font-semibold text-white transition-colors hover:bg-[color:var(--color-brand-teal-hover)]"
-            href={href("/v2/acheter")}
+            href={href("/acheter")}
           >
             {t("Voir toutes les voitures")}{CHEV}
           </a>

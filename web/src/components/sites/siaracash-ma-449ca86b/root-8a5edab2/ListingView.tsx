@@ -86,7 +86,7 @@ function Intro({ popular, children, mobile = false }: { popular: PopularBrand[];
                     {popular.map((b) => (
                       <tr key={b.slug} className="cursor-pointer border-t border-[var(--cc-line)] transition hover:bg-[var(--cc-primary-tint)]">
                         <td className="px-3 py-2.5 font-semibold text-[var(--chart-3)] underline">
-                          <a href={href(`/v2/acheter?brand=${b.slug}`)}>{tf("{name} d'occasion", { name: b.name })}</a>
+                          <a href={href(`/acheter?brand=${b.slug}`)}>{tf("{name} d'occasion", { name: b.name })}</a>
                         </td>
                         <td className="px-3 py-2.5 text-center text-[var(--cc-body)]">{b.count}</td>
                         <td className="whitespace-nowrap px-3 py-2.5 text-right font-medium text-[var(--cc-ink)]">{b.range}</td>
@@ -160,7 +160,7 @@ function SellBanner() {
   return (
     <a
       className="col-span-full flex flex-col items-start gap-4 rounded-2xl p-6 text-white sm:flex-row sm:items-center"
-      href={href("/v2/vendre")}
+      href={href("/vendre")}
       style={{ background: "#551f26" }}
     >
       <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-white/15">

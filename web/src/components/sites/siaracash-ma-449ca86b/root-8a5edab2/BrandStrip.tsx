@@ -14,7 +14,7 @@ export async function BrandStrip() {
           </h2>
           <a
             className="flex-shrink-0 text-[14px] font-medium text-[color:var(--color-brand-teal)] hover:underline lg:text-[22px] lg:font-semibold"
-            href={href("/v2/acheter")}
+            href={href("/acheter")}
           >
             {t("Afficher tout")}
           </a>
@@ -25,7 +25,7 @@ export async function BrandStrip() {
               key={b.slug}
               className="flex size-[64px] shrink-0 items-center justify-center rounded-2xl border border-[color:var(--color-line-medium)] bg-white p-3 shadow-sm transition-shadow hover:shadow-md lg:size-[120px] lg:rounded-[32px] lg:p-4"
               aria-label={b.name}
-              href={href(`/v2/acheter?brand=${b.slug}`)}
+              href={href(`/acheter?brand=${b.slug}`)}
             >
               <img alt={b.name} className="size-full object-contain" loading="lazy" src={`${A}/storage/brands/${b.slug}.png`} />
             </a>

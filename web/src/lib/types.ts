@@ -12,7 +12,7 @@ export type BodyType =
   | "pickup"
   | "utilitaire";
 
-/** Photo tabs on the car page (set per photo in WordPress › Galerie photos). */
+/** Photo tabs on the car page (set per photo in Studio › Voiture › Photos). */
 export type PhotoCategory = "exterieur" | "interieur" | "moteur" | "tableau-de-bord" | "pneus" | "imperfections";
 
 export interface CarPhoto {
@@ -85,9 +85,9 @@ export interface SiteSettings {
   facebook?: string;
   loanRate: number; // annual %, e.g. 6.9
   loanMonths: number; // default duration
-  /** City of the showroom — inspection at the showroom (WP › Réglages). */
+  /** City of the showroom — inspection at the showroom (Studio › Réglages). */
   showroomCity?: string;
-  /** Cities where an expert can inspect the car at home (WP › Réglages). */
+  /** Cities where an expert can inspect the car at home (Studio › Réglages). */
   homeInspectionCities?: string[];
 }
 

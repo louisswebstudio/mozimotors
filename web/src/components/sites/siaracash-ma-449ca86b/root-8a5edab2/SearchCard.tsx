@@ -7,7 +7,7 @@
  */
 import { useEffect, useId, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import type { Catalog } from "@/lib/wp";
+import type { Catalog } from "@/lib/cms";
 import { A } from "./assets";
 import { BRAND_LOGOS } from "./brands";
 import { useV2 } from "./V2Locale";
@@ -247,7 +247,7 @@ export function SearchCard({ catalog, cities }: { catalog: Catalog; cities: stri
     if (brand && model) p.set("model", `${brand}~${model}`);
     if (city) p.set("city", city);
     const qs = p.toString();
-    router.push(href(`/v2/acheter${qs ? `?${qs}` : ""}`));
+    router.push(href(`/acheter${qs ? `?${qs}` : ""}`));
   };
 
   return (
@@ -284,7 +284,7 @@ export function SearchCard({ catalog, cities }: { catalog: Catalog; cities: stri
         <div className="mt-3 flex items-center">
           <a
             className="ms-auto text-sm font-bold text-[color:var(--color-brand-purple)] hover:text-[color:var(--color-brand-purple-hover)] hover:underline"
-            href={href("/v2/acheter")}
+            href={href("/acheter")}
           >
             {t("Recherche avancée")}
           </a>
@@ -303,7 +303,7 @@ export function SearchCard({ catalog, cities }: { catalog: Catalog; cities: stri
                 key={b.body}
                 className="group flex w-[148px] shrink-0 flex-col items-center gap-2 rounded-xl p-3 transition hover:bg-muted/40 active:scale-[0.97] sm:w-[176px]"
                 aria-label={t(b.label)}
-                href={href(`/v2/acheter?body=${b.body}`)}
+                href={href(`/acheter?body=${b.body}`)}
               >
                 {}
                 <img
@@ -371,7 +371,7 @@ function VoiceSearch() {
     rec.lang = { fr: "fr-FR", en: "en-GB", ar: "ar-MA" }[locale];
     rec.onresult = (e) => {
       const text = e.results[0]?.[0]?.transcript?.trim();
-      if (text) router.push(href(`/v2/acheter?q=${encodeURIComponent(text)}`));
+      if (text) router.push(href(`/acheter?q=${encodeURIComponent(text)}`));
     };
     rec.onend = () => setListening(false);
     setListening(true);

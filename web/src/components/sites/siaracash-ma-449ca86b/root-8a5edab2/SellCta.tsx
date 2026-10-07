@@ -26,14 +26,14 @@ export async function SellCta() {
           </div>
           <a
             className="inline-flex h-10 items-center justify-center rounded-[30px] bg-[color:var(--color-brand-teal)] px-5 text-[12px] font-medium uppercase tracking-wide text-white transition-colors hover:bg-[color:var(--color-brand-teal-hover)] lg:hidden"
-            href={href("/v2/vendre")}
+            href={href("/vendre")}
           >
             {t("Estimer ma voiture")}
           </a>
         </div>
         <a
           className="order-3 hidden h-[58px] w-[240px] shrink-0 items-center justify-center rounded-[30px] bg-[color:var(--color-brand-teal)] text-[16px] font-semibold uppercase tracking-wide text-white transition-colors hover:bg-[color:var(--color-brand-teal-hover)] lg:inline-flex"
-          href={href("/v2/vendre")}
+          href={href("/vendre")}
         >
           {t("Estimer ma voiture")}
         </a>

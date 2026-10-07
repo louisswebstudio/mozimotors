@@ -1,6 +1,6 @@
 /**
  * Arabic copy of /v2 — French source string → Arabic, same keys as en.ts (missing → French).
- * Proper nouns (brands, cities, MoziMotors) stay as written. Lead payloads sent to WordPress stay in French.
+ * Proper nouns (brands, cities, MoziMotors) stay as written. Lead payloads sent to Sanity stay in French.
  */
 export const AR: Record<string, string> = {
   "Bonjour MoziMotors": "مرحباً MoziMotors",

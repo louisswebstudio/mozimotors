@@ -3,7 +3,7 @@
 /**
  * /v2/vendre — siaracash.ma/sell for MoziMotors. Desktop and mobile blocks (separate trees on the page).
  * Every « Vendre ma voiture » goes to the sell flow: /v2/vendre/demande?ville=…
- * Hub / home-inspection cities come from WordPress › Réglages (showroomCity, homeInspectionCities).
+ * Hub / home-inspection cities come from Studio › Réglages (showroomCity, homeInspectionCities).
  */
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -14,7 +14,7 @@ import { Combobox } from "./SearchCard";
 import { useV2 } from "./V2Locale";
 
 const S = `${A}/assets/sell2`;
-export const SELL_FORM = "/v2/vendre/demande";
+export const SELL_FORM = "/vendre/demande";
 const sellHref = (city?: string) => `${SELL_FORM}${city ? `?ville=${encodeURIComponent(city)}` : ""}`;
 
 /* ---------- hero ---------- */

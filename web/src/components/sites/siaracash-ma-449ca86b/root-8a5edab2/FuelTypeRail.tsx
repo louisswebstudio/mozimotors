@@ -10,7 +10,7 @@ export async function FuelTypeRail() {
           {t("Voitures d'occasion par type de carburant")}
         </h2>
         <div className="-mx-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 scroll-ps-4 scrollbar-hide">
-          <a className="group flex w-[42%] flex-shrink-0 snap-start flex-col gap-2" href={href("/v2/acheter?fuel=essence")}>
+          <a className="group flex w-[42%] flex-shrink-0 snap-start flex-col gap-2" href={href("/acheter?fuel=essence")}>
             <span className="block aspect-[320/202] w-full overflow-hidden rounded-2xl">
               <img
                 src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/home/fuel-gasoline.webp"
@@ -22,7 +22,7 @@ export async function FuelTypeRail() {
             </span>
             <span className="text-[14px] font-semibold text-[color:var(--color-brand-dark)]">{t("Essence")}</span>
           </a>
-          <a className="group flex w-[42%] flex-shrink-0 snap-start flex-col gap-2" href={href("/v2/acheter?fuel=diesel")}>
+          <a className="group flex w-[42%] flex-shrink-0 snap-start flex-col gap-2" href={href("/acheter?fuel=diesel")}>
             <span className="block aspect-[320/202] w-full overflow-hidden rounded-2xl">
               <img
                 src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/home/fuel-diesel.webp"
@@ -34,7 +34,7 @@ export async function FuelTypeRail() {
             </span>
             <span className="text-[14px] font-semibold text-[color:var(--color-brand-dark)]">{t("Diesel")}</span>
           </a>
-          <a className="group flex w-[42%] flex-shrink-0 snap-start flex-col gap-2" href={href("/v2/acheter?fuel=hybride")}>
+          <a className="group flex w-[42%] flex-shrink-0 snap-start flex-col gap-2" href={href("/acheter?fuel=hybride")}>
             <span className="block aspect-[320/202] w-full overflow-hidden rounded-2xl">
               <img
                 src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/home/fuel-hybrid.webp"
@@ -46,7 +46,7 @@ export async function FuelTypeRail() {
             </span>
             <span className="text-[14px] font-semibold text-[color:var(--color-brand-dark)]">{t("Hybride")}</span>
           </a>
-          <a className="group flex w-[42%] flex-shrink-0 snap-start flex-col gap-2" href={href("/v2/acheter?fuel=electrique")}>
+          <a className="group flex w-[42%] flex-shrink-0 snap-start flex-col gap-2" href={href("/acheter?fuel=electrique")}>
             <span className="block aspect-[320/202] w-full overflow-hidden rounded-2xl">
               <img
                 src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/home/fuel-electric.webp"

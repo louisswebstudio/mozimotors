@@ -16,7 +16,7 @@ export function toListed(c: Car): ListedCar {
   const gearbox = c.gearbox === "automatique" ? "Automatique" : "Manuelle";
   return {
     id: c.slug,
-    href: `/v2/voiture/${c.slug}`,
+    href: `/voiture/${c.slug}`,
     title: `${c.brand} ${c.model} ${c.year}`,
     version: c.version,
     images: c.images,
@@ -97,7 +97,7 @@ export function toDetail(car: Car, cars: Car[]) {
       const known = new Set(FEATURE_CATALOG[g].map((i) => featureKey(i.fr)));
       const rows = [
         ...FEATURE_CATALOG[g].map((i) => ({ label: i.fr, value: have.has(featureKey(i.fr)) })),
-        // Equipment typed in WordPress that isn't in the catalog: shown as « Oui ».
+        // Equipment added in Studio (« Autres équipements ») that isn't in the catalog: shown as « Oui ».
         ...(car.features?.[g] ?? []).filter((f) => !known.has(featureKey(f))).map((f) => ({ label: f, value: true })),
       ];
       return { id: g, label: GROUP_LABELS[g], rows };

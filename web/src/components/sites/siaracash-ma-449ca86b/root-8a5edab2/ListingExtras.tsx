@@ -139,11 +139,11 @@ export function ListingExtras() {
           <h2 className="mb-3 text-[16px] font-bold text-[var(--cc-ink)]">{t("Parcourir les voitures d'occasion au Maroc")}</h2>
           <p className="mb-2 text-[13px] font-semibold text-[var(--cc-ink)]">{t("Par modèles populaires")}</p>
           <p className="mb-4 text-[12px] leading-relaxed text-[var(--cc-body)]">
-            <Links items={MODELS} render={([label, brand, model]) => [label, `/v2/acheter?brand=${brand}&model=${encodeURIComponent(`${brand}~${model}`)}`]} />
+            <Links items={MODELS} render={([label, brand, model]) => [label, `/acheter?brand=${brand}&model=${encodeURIComponent(`${brand}~${model}`)}`]} />
           </p>
           <p className="mb-2 text-[13px] font-semibold text-[var(--cc-ink)]">{t("Par marques populaires")}</p>
           <p className="text-[12px] leading-relaxed text-[var(--cc-body)]">
-            <Links items={BRANDS} render={([label, slug]) => [label, `/v2/acheter?brand=${slug}`]} />
+            <Links items={BRANDS} render={([label, slug]) => [label, `/acheter?brand=${slug}`]} />
           </p>
         </div>
       </div>

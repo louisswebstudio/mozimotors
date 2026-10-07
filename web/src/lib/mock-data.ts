@@ -1,6 +1,6 @@
 /**
- * Demo content used when WP_API_URL is not configured (or WordPress is unreachable).
- * Once the WordPress backend is connected, everything here is replaced by live data.
+ * Demo content used when SANITY_PROJECT_ID is not configured.
+ * Once Sanity is connected, everything here is replaced by live data.
  */
 import type { Car, CarPhoto, SiteSettings, Testimonial } from "./types";
 
@@ -338,23 +338,24 @@ export const MOCK_CARS: Car[] = RAW_CARS.map((c) => ({ ...c, images: c.photos.ma
 const avatar = (n: number) => `/avatars/client-${n}.jpg`;
 
 export const MOCK_TESTIMONIALS: Testimonial[] = [
-  { id: 1, name: "Client démo", avatar: avatar(1), city: "Casablanca", rating: 5, title: "Vendue en moins d'une semaine", text: "Remplacez ce témoignage depuis WordPress › Témoignages. Vente conclue en moins d'une semaine, équipe disponible et transparente." },
+  { id: 1, name: "Client démo", avatar: avatar(1), city: "Casablanca", rating: 5, title: "Vendue en moins d'une semaine", text: "Remplacez ce témoignage depuis le Studio › Témoignages. Vente conclue en moins d'une semaine, équipe disponible et transparente." },
   { id: 2, name: "Client démo", avatar: avatar(2), city: "Rabat", rating: 5, title: "Une inspection claire et détaillée", text: "Exemple d'avis : inspection détaillée, rapport clair et équipe très réactive. Je recommande." },
   { id: 3, name: "Client démo", avatar: avatar(3), city: "Marrakech", rating: 5, title: "Des démarches prises en charge", text: "Exemple d'avis : prix juste, démarches administratives prises en charge de A à Z." },
   { id: 4, name: "Client démo", avatar: avatar(4), city: "Tanger", rating: 4, title: "Conforme aux photos", text: "Exemple d'avis : livraison à domicile dans les délais et voiture conforme aux photos." },
 ];
 
+/** Used when Sanity is not configured, and for any setting left empty in Studio › Réglages. */
 export const DEFAULT_SETTINGS: SiteSettings = {
-  phone: "+212 5 00 00 00 00",
-  whatsapp: "212600000000",
+  phone: "07 73 19 14 33",
+  whatsapp: "212773191433",
   email: "contact@mozimotors.ma",
   address: "Showroom MoziMotors, Casablanca",
   hours: "Lun – Sam · 9h00 – 19h00",
-  instagram: "https://instagram.com/",
-  facebook: "https://facebook.com/",
+  instagram: "https://www.instagram.com/mozi.motors",
+  facebook: "https://www.facebook.com/share/1EPEcYEkEN/",
   loanRate: 6.9,
   loanMonths: 60,
-  // Demo coverage — replaced by WordPress › Réglages › MoziMotors once connected.
+  // Coverage (client, 2026-10-01): showroom and home inspection in Casablanca only.
   showroomCity: "Casablanca",
-  homeInspectionCities: ["Casablanca", "Rabat", "Mohammadia"],
+  homeInspectionCities: ["Casablanca"],
 };

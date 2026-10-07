@@ -1,6 +1,6 @@
 /**
  * Master list of equipment shown on a car page as Oui/Non rows.
- * `fr` is the canonical label: WordPress payloads stay French, so a car "has" an item
+ * `fr` is the canonical label: CMS values stay French, so a car "has" an item
  * when its French feature string matches (accent/case-insensitive). `en` / `ar` are display translations only.
  */
 export type FeatureGroup = "multimedia" | "confort" | "securite" | "exterieur";
@@ -48,6 +48,6 @@ export const FEATURE_CATALOG: Record<FeatureGroup, CatalogItem[]> = {
 
 export const FEATURE_GROUPS = Object.keys(FEATURE_CATALOG) as FeatureGroup[];
 
-/** Accent-, case- and punctuation-insensitive key used to match WP feature strings to the catalog. */
+/** Accent-, case- and punctuation-insensitive key used to match CMS feature strings to the catalog. */
 export const featureKey = (s: string) =>
   s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9؀-ۿ]+/g, "");
