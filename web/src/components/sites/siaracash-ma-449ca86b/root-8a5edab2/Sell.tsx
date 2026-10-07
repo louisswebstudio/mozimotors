@@ -212,22 +212,22 @@ export function SellStepsMobile() {
 
 const FORMULAS = [
   {
-    kicker: "Cash",
+    kicker: "Direct",
     title: "Vente immédiate",
-    text: "MoziMotors rachète votre voiture directement. Idéal si vous voulez vendre vite, sans attendre un acheteur.",
-    points: ["Offre ferme sous 24h", "Paiement rapide après signature"],
+    text: "MoziMotors rachète directement votre voiture pour une vente rapide, sans avoir à chercher un acheteur.",
+    points: ["Offre ferme sous 24 h", "Paiement rapide après signature"],
   },
   {
     kicker: "Premium",
     title: "On vend pour vous",
     text: "Votre voiture certifiée, photographiée et publiée. Notre équipe gère les acheteurs et négocie le meilleur prix.",
-    points: ["Le meilleur prix pour votre voiture", "Zéro paperasse pour vous"],
+    points: ["Votre voiture valorisée", "Vos démarches administratives prises en charge"],
     featured: true,
   },
   {
     kicker: "Lite",
     title: "Annonce simple",
-    text: "Votre annonce en ligne sur MoziMotors, vous gardez la main sur la vente. Parfait pour les villes non couvertes.",
+    text: "Publiez votre annonce sur MoziMotors et gérez directement votre vente. Une formule adaptée aussi aux villes non couvertes par notre accompagnement.",
     points: ["Publication gratuite", "Acheteurs vérifiés"],
   },
 ];
@@ -279,10 +279,10 @@ export function Formulas({ mobile = false }: { mobile?: boolean }) {
 const EXPERTISE = [
   ["exp-essai", "Essai routier", "Test des performances du véhicule."],
   ["exp-diagnostic", "Diagnostic électronique", "Analyse complète des systèmes électroniques."],
-  ["exp-peinture", "Épaisseur de peinture", "Détection des réparations et retouches."],
-  ["exp-pont", "Pont élévateur", "Inspection du dessous du véhicule."],
+  ["exp-peinture", "Contrôle de la peinture", "Détection des réparations et retouches."],
+  ["exp-pont", "Inspection du soubassement", "Inspection du dessous du véhicule."],
   ["exp-photos", "Photos professionnelles", "Mise en valeur du véhicule."],
-  ["exp-rapport", "Rapport certifié", "Rapport complet pour rassurer l'acheteur."],
+  ["exp-rapport", "Rapport d'expertise", "Rapport complet pour rassurer l'acheteur."],
 ];
 
 export function ExpertiseDesktop() {
@@ -292,9 +292,9 @@ export function ExpertiseDesktop() {
       <div className="mx-auto max-w-[1240px] border-t border-[color:var(--color-line-soft)] py-10">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div className="max-w-[620px]">
-            <h2 className="text-[26px] font-extrabold tracking-tight text-[color:var(--color-brand-dark)]">{t("Pourquoi l'expertise au hub change tout")}</h2>
+            <h2 className="text-[26px] font-extrabold tracking-tight text-[color:var(--color-brand-dark)]">{t("L'expertise, gage de confiance")}</h2>
             <p className="mt-2 text-[15px] leading-relaxed text-[color:var(--color-ink-muted)]">
-              {t("Les acheteurs font confiance, et votre voiture se vend plus vite, au bon prix.")}
+              {t("Votre voiture inspectée et mise en valeur pour rassurer les acheteurs et faciliter la vente.")}
             </p>
           </div>
           <a
@@ -332,8 +332,8 @@ export function ExpertiseMobile() {
   return (
     <section id="expertise-m" className="scroll-mt-24 bg-white px-4">
       <div className="border-t border-[color:var(--color-line-soft)] py-5">
-        <h2 className="text-[19px] font-extrabold text-[color:var(--color-brand-dark)]">{t("Pourquoi l'expertise au hub change tout")}</h2>
-        <p className="mt-1 text-[13px] text-[color:var(--color-ink-muted)]">{t("Les acheteurs font confiance, et votre voiture se vend plus vite, au bon prix.")}</p>
+        <h2 className="text-[19px] font-extrabold text-[color:var(--color-brand-dark)]">{t("L'expertise, gage de confiance")}</h2>
+        <p className="mt-1 text-[13px] text-[color:var(--color-ink-muted)]">{t("Votre voiture inspectée et mise en valeur pour rassurer les acheteurs et faciliter la vente.")}</p>
         <div className="mt-3.5 grid grid-cols-2 gap-x-3.5 gap-y-2.5">
           {EXPERTISE.map(([img, label]) => (
             <div key={img} className="flex items-center gap-2 text-[13.5px] font-semibold text-[color:var(--color-brand-dark)]">
@@ -485,15 +485,14 @@ function HubMap({ hubs, home }: { hubs: string[]; home: string[] }) {
 
 export function Prepare({ hubs, home }: { hubs: string[]; home: string[] }) {
   const { t } = useV2();
-  const docs = ["Carte grise du véhicule", "Carnet d'entretien", "Double des clés", "Détails du crédit en cours, le cas échéant"];
+  const docs = ["Carte grise du véhicule", "Carnet d'entretien et factures disponibles", "Double des clés, si disponible", "Informations sur le crédit en cours, le cas échéant"];
   return (
     <section className="bg-white px-4 pt-10 pb-8 lg:px-12 lg:pt-16 lg:pb-16">
       <div className="mx-auto max-w-[1240px]">
         <div className="mx-auto max-w-[640px] text-center">
-          <h2 className="text-[26px] font-black tracking-tight text-[color:var(--color-brand-dark)] lg:text-[40px]">{t("Bien préparer votre vente")}</h2>
+          <h2 className="text-[26px] font-black tracking-tight text-[color:var(--color-brand-dark)] lg:text-[40px]">{t("Votre vente commence ici")}</h2>
           <p className="mt-2 text-[14px] leading-relaxed text-[color:var(--color-ink-muted)] lg:mt-2.5 lg:text-[17px]">
-            {t("MoziMotors vous accompagne à chaque étape avec des outils simples et un réseau d'experts")}{" "}
-            <span className="font-semibold text-[color:var(--color-brand-teal)]">{t("proches de vous.")}</span>
+            {t("Nos outils et nos experts pour vous guider à chaque étape.")}
           </p>
         </div>
         <div className="mt-6 grid gap-5 lg:mt-8 lg:grid-cols-2 lg:gap-7">
@@ -509,13 +508,13 @@ export function Prepare({ hubs, home }: { hubs: string[]; home: string[] }) {
                 {t("Étape 1")}
               </span>
               <h3 className="mt-4 text-[26px] font-black leading-[1.05] tracking-tight lg:text-[34px]">
-                <span className="text-[color:var(--color-brand-dark)]">{t("À préparer")}</span>
+                <span className="text-[color:var(--color-brand-dark)]">{t("Préparez")}</span>
                 <br />
-                <span className="text-[color:var(--color-brand-teal)]">{t("pour vendre")}</span>
+                <span className="text-[color:var(--color-brand-teal)]">{t("l'essentiel")}</span>
               </h3>
               <div className="my-4 h-[3px] w-11 rounded-full bg-[color:var(--color-brand-teal)]" />
               <p className="text-[14px] leading-relaxed text-[color:var(--color-ink-muted)] lg:text-[15px]">
-                {t("Réunissez ces documents pour une vente rapide et sans tracas.")}
+                {t("Rassemblez ces éléments pour faciliter la vente de votre voiture.")}
               </p>
               <div className="mt-5 flex flex-col">
                 {docs.map((d, i) => (
@@ -531,7 +530,7 @@ export function Prepare({ hubs, home }: { hubs: string[]; home: string[] }) {
             <div className="relative mt-5 flex items-center gap-3 rounded-xl bg-white/70 px-3.5 py-3 lg:max-w-[56%]">
               <ShieldCheck className="size-5 shrink-0 text-[color:var(--color-brand-purple)]" aria-hidden="true" />
               <p className="text-[13px] font-semibold leading-snug text-[color:var(--color-brand-purple)]">
-                {t("Pas de panique : notre équipe vous aide à réunir le reste.")}
+                {t("Un élément vous manque ? Notre équipe vous guide pour compléter votre dossier.")}
               </p>
             </div>
           </div>
@@ -539,9 +538,9 @@ export function Prepare({ hubs, home }: { hubs: string[]; home: string[] }) {
             <span className="inline-flex rounded-full bg-[color:var(--color-brand-teal)] px-3.5 py-1 text-[11px] font-bold uppercase tracking-[0.08em] text-white">
               {t("Étape 2")}
             </span>
-            <h3 className="mt-4 text-[26px] font-black tracking-tight text-[color:var(--color-brand-dark)] lg:text-[34px]">{t("Où sommes-nous ?")}</h3>
+            <h3 className="mt-4 text-[26px] font-black tracking-tight text-[color:var(--color-brand-dark)] lg:text-[34px]">{t("Trouvez-nous près de chez vous")}</h3>
             <p className="mt-2 max-w-[300px] text-[14px] leading-relaxed text-[color:var(--color-ink-muted)] lg:text-[15px]">
-              {t("Trouvez le hub ou l'expertise le plus proche de vous.")}
+              {t("Découvrez nos lieux d'expertise et les zones couvertes par notre service à domicile.")}
             </p>
             <HubMap hubs={hubs} home={home} />
           </div>
@@ -553,50 +552,38 @@ export function Prepare({ hubs, home }: { hubs: string[]; home: string[] }) {
 
 /* ---------- SEO FAQ ---------- */
 
-const know = (t: (s: string) => string): { q: string; a: React.ReactNode }[] => [
+const KNOW: { q: string; a: string }[] = [
   {
-    q: "Où vendre sa voiture au Maroc au meilleur prix ?",
-    a: (
-      <>
-        {t("Entre les annonces classiques, les revendeurs et les plateformes, les écarts de prix sont énormes. Une voiture")}{" "}
-        <strong className="text-[color:var(--color-brand-teal-text)]">{t("expertisée et certifiée")}</strong>{" "}
-        {t("inspire confiance : l'acheteur sait exactement ce qu'il achète et négocie moins. C'est le principe de MoziMotors — l'expertise gratuite transforme votre voiture en annonce certifiée qui se démarque.")}
-      </>
-    ),
+    q: "Pourquoi vendre ma voiture avec MoziMotors ?",
+    a: "Choisissez la formule qui vous convient : rachat direct, vente accompagnée ou annonce en ligne. Notre expertise documente l'état de votre voiture pour rassurer les acheteurs et valoriser votre véhicule.",
   },
   {
-    q: "Qu'est-ce qu'une expertise automobile 140+ points ?",
-    a: "C'est un contrôle professionnel complet : moteur, boîte, châssis sur pont élévateur, diagnostic électronique OBD, mesure d'épaisseur de peinture pour détecter les accidents cachés, essai routier et vérification des documents. Le rapport d'expertise qui en résulte est remis à l'acheteur — c'est lui qui déclenche la vente rapide.",
+    q: "Comment estimez-vous la valeur de ma voiture ?",
+    a: "Nous prenons en compte le modèle, l'année, le kilométrage, l'état du véhicule et les prix du marché marocain pour vous proposer une estimation adaptée.",
   },
   {
-    q: "Combien vaut ma voiture d'occasion ?",
-    a: (
-      <>
-        {t("Le prix dépend du modèle, de l'année, du kilométrage, de l'état réel et de la demande au Maroc. Après l'expertise, MoziMotors vous donne une")}{" "}
-        <strong className="text-[color:var(--color-brand-teal-text)]">{t("estimation fondée sur le marché réel")}</strong>{" "}
-        {t("— pas un chiffre au hasard — et une offre ferme sous 24h, sans engagement.")}
-      </>
-    ),
+    q: "Que comprend l'expertise en plus de 140 points ?",
+    a: "Nos experts contrôlent notamment le moteur, la boîte de vitesses, le soubassement, les systèmes électroniques et la peinture. Un essai routier et une vérification des documents complètent l'inspection, détaillée dans un rapport d'expertise.",
   },
   {
-    q: "Combien de temps prend la vente de ma voiture ?",
-    a: "Avec l'expertise gratuite MoziMotors, vous recevez une offre sous 24h après l'inspection. En vente immédiate, le paiement peut arriver sous 48h.",
+    q: "L'expertise est-elle gratuite ?",
+    a: "Oui. L'inspection, le rapport d'expertise et les photos professionnelles sont offerts, sans obligation de vendre.",
   },
   {
-    q: "L'expertise automobile est-elle vraiment gratuite ?",
-    a: "Oui — les 140+ points de contrôle, le rapport complet et les photos professionnelles sont offerts, sans engagement de vendre.",
+    q: "Sous quel délai puis-je vendre ma voiture ?",
+    a: "Pour le rachat direct, vous recevez une offre ferme sous 24 h après l'inspection. Pour les autres formules, le délai dépend du véhicule, du prix fixé et de la demande.",
   },
   {
-    q: "Ma ville n'a pas de hub, je peux quand même vendre ma voiture ?",
-    a: "Oui, publiez une annonce digitale validée par notre équipe, visible partout au Maroc, ou déplacez-vous à notre showroom pour la certification.",
+    q: "Puis-je vendre si vous n'êtes pas présents dans ma ville ?",
+    a: "Oui. Vous pouvez publier votre annonce sur MoziMotors et gérer votre vente en autonomie, ou vous rendre dans notre centre pour faire expertiser votre voiture.",
   },
   {
-    q: "Comment suis-je payé ?",
-    a: "Selon votre préférence : par chèque certifié ou par virement bancaire sécurisé. Le règlement est déclenché dès la signature du contrat, généralement sous 48 h.",
+    q: "Comment vais-je recevoir mon paiement ?",
+    a: "Par virement bancaire sécurisé ou par chèque certifié, selon les modalités convenues. Pour le rachat direct, le règlement intervient généralement sous 48 h après la signature.",
   },
   {
-    q: "Que se passe-t-il si j'ai un crédit en cours ?",
-    a: "Notre équipe gère la mainlevée avec votre organisme de crédit et le montant restant est déduit du paiement.",
+    q: "Puis-je vendre une voiture avec un crédit en cours ?",
+    a: "Oui. Notre équipe vous accompagne dans les démarches auprès de votre organisme de crédit. Le capital restant dû est déduit du prix de vente et le solde vous est versé.",
   },
 ];
 
@@ -606,13 +593,13 @@ export function SellKnowHow() {
     <section className="bg-[color:var(--color-surface-soft)] px-4 pt-10 pb-8 lg:px-12 lg:pt-16 lg:pb-16">
       <div className="mx-auto max-w-[1240px]">
         <h2 className="text-start text-[16px] font-medium lg:text-[32px] lg:font-semibold text-[color:var(--color-ink-strong)] lg:tracking-[-0.02em]">
-          {t("Vendre sa voiture d'occasion au Maroc : ce qu'il faut savoir")}
+          {t("Vendre avec MoziMotors : vos questions, nos réponses")}
         </h2>
         <div className="mt-4 grid gap-6 lg:mt-10 lg:grid-cols-2 lg:gap-x-10 lg:gap-y-8">
-          {know(t).map((k) => (
+          {KNOW.map((k) => (
             <article key={k.q}>
               <h3 className="text-[16px] font-bold text-[color:var(--color-brand-navy)] lg:text-[20px]">{t(k.q)}</h3>
-              <p className="mt-2 text-[13px] leading-relaxed text-[color:var(--color-ink-muted)] lg:text-[14px]">{typeof k.a === "string" ? t(k.a) : k.a}</p>
+              <p className="mt-2 text-[13px] leading-relaxed text-[color:var(--color-ink-muted)] lg:text-[14px]">{t(k.a)}</p>
             </article>
           ))}
         </div>
@@ -630,10 +617,10 @@ export function SellBottomCta({ mobile = false }: { mobile?: boolean }) {
       <div className={`mx-auto flex max-w-[1240px] items-center gap-8 ${mobile ? "flex-col py-6 text-center" : "justify-between py-10"}`}>
         <div>
           <div className={`font-black tracking-tight text-white ${mobile ? "text-[20px]" : "text-[30px]"}`}>
-            {t("Prêt à vendre votre voiture en moins de 2 minutes ?")}
+            {t("Passez à la vente, en toute confiance")}
           </div>
           <div className={`mt-1 text-[color:var(--color-brand-purple-soft)] ${mobile ? "text-[13px]" : "text-[15px]"}`}>
-            {t("Expertise gratuite, offre sous 24h, paiement sécurisé.")}
+            {t("Expertise gratuite, accompagnement à chaque étape et paiement sécurisé.")}
           </div>
         </div>
         {!mobile && (

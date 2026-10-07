@@ -225,12 +225,11 @@ const BODY_TYPES = [
   { label: "Utilitaire", body: "utilitaire", img: "transport" },
 ];
 
-export function SearchCard({ catalog, cities }: { catalog: Catalog; cities: string[] }) {
+export function SearchCard({ catalog }: { catalog: Catalog }) {
   const router = useRouter();
   const { t, href } = useV2();
   const [brand, setBrand] = useState("");
   const [model, setModel] = useState("");
-  const [city, setCity] = useState("");
   const rail = useRef<HTMLDivElement>(null);
 
   const brandOptions = catalog.map((b) => ({
@@ -239,13 +238,11 @@ export function SearchCard({ catalog, cities }: { catalog: Catalog; cities: stri
     logo: BRAND_LOGOS.has(b.slug) ? `${A}/storage/brands/${b.slug}.png` : undefined,
   }));
   const modelOptions = (catalog.find((b) => b.slug === brand)?.models ?? []).map((m) => ({ value: m, label: m }));
-  const cityOptions = cities.map((c) => ({ value: c, label: c }));
 
   const search = () => {
     const p = new URLSearchParams();
     if (brand) p.set("brand", brand);
     if (brand && model) p.set("model", `${brand}~${model}`);
-    if (city) p.set("city", city);
     const qs = p.toString();
     router.push(href(`/acheter${qs ? `?${qs}` : ""}`));
   };
@@ -253,7 +250,7 @@ export function SearchCard({ catalog, cities }: { catalog: Catalog; cities: stri
   return (
     <div className="w-full overflow-hidden r bg-white">
       <div className="px-4 py-5 sm:px-8 sm:py-6">
-        <div className="grid grid-cols-1 items-center gap-2.5 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_1fr_auto]">
+        <div className="grid grid-cols-1 items-center gap-2.5 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_auto]">
           <Combobox
             placeholder={t("Marque")}
             searchPlaceholder={t("Rechercher une marque…")}
@@ -265,7 +262,6 @@ export function SearchCard({ catalog, cities }: { catalog: Catalog; cities: stri
             }}
           />
           <Combobox placeholder={t("Modèle")} searchPlaceholder={t("Rechercher un modèle…")} options={modelOptions} value={model} onChange={setModel} disabled={!brand} />
-          <Combobox placeholder={t("Ville")} searchPlaceholder={t("Rechercher une ville…")} options={cityOptions} value={city} onChange={setCity} />
           <div className="flex items-center gap-2">
             <button
               type="button"

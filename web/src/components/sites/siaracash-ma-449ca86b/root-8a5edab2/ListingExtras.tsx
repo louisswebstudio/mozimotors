@@ -1,9 +1,10 @@
 "use client";
 
-/** Below the results on siaracash.ma/lists: « L'avantage », FAQ accordion, popular models/brands links. */
+/** Below the results on siaracash.ma/lists: « Les engagements », FAQ accordion, popular models/brands links (from the stock). */
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { A } from "./assets";
+import { useFacets } from "./ListingFilters";
 import { useV2 } from "./V2Locale";
 
 const EDGE = [
@@ -25,30 +26,6 @@ const FAQ = [
   { q: "Les prix sont-ils négociables ?", a: "Nos prix sont étudiés et alignés sur le marché : vous payez le juste prix, sans négociation interminable." },
   { q: "Puis-je voir le rapport d'expertise avant d'acheter ?", a: "Oui, chaque voiture du stock MoziMotors est livrée avec un rapport d'expertise complet." },
   { q: "L'achat se fait-il en ligne ?", a: "Vous pouvez réserver en ligne et finaliser au showroom, en toute sécurité." },
-];
-
-const MODELS: [string, string, string][] = [
-  ["Dacia Sandero", "dacia", "Sandero"],
-  ["Renault Clio", "renault", "Clio"],
-  ["Volkswagen Golf", "volkswagen", "Golf"],
-  ["Peugeot 208", "peugeot", "208"],
-  ["Dacia Duster", "dacia", "Duster"],
-  ["Hyundai Tucson", "hyundai", "Tucson"],
-  ["Mercedes Classe C", "mercedes-benz", "Classe C"],
-  ["BMW Série 3", "bmw", "Série 3"],
-];
-
-const BRANDS: [string, string][] = [
-  ["Dacia", "dacia"],
-  ["Renault", "renault"],
-  ["Volkswagen", "volkswagen"],
-  ["Peugeot", "peugeot"],
-  ["Hyundai", "hyundai"],
-  ["Toyota", "toyota"],
-  ["Mercedes", "mercedes-benz"],
-  ["BMW", "bmw"],
-  ["Audi", "audi"],
-  ["Ford", "ford"],
 ];
 
 const H2 = "mb-2.5 pb-1.5 text-[17px] font-bold !text-[var(--cc-primary)] lg:mb-3 lg:text-[20px]";
@@ -108,10 +85,16 @@ function Links<T>({ items, render }: { items: T[]; render: (x: T) => [string, st
 
 export function ListingExtras() {
   const { t } = useV2();
+  const { brands: stock } = useFacets();
+  const brands = [...stock].sort((a, b) => b.count - a.count).slice(0, 10);
+  const models = stock
+    .flatMap((b) => b.models.map((m) => ({ brand: b, model: m })))
+    .sort((a, b) => b.model.count - a.model.count)
+    .slice(0, 8);
   return (
     <>
       <div className="mt-8">
-        <h2 className={H2}>{t("L'avantage MoziMotors")}</h2>
+        <h2 className={H2}>{t("Les engagements MoziMotors")}</h2>
         <div className="cc-card p-4 lg:p-5">
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 lg:gap-4">
             {EDGE.map((e) => (
@@ -139,11 +122,14 @@ export function ListingExtras() {
           <h2 className="mb-3 text-[16px] font-bold text-[var(--cc-ink)]">{t("Parcourir les voitures d'occasion au Maroc")}</h2>
           <p className="mb-2 text-[13px] font-semibold text-[var(--cc-ink)]">{t("Par modèles populaires")}</p>
           <p className="mb-4 text-[12px] leading-relaxed text-[var(--cc-body)]">
-            <Links items={MODELS} render={([label, brand, model]) => [label, `/acheter?brand=${brand}&model=${encodeURIComponent(`${brand}~${model}`)}`]} />
+            <Links
+              items={models}
+              render={({ brand, model }) => [`${brand.name} ${model.name}`, `/acheter?brand=${brand.slug}&model=${encodeURIComponent(`${brand.slug}~${model.name}`)}`]}
+            />
           </p>
           <p className="mb-2 text-[13px] font-semibold text-[var(--cc-ink)]">{t("Par marques populaires")}</p>
           <p className="text-[12px] leading-relaxed text-[var(--cc-body)]">
-            <Links items={BRANDS} render={([label, slug]) => [label, `/acheter?brand=${slug}`]} />
+            <Links items={brands} render={(b) => [b.name, `/acheter?brand=${b.slug}`]} />
           </p>
         </div>
       </div>

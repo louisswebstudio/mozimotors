@@ -97,6 +97,20 @@ export async function getTestimonials(): Promise<Testimonial[]> {
   }));
 }
 
+/**
+ * Every brand → its models, from the Studio catalog (Marques / Modèles), whether or not they are in stock.
+ * Used by the sell form so owners can pick any car. Empty in demo mode (the form then uses SELL_BRANDS).
+ */
+export async function getAllBrands(): Promise<{ name: string; models: string[] }[]> {
+  if (!sanityConfigured) return [];
+  const brands = await sanityQuery<{ name: string; models: (string | null)[] | null }[]>(
+    `*[_type == "brand" && defined(name)] | order(name asc){ name, "models": *[_type == "model" && brand._ref == ^._id && defined(name)] | order(name asc).name }`,
+    {},
+    ["cars"],
+  );
+  return brands.map((b) => ({ name: b.name, models: (b.models ?? []).filter((m): m is string => Boolean(m)) }));
+}
+
 /** Settings are cosmetic (contact details): on failure fall back to defaults rather than breaking every page. */
 export async function getSettings(): Promise<SiteSettings> {
   if (!sanityConfigured) return DEFAULT_SETTINGS;

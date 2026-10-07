@@ -22,7 +22,7 @@ export function coverageFor(city: string, s: Pick<SiteSettings, "showroomCity" |
   return { atShowroom, atHome, level: (atShowroom ? "showroom" : atHome ? "domicile" : "none") as Coverage };
 }
 
-/** Brands offered in the wizard (Moroccan market). */
+/** Sell-form brands when the Studio has no brand catalog (demo mode). */
 export const SELL_BRANDS = [
   "Alfa Romeo", "Audi", "BMW", "BYD", "Chery", "Chevrolet", "Citroën", "Cupra", "Dacia", "DS", "Fiat", "Ford",
   "Geely", "Honda", "Hyundai", "Jaguar", "Jeep", "Kia", "Land Rover", "Lexus", "Mazda", "Mercedes-Benz", "MG",

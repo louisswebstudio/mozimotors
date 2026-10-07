@@ -11,7 +11,7 @@ import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, BadgeCheck, Check, House, Loader2, MapPin, Search, Store } from "lucide-react";
 import { useI18n } from "@/i18n/client";
 import { fmt as fill } from "@/i18n/core";
-import { CONDITIONS, OTHER_CITY, SELL_BRANDS, SELL_CITIES, SELL_DOCUMENTS, coverageFor, nextInspectionDays, normalizeMaPhone } from "@/lib/sell";
+import { CONDITIONS, OTHER_CITY, SELL_CITIES, SELL_DOCUMENTS, coverageFor, nextInspectionDays, normalizeMaPhone } from "@/lib/sell";
 import { FUEL_LABELS } from "@/lib/format";
 import type { SiteSettings } from "@/lib/types";
 import { HOME } from "./assets";
@@ -143,6 +143,7 @@ export function V2SellWizard({
 }: {
   initialCity?: string;
   settings: Pick<SiteSettings, "showroomCity" | "homeInspectionCities" | "address" | "phone">;
+  /** Brand → models (brands in display order; « Autre » is added here). */
   models: Record<string, string[]>;
 }) {
   const { t, num } = useI18n();
@@ -458,7 +459,7 @@ export function V2SellWizard({
               <Field id="sf-brand" label={w.brand} required>
                 <select id="sf-brand" className={SELECT} value={d.brand} onChange={(e) => setD((x) => ({ ...x, brand: e.target.value, model: "" }))}>
                   <option value="">{w.brand}</option>
-                  {SELL_BRANDS.map((b) => (
+                  {[...Object.keys(models), "Autre"].map((b) => (
                     <option key={b} value={b}>
                       {b === "Autre" ? w.otherBrand : b}
                     </option>

@@ -138,7 +138,7 @@ export const en: Dict = {
     cta: "See cars within my budget",
   },
   trust: {
-    eyebrow: "The MoziMotors advantage",
+    eyebrow: "MoziMotors commitments",
     title: "Trust, included in the price",
     text: "Everything a used-car purchase should always include, at no extra cost.",
     bullets: [

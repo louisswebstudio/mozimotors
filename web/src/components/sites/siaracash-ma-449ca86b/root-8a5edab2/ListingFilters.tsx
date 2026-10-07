@@ -95,6 +95,8 @@ function useCounts() {
 
 const FacetsContext = createContext<ListingFacets>({ brands: [], cities: [], years: [] });
 
+export const useFacets = () => useContext(FacetsContext);
+
 export function FacetsProvider({ facets, children }: { facets: ListingFacets; children: React.ReactNode }) {
   return <FacetsContext.Provider value={facets}>{children}</FacetsContext.Provider>;
 }
@@ -440,7 +442,7 @@ function KmSection() {
   );
 }
 
-const SECTIONS: { id: SectionId; label: string; body: () => React.ReactNode }[] = [
+const ALL_SECTIONS: { id: SectionId; label: string; body: () => React.ReactNode }[] = [
   { id: "type", label: "Type d'annonce", body: () => <TileGrid k="type" items={TYPES} /> },
   { id: "dispo", label: "Disponibilité", body: () => <TileGrid k="dispo" items={DISPOS} /> },
   { id: "brand", label: "Marque / Modèle", body: () => <BrandSection /> },
@@ -450,6 +452,10 @@ const SECTIONS: { id: SectionId; label: string; body: () => React.ReactNode }[] 
   { id: "km", label: "Kilométrage", body: () => <KmSection /> },
   { id: "fuel", label: "Carburant", body: () => <TileGrid k="fuel" items={FUELS} /> },
 ];
+
+/** Hidden for now at the client's request (the URL params still work). */
+const HIDDEN: SectionId[] = ["type", "dispo", "city"];
+const SECTIONS = ALL_SECTIONS.filter((s) => !HIDDEN.includes(s.id));
 
 function Badge({ n }: { n: number }) {
   return <span className="grid size-5 shrink-0 place-items-center rounded-full bg-[color:var(--color-warning)] text-[10px] font-bold text-white">{n}</span>;
@@ -461,13 +467,13 @@ export function FilterPanel() {
   const { t } = useV2();
   const f = useFilters();
   const { counts, total } = useCounts();
-  // Type d'annonce starts open (as on siaracash.ma), plus any section that already has a value.
-  const [open, setOpen] = useState<SectionId[]>(() => ["type", ...SECTIONS.filter((s) => counts[s.id] > 0).map((s) => s.id)]);
+  // Marque / Modèle starts open, plus any section that already has a value.
+  const [open, setOpen] = useState<SectionId[]>(() => ["brand", ...SECTIONS.filter((s) => counts[s.id] > 0).map((s) => s.id)]);
   const toggle = (id: SectionId) => setOpen((o) => (o.includes(id) ? o.filter((x) => x !== id) : [...o, id]));
 
   return (
     <aside className="hidden w-[320px] shrink-0 lg:block">
-      <div className="cc-card sticky top-[152px] max-h-[calc(100svh-168px)] overflow-y-auto p-4 cc-noscroll">
+      <div className="cc-card sticky top-[92px] max-h-[calc(100svh-108px)] overflow-y-auto p-4 cc-noscroll">
         <div className="flex items-center justify-between">
           <h2 className="text-[16px] font-bold text-[var(--cc-ink)]">{t("Filtres")}</h2>
           {total > 0 && (
@@ -513,7 +519,7 @@ export function FilterSheet({ onClose, resultCount }: { onClose: () => void; res
   const { t } = useV2();
   const f = useFilters();
   const { counts } = useCounts();
-  const [tab, setTab] = useState<SectionId>("type");
+  const [tab, setTab] = useState<SectionId>(SECTIONS[0].id);
   const current = useMemo(() => SECTIONS.find((s) => s.id === tab)!, [tab]);
 
   useEffect(() => {

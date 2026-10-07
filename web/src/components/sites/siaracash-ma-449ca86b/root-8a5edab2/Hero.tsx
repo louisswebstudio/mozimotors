@@ -9,7 +9,7 @@ import { A, HOME } from "./assets";
 import { SearchCard } from "./SearchCard";
 import { getV2 } from "./server-locale";
 
-export async function DesktopHero({ catalog, cities }: { catalog: Catalog; cities: string[] }) {
+export async function DesktopHero({ catalog }: { catalog: Catalog }) {
   const { t, href } = await getV2();
   return (
     <section className="relative">
@@ -55,7 +55,7 @@ export async function DesktopHero({ catalog, cities }: { catalog: Catalog; citie
       {/* Search card overlapping the bottom of the photo */}
       <div className="relative z-10 mx-auto w-full max-w-[1280px] px-12" style={{ marginTop: -64 }}>
         <div className="overflow-hidden rounded-2xl bg-white" style={{ boxShadow: "0 18px 50px -12px rgba(16, 24, 40, 0.18)" }}>
-          <SearchCard catalog={catalog} cities={cities} />
+          <SearchCard catalog={catalog} />
         </div>
       </div>
       <div style={{ height: 56 }} />
@@ -63,11 +63,11 @@ export async function DesktopHero({ catalog, cities }: { catalog: Catalog; citie
   );
 }
 
-export function MobileSearch({ catalog, cities }: { catalog: Catalog; cities: string[] }) {
+export function MobileSearch({ catalog }: { catalog: Catalog }) {
   return (
     <section className="pt-6">
       <div className="bg-white p-4">
-        <SearchCard catalog={catalog} cities={cities} />
+        <SearchCard catalog={catalog} />
       </div>
     </section>
   );

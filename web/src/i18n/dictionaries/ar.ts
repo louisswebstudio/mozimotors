@@ -144,7 +144,7 @@ export const ar: Dict = {
     cta: "عرض السيارات ضمن ميزانيتي",
   },
   trust: {
-    eyebrow: "ميزة MoziMotors",
+    eyebrow: "التزامات MoziMotors",
     title: "الثقة، مشمولة في السعر",
     text: "كل ما يجب أن يتضمنه شراء سيارة مستعملة، دون أي تكلفة إضافية.",
     bullets: [

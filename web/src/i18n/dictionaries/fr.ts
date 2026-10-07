@@ -147,7 +147,7 @@ export const fr = {
     cta: "Voir les voitures dans mon budget",
   },
   trust: {
-    eyebrow: "L'avantage MoziMotors",
+    eyebrow: "Les engagements MoziMotors",
     title: "La confiance, incluse dans le prix",
     text: "Tout ce qu'un achat d'occasion devrait toujours comprendre, sans supplément.",
     bullets: [

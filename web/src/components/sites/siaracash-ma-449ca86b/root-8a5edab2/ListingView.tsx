@@ -2,7 +2,7 @@
 
 /**
  * siaracash.ma/lists layout for /v2/acheter.
- * - DesktopListing (lg+): sticky « Toutes les voitures / Stock » switch, filter card, results grid
+ * - DesktopListing (lg+): filter card, results grid
  *   (2→5 columns) with a « Vendez votre voiture » banner every 12 cars, « Trier par » dropdown.
  * - MobileListing (< lg): own sticky header (logo, menu, search, favourites), quick brand chips,
  *   horizontal cards, full-screen filter sheet and « Trier par » bottom sheet.
@@ -31,24 +31,6 @@ const SORTS = [
 export type PopularBrand = { name: string; slug: string; count: number; range: string };
 
 /* ---------- shared bits ---------- */
-
-/** « Toutes les voitures » / « Stock MoziMotors » (= cars at the showroom, `dispo=showroom`). */
-function StockSwitch() {
-  const { t } = useV2();
-  const f = useFilters();
-  const stock = f.list("dispo").length === 1 && f.list("dispo")[0] === "showroom";
-  const tab = (on: boolean) => `flex-1 rounded-xl py-2.5 text-center transition ${on ? "bg-white text-[var(--cc-ink)] shadow-sm" : "text-[var(--cc-muted)]"}`;
-  return (
-    <div className="flex w-full rounded-2xl border border-[var(--cc-line)] bg-[var(--cc-soft)] p-1 text-[14px] font-semibold lg:w-[320px]">
-      <button className={tab(!stock)} onClick={() => f.set({ dispo: undefined })}>
-        {t("Toutes les voitures")}
-      </button>
-      <button className={tab(stock)} onClick={() => f.set({ dispo: "showroom" })}>
-        {t("Stock MoziMotors")}
-      </button>
-    </div>
-  );
-}
 
 /** Title + « Lire plus » SEO text (expands with the popular-brands table). */
 function Intro({ popular, children, mobile = false }: { popular: PopularBrand[]; children: React.ReactNode; mobile?: boolean }) {
@@ -192,9 +174,6 @@ export function DesktopListing({ cars, popular }: { cars: ListedCar[]; popular: 
   const f = useFilters();
   return (
     <main className={`w-full px-5 py-5 transition-opacity ${f.pending ? "opacity-60" : ""}`}>
-      <div className="sticky top-[72px] z-30 -mx-5 mb-1 bg-[var(--cc-page)] px-5 py-3">
-        <StockSwitch />
-      </div>
       <div className="flex gap-6">
         <FilterPanel />
         <div className="min-w-0 flex-1">
@@ -405,9 +384,6 @@ export function MobileListing({
         </div>
       </header>
       <main className={`cc-stack px-4 pb-24 pt-3 transition-opacity ${f.pending ? "opacity-60" : ""}`}>
-        <div className="flex justify-center">
-          <StockSwitch />
-        </div>
         <Intro popular={popular} mobile>
           <button onClick={() => setSheet("sort")} className="flex shrink-0 items-center gap-1 text-[14px] font-bold text-[var(--cc-ink)]">
             <ArrowDownWideNarrow className="size-4" aria-hidden="true" /> {t("TRIER")}

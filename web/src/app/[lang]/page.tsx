@@ -31,19 +31,18 @@ export default async function V2Home() {
   const all = cars.map((c) => toListed(c));
   const featured = (cars.some((c) => c.featured) ? cars.filter((c) => c.featured) : cars).slice(0, 8).map((c) => toListed(c));
   const catalog = buildCatalog(cars);
-  const cities = [...new Set(cars.map((c) => c.city))].sort((a, b) => a.localeCompare(b));
 
   const listings = <CarListings featured={featured} all={all} />;
 
   return (
     <div className="flex flex-col">
       <div className="hidden lg:block">
-        <DesktopHero catalog={catalog} cities={cities} />
+        <DesktopHero catalog={catalog} />
         <QuickNavDesktop />
         <CertifiedBanner />
         <section className="mx-auto max-w-[1280px] px-12 pt-8" />
         {listings}
-        <BrandStrip />
+        <BrandStrip catalog={catalog} />
         <EdgeGrid />
         <HowItWorks />
         <SellCta />
@@ -53,11 +52,11 @@ export default async function V2Home() {
       <div className="lg:hidden">
         <MobileHero />
         <QuickNavMobile />
-        <MobileSearch catalog={catalog} cities={cities} />
+        <MobileSearch catalog={catalog} />
         <CertifiedBanner />
         <section className="px-4 pt-6" />
         {listings}
-        <BrandStrip />
+        <BrandStrip catalog={catalog} />
         <SellCta />
         <BodyTypeRail />
         <EdgeGrid />
