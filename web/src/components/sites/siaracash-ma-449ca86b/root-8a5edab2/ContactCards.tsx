@@ -1,4 +1,4 @@
-/** « Contactez-nous »: three cards with a teal edge (call / email / visit), MoziMotors contact settings. */
+/** « Contactez-nous »: three cards with a teal edge (phone / email / address), MoziMotors contact settings. */
 import type { SiteSettings } from "@/lib/types";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { telLink } from "./assets";
@@ -39,13 +39,8 @@ export async function ContactCards({ settings }: { settings: SiteSettings }) {
                   >
                     <c.icon className="size-5" />
                   </span>
-                  <span className="min-w-0">
-                    <span className="block text-[17px] font-bold md:text-[20px]" style={{ color: "#050B20" }}>
-                      {c.title}
-                    </span>
-                    <span className="mt-1 block truncate text-[14px] md:text-[15px] group-hover:underline" style={{ color: "var(--color-ink-muted)" }}>
-                      {c.value}
-                    </span>
+                  <span className="min-w-0 text-[16px] font-bold leading-snug group-hover:underline md:text-[18px]" style={{ color: "#050B20" }}>
+                    {c.value}
                   </span>
                 </span>
               </a>

@@ -220,7 +220,7 @@ const FORMULAS = [
   {
     kicker: "Premium",
     title: "On vend pour vous",
-    text: "Votre voiture certifiée, photographiée et publiée. Notre équipe gère les acheteurs et négocie le meilleur prix.",
+    text: "Votre voiture certifiée, photographiée et mise en ligne. Notre équipe gère les échanges et négocie le meilleur prix pour vous.",
     points: ["Votre voiture valorisée", "Vos démarches administratives prises en charge"],
     featured: true,
   },

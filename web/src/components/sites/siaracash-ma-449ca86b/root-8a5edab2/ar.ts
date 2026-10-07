@@ -554,4 +554,5 @@ export const AR: Record<string, string> = {
   "Votre voiture valorisée": "سيارتك في أفضل قيمة",
   "Vos démarches administratives prises en charge": "نتكفّل بإجراءاتك الإدارية",
   "Publiez votre annonce sur MoziMotors et gérez directement votre vente. Une formule adaptée aussi aux villes non couvertes par notre accompagnement.": "انشر إعلانك على MoziMotors وأدِر عملية البيع بنفسك. صيغة تناسب أيضًا المدن غير المشمولة بمرافقتنا.",
+  "Votre voiture certifiée, photographiée et mise en ligne. Notre équipe gère les échanges et négocie le meilleur prix pour vous.": "سيارتك معتمدة ومصوّرة ومنشورة عبر الإنترنت. يتولى فريقنا التواصل مع المشترين ويتفاوض على أفضل سعر لك.",
 };

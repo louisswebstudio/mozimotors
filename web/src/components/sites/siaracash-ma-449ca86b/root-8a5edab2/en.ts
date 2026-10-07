@@ -563,7 +563,7 @@ export const EN: Record<string, string> = {
   "{n} véhicule": "{n} vehicle",
   "{n} véhicules": "{n} vehicles",
   "Achetez ou vendez votre voiture d'occasion,": "Buy or sell your used car,",
-  "en toute confiance": "with complete confidence",
+  "en toute confiance": "with confidence",
   "Essayez avant d'acheter": "Try before you buy",
   "Démarches simplifiées": "Paperwork made simple",
   "Profitez de votre nouvelle voiture, nous vous accompagnons dans les formalités. Du dossier de mutation à la carte grise provisoire, notre équipe suit chaque étape à vos côtés.": "Enjoy your new car — we help you with the formalities. From the transfer file to the temporary registration, our team follows every step with you.",
@@ -613,4 +613,5 @@ export const EN: Record<string, string> = {
   "Votre voiture valorisée": "Your car showcased at its best value",
   "Vos démarches administratives prises en charge": "Your paperwork handled for you",
   "Publiez votre annonce sur MoziMotors et gérez directement votre vente. Une formule adaptée aussi aux villes non couvertes par notre accompagnement.": "Publish your listing on MoziMotors and handle the sale yourself. An option that also suits cities not covered by our assisted service.",
+  "Votre voiture certifiée, photographiée et mise en ligne. Notre équipe gère les échanges et négocie le meilleur prix pour vous.": "Your car certified, photographed and listed online. Our team handles the conversations with buyers and negotiates the best price for you.",
 };

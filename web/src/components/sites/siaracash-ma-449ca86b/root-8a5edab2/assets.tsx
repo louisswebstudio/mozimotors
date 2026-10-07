@@ -19,4 +19,5 @@ export function Logo({ white = false, height = 32 }: { white?: boolean; height?:
 }
 
 export const waLink = (number: string, text = "Bonjour MoziMotors") => `https://wa.me/${number.replace(/\D/g, "")}?text=${encodeURIComponent(text)}`;
-export const telLink = (phone: string) => `tel:${phone.replace(/[^\d+]/g, "")}`;
+// "(0)" is the trunk prefix shown in "+212 (0) 7 …": not dialled.
+export const telLink = (phone: string) => `tel:${phone.replace(/\(0\)/g, "").replace(/[^\d+]/g, "")}`;

@@ -10,7 +10,7 @@ import { SearchCard } from "./SearchCard";
 import { getV2 } from "./server-locale";
 
 export async function DesktopHero({ catalog }: { catalog: Catalog }) {
-  const { t, href } = await getV2();
+  const { t, href, locale } = await getV2();
   return (
     <section className="relative">
       {/* Full-bleed showroom photo (people on the right), white fade behind the headline — as on the client's mockup. */}
@@ -29,7 +29,7 @@ export async function DesktopHero({ catalog }: { catalog: Catalog }) {
         </div>
         <div className="relative mx-auto flex h-full w-full max-w-[1280px] items-center px-12" style={{ paddingBottom: 60 }}>
           <div className="flex flex-col items-start" style={{ gap: 32 }}>
-            <h1 className="font-extrabold tracking-[-0.03em] text-[color:var(--color-brand-dark)]" style={{ maxWidth: 660, fontSize: 60, lineHeight: 1.08 }}>
+            <h1 className="font-extrabold tracking-[-0.03em] text-[color:var(--color-brand-dark)]" style={{ maxWidth: locale === "en" ? 440 : 660, fontSize: 60, lineHeight: 1.08 }}>
               {t("Achetez ou vendez votre voiture d'occasion,")}{" "}
               <span className="block text-[color:var(--color-brand-teal)]">{t("en toute confiance")}</span>
             </h1>

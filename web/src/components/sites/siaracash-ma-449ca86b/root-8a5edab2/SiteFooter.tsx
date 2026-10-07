@@ -103,34 +103,31 @@ export function SiteFooter({ settings }: { settings: SiteSettings }) {
           <div className="col-span-2 lg:col-span-1">
             <h3 className={HEAD}>{t("Contact")}</h3>
             <ul className="flex flex-col gap-[16px]">
-              <li className="flex min-w-0 items-start gap-3">
-                <span aria-hidden="true" className="mt-0.5 grid size-9 shrink-0 place-items-center rounded-full bg-white/10 mz-on-dark-accent">
+              <li className="flex min-w-0 items-center gap-3">
+                <span aria-hidden="true" className="grid size-9 shrink-0 place-items-center rounded-full bg-white/10 mz-on-dark-accent">
                   <Phone className="size-4" />
                 </span>
                 <span className="min-w-0">
-                  <span className="block text-[13px] font-medium text-white/70 tracking-[-0.39px]">{t("Appelez-nous")}</span>
                   <a href={telLink(settings.phone)} className="block text-[15px] font-bold text-white tracking-[-0.45px] transition-opacity hover:opacity-70">
                     {settings.phone}
                   </a>
                 </span>
               </li>
-              <li className="flex min-w-0 items-start gap-3">
-                <span aria-hidden="true" className="mt-0.5 grid size-9 shrink-0 place-items-center rounded-full bg-white/10 mz-on-dark-accent">
+              <li className="flex min-w-0 items-center gap-3">
+                <span aria-hidden="true" className="grid size-9 shrink-0 place-items-center rounded-full bg-white/10 mz-on-dark-accent">
                   <Mail className="size-4" />
                 </span>
                 <span className="min-w-0">
-                  <span className="block text-[13px] font-medium text-white/70 tracking-[-0.39px]">{t("Écrivez-nous")}</span>
                   <a href={`mailto:${settings.email}`} className="block break-all text-[15px] font-bold text-white tracking-[-0.45px] transition-opacity hover:opacity-70">
                     {settings.email}
                   </a>
                 </span>
               </li>
-              <li className="flex min-w-0 items-start gap-3">
-                <span aria-hidden="true" className="mt-0.5 grid size-9 shrink-0 place-items-center rounded-full bg-white/10 mz-on-dark-accent">
+              <li className="flex min-w-0 items-center gap-3">
+                <span aria-hidden="true" className="grid size-9 shrink-0 place-items-center rounded-full bg-white/10 mz-on-dark-accent">
                   <MapPin className="size-4" />
                 </span>
                 <span className="min-w-0">
-                  <span className="block text-[13px] font-medium text-white/70 tracking-[-0.39px]">{t("Nos centres")}</span>
                   <span className="block text-[15px] font-bold text-white tracking-[-0.45px]">{settings.address}</span>
                 </span>
               </li>

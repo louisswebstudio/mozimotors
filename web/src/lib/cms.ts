@@ -111,9 +111,17 @@ export async function getAllBrands(): Promise<{ name: string; models: string[] }
   return brands.map((b) => ({ name: b.name, models: (b.models ?? []).filter((m): m is string => Boolean(m)) }));
 }
 
+/** Moroccan number → "+212 (0) 7 73 19 14 33" (international display); anything else is left as typed. */
+function displayPhone(phone: string) {
+  const d = phone.replace(/\D/g, "").replace(/^00/, "");
+  const local = d.startsWith("212") ? d.slice(3).replace(/^0/, "") : d.startsWith("0") ? d.slice(1) : "";
+  if (!/^[5-8]\d{8}$/.test(local)) return phone;
+  return `+212 (0) ${local[0]} ${local.slice(1).match(/\d{2}/g)!.join(" ")}`;
+}
+
 /** Settings are cosmetic (contact details): on failure fall back to defaults rather than breaking every page. */
 export async function getSettings(): Promise<SiteSettings> {
-  if (!sanityConfigured) return DEFAULT_SETTINGS;
+  if (!sanityConfigured) return { ...DEFAULT_SETTINGS, phone: displayPhone(DEFAULT_SETTINGS.phone) };
   let s: Partial<SiteSettings> = {};
   try {
     s = (await sanityQuery<Partial<SiteSettings> | null>(`*[_id == "settings"][0]`, {}, ["settings"])) ?? {};
@@ -121,7 +129,8 @@ export async function getSettings(): Promise<SiteSettings> {
     console.error("[cms] settings unavailable, using defaults:", err);
   }
   const set = Object.entries(s).filter(([k, v]) => !k.startsWith("_") && v !== "" && v != null && !(Array.isArray(v) && !v.length));
-  return { ...DEFAULT_SETTINGS, ...Object.fromEntries(set) };
+  const merged: SiteSettings = { ...DEFAULT_SETTINGS, ...Object.fromEntries(set) };
+  return { ...merged, phone: displayPhone(merged.phone) };
 }
 
 /** Email that receives form submissions (Réglages › Demandes), falling back to the contact email. Server only. */
