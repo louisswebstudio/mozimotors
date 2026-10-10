@@ -15,7 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       alternates: { languages },
     }));
   };
-  const pages = ["/", "/acheter", "/vendre", "/pourquoi-mozimotors", "/contact", "/faq", "/conditions-generales", "/politique-de-confidentialite", "/cookies"];
+  const pages = ["/", "/acheter", "/vendre", "/pourquoi-mozimotors", "/a-propos", "/contact", "/faq", "/conditions-generales", "/politique-de-confidentialite", "/cookies"];
   return [
     ...pages.flatMap((p) => entry(p, "weekly", p === "/" ? 1 : 0.8)),
     ...cars.flatMap((c) => entry(`/voiture/${c.slug}`, "daily", 0.7)),

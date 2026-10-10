@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Sticky header from siaracash.ma: logo, centred nav, search pill (xl+), language dropdown (lg+), menu button + right drawer (< lg).
+ * Sticky header from siaracash.ma: logo, centred nav, « Estimer ma voiture » button, language dropdown (lg+), menu button + right drawer (< lg).
  * Le Neuf, Financement and Devenir partenaire are left out on request; no « Se connecter » (the site has no accounts).
  */
 import { useEffect, useRef, useState } from "react";
@@ -13,13 +13,15 @@ import { localizeV2, v2BasePath, type V2Locale } from "./locale";
 const NAV = [
   { label: "Acheter", href: "/acheter" },
   { label: "Vendre", href: "/vendre" },
-  { label: "Certifié MoziMotors", href: "/pourquoi-mozimotors" },
+  { label: "Notre expertise", href: "/pourquoi-mozimotors" },
+  { label: "À propos", href: "/a-propos" },
 ];
 
 const DRAWER_NAV = [
   { label: "Acheter", href: "/acheter" },
   { label: "Vendre", href: "/vendre" },
-  { label: "Pourquoi MoziMotors ?", href: "/pourquoi-mozimotors" },
+  { label: "Notre expertise", href: "/pourquoi-mozimotors" },
+  { label: "À propos", href: "/a-propos" },
   { label: "FAQ", href: "/faq" },
 ];
 
@@ -128,39 +130,6 @@ function LanguageMenu() {
         </ul>
       )}
     </div>
-  );
-}
-
-function HeaderSearch() {
-  const { t, href } = useV2();
-  return (
-    <form action={href("/acheter")} className="relative hidden items-center xl:flex">
-      <div className="flex items-center gap-2 rounded-full border border-[color:var(--color-line-soft)] bg-[color:var(--color-surface-soft)] ps-3.5 pe-2 focus-within:border-[color:var(--color-brand-teal)] focus-within:ring-2 focus-within:ring-[color:var(--color-brand-teal)]">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="lucide lucide-search size-4 shrink-0 text-[color:var(--color-brand-grey)]"
-          aria-hidden="true"
-        >
-          <path d="m21 21-4.34-4.34" />
-          <circle cx="11" cy="11" r="8" />
-        </svg>
-        <input
-          name="q"
-          placeholder={t("Quel type de voiture cherchez-vous ?")}
-          aria-label={t("Quel type de voiture cherchez-vous ?")}
-          autoComplete="off"
-          className="w-[168px] bg-transparent py-2 text-[13.5px] text-[color:var(--color-brand-dark)] placeholder:text-[color:var(--color-brand-grey)] focus:outline-none"
-        />
-      </div>
-    </form>
   );
 }
 
@@ -345,7 +314,12 @@ export function SiteHeader({ whatsapp }: { whatsapp: string }) {
             })}
           </nav>
           <div className="ms-auto flex items-center gap-3 lg:gap-3.5">
-            <HeaderSearch />
+            <a
+              href={href("/vendre/demande")}
+              className={`inline-flex h-10 items-center whitespace-nowrap rounded-full bg-[color:var(--color-brand-teal)] px-4 text-[13.5px] font-semibold text-white transition-colors hover:bg-[color:var(--color-brand-teal-hover)] lg:px-5 lg:text-[14.5px] ${FOCUS}`}
+            >
+              {t("Estimer ma voiture")}
+            </a>
             <LanguageMenu />
             <button
               onClick={() => setMenu(true)}

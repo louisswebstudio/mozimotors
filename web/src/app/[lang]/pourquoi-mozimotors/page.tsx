@@ -1,4 +1,4 @@
-/** /pourquoi-mozimotors — « MoziMotors Certifié », cloned from siaracash.ma/why-siaracash. */
+/** /pourquoi-mozimotors — « Notre expertise », cloned from siaracash.ma/why-siaracash. */
 import type { Metadata } from "next";
 import { localeAlternates } from "@/i18n/seo";
 import { getCars, getTestimonials } from "@/lib/cms";
@@ -12,7 +12,7 @@ import { getV2 } from "@/components/sites/siaracash-ma-449ca86b/root-8a5edab2/se
 export async function generateMetadata(): Promise<Metadata> {
   const { t } = await getV2();
   return {
-    title: t("MoziMotors Certifié — 140+ points d'inspection et transparence totale | MoziMotors"),
+    title: t("Notre expertise — plus de 140 points de contrôle | MoziMotors"),
     description: t("Une voiture inspectée, fiable et accompagnée de A à Z : contrôle administratif, expertise 140+ points, essai avant achat et démarches simplifiées."),
     alternates: await localeAlternates("/pourquoi-mozimotors"),
   };

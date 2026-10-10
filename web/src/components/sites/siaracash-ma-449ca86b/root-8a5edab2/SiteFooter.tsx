@@ -28,11 +28,11 @@ const ICON = {
 const SERVICES = [
   { label: "Vente de voiture", href: "/vendre" },
   { label: "Achat de voiture", href: "/acheter" },
-  { label: "Certifié MoziMotors", href: "/pourquoi-mozimotors" },
+  { label: "Notre expertise", href: "/pourquoi-mozimotors" },
   { label: "Offres de la semaine", href: "/acheter" },
 ];
 const ABOUT = [
-  { label: "À propos de nous", href: "/pourquoi-mozimotors" },
+  { label: "À propos de nous", href: "/a-propos" },
   { label: "Comment ça marche", href: "/pourquoi-mozimotors" },
   { label: "FAQ", href: "/faq" },
 ];

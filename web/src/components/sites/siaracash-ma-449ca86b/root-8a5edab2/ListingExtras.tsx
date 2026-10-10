@@ -1,10 +1,9 @@
 "use client";
 
-/** Below the results on siaracash.ma/lists: « Les engagements », FAQ accordion, popular models/brands links (from the stock). */
+/** Below the results on siaracash.ma/lists: « Les engagements » and the FAQ accordion. */
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { A } from "./assets";
-import { useFacets } from "./ListingFilters";
 import { useV2 } from "./V2Locale";
 
 const EDGE = [
@@ -64,33 +63,8 @@ function Faq() {
   );
 }
 
-function Links<T>({ items, render }: { items: T[]; render: (x: T) => [string, string] }) {
-  const { tf, href } = useV2();
-  return (
-    <>
-      {items.map((x, i) => {
-        const [label, path] = render(x);
-        return (
-          <span key={path}>
-            <a href={href(path)} className="hover:text-[var(--cc-primary)]">
-              {tf("{name} d'occasion", { name: label })}
-            </a>
-            {i < items.length - 1 && " · "}
-          </span>
-        );
-      })}
-    </>
-  );
-}
-
 export function ListingExtras() {
   const { t } = useV2();
-  const { brands: stock } = useFacets();
-  const brands = [...stock].sort((a, b) => b.count - a.count).slice(0, 10);
-  const models = stock
-    .flatMap((b) => b.models.map((m) => ({ brand: b, model: m })))
-    .sort((a, b) => b.model.count - a.model.count)
-    .slice(0, 8);
   return (
     <>
       <div className="mt-8">
@@ -118,20 +92,6 @@ export function ListingExtras() {
       </div>
       <div className="cc-stack mt-8">
         <Faq />
-        <div className="rounded-xl bg-[var(--cc-soft)] p-5">
-          <h2 className="mb-3 text-[16px] font-bold text-[var(--cc-ink)]">{t("Parcourir les voitures d'occasion au Maroc")}</h2>
-          <p className="mb-2 text-[13px] font-semibold text-[var(--cc-ink)]">{t("Par modèles populaires")}</p>
-          <p className="mb-4 text-[12px] leading-relaxed text-[var(--cc-body)]">
-            <Links
-              items={models}
-              render={({ brand, model }) => [`${brand.name} ${model.name}`, `/acheter?brand=${brand.slug}&model=${encodeURIComponent(`${brand.slug}~${model.name}`)}`]}
-            />
-          </p>
-          <p className="mb-2 text-[13px] font-semibold text-[var(--cc-ink)]">{t("Par marques populaires")}</p>
-          <p className="text-[12px] leading-relaxed text-[var(--cc-body)]">
-            <Links items={brands} render={(b) => [b.name, `/acheter?brand=${b.slug}`]} />
-          </p>
-        </div>
       </div>
     </>
   );
