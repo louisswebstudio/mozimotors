@@ -22,7 +22,7 @@ export async function CertifiedBanner() {
           </p>
         </div>
         <img
-          src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/home/certified-car.webp"
+          src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/home/certified-car-mozi.webp"
           alt=""
           aria-hidden="true"
           loading="lazy"

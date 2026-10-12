@@ -8,7 +8,7 @@
  *   horizontal cards, full-screen filter sheet and « Trier par » bottom sheet.
  */
 import { Fragment, useEffect, useState } from "react";
-import { ArrowDownWideNarrow, ArrowRight, BadgeCheck, ChevronDown, Heart, MapPin, Menu, Search, ShieldCheck, SlidersHorizontal, Tag } from "lucide-react";
+import { ArrowDownWideNarrow, ArrowRight, ChevronDown, Heart, Menu, Search, SlidersHorizontal, Tag } from "lucide-react";
 import { HOME, Logo } from "./assets";
 import { CarCard } from "./CarCard";
 import { useFavorites } from "./favorites";
@@ -202,65 +202,6 @@ export function DesktopListing({ cars, popular }: { cars: ListedCar[]; popular: 
 
 /* ---------- mobile ---------- */
 
-function MobileCard({ car }: { car: ListedCar }) {
-  const { t, href } = useV2();
-  const fav = useFavorites();
-  const saved = fav.has(car.id);
-  return (
-    <a className="cc-scope block" href={href(car.href)}>
-      <div className="rounded-xl border border-[var(--cc-line)] bg-white">
-        <div className="flex items-stretch gap-3">
-          <div className="min-w-0 flex-[2] py-3 ps-3">
-            <h3 className="truncate text-[14px] font-bold text-[var(--cc-ink)]">{car.title}</h3>
-            {car.version && <p className="truncate text-[12px] text-[var(--cc-muted)]">{car.version}</p>}
-            <p className="mt-1 text-[15px] font-bold text-[var(--cc-ink)]">{car.price} </p>
-            <div className="mt-2 flex flex-wrap items-center gap-1.5">
-              {[car.fuel, car.gearbox, car.km].map((c) => (
-                <span key={c} className="rounded border border-[var(--cc-line)] px-2 py-0.5 text-[11px] font-medium text-[var(--cc-body)]">
-                  {t(c)}
-                </span>
-              ))}
-            </div>
-          </div>
-          <div className="relative min-h-[118px] flex-1 overflow-hidden rounded-se-xl bg-[var(--cc-soft)]">
-            {car.images[0] && <img alt={car.title} loading="lazy" className="absolute inset-0 size-full object-cover" src={car.images[0]} />}
-            <button
-              type="button"
-              aria-label={t("Enregistrer")}
-              aria-pressed={saved}
-              onClick={(e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                fav.toggle(car.id);
-              }}
-              className="absolute end-1.5 top-1.5 grid size-6 place-items-center rounded-full bg-white/90"
-            >
-              <Heart className={`size-3 ${saved ? "fill-current text-[var(--cc-primary)]" : "text-[var(--cc-body)]"}`} aria-hidden="true" />
-            </button>
-          </div>
-        </div>
-        <div className="flex items-center justify-between gap-2 border-t border-[var(--cc-line)] px-3 pb-3 pt-2.5">
-          <span className="flex items-center gap-1 text-[12px] text-[var(--cc-body)]">
-            <MapPin className="size-3.5 text-[var(--cc-primary)]" aria-hidden="true" /> {car.city}
-          </span>
-          <span className="flex flex-wrap items-center justify-end gap-1">
-            {car.privateSeller && (
-              <span className="flex items-center gap-1 rounded bg-[var(--cc-navy)] px-1.5 py-0.5 text-[11px] font-semibold text-white">
-                <BadgeCheck className="size-3 shrink-0" aria-hidden="true" /> {t("Particuliers")}
-              </span>
-            )}
-            {car.certified && (
-              <span className="flex items-center gap-1 rounded px-1.5 py-0.5 text-[11px] font-semibold bg-[var(--cc-success-bg)] text-[var(--cc-success-text)]">
-                <ShieldCheck className="size-3 shrink-0" aria-hidden="true" /> {t("Certifié")}
-              </span>
-            )}
-          </span>
-        </div>
-      </div>
-    </a>
-  );
-}
-
 function SortSheet({ onClose }: { onClose: () => void }) {
   const { t } = useV2();
   const f = useFilters();
@@ -401,7 +342,7 @@ export function MobileListing({
           <div className="cc-stack">
             {shown.map((c, i) => (
               <Fragment key={c.id}>
-                <MobileCard car={c} />
+                <CarCard car={c} />
                 {(i + 1) % 12 === 0 && i < shown.length - 1 && <SellBanner />}
               </Fragment>
             ))}
