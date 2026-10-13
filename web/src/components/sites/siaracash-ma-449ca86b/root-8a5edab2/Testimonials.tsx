@@ -65,7 +65,7 @@ export async function Testimonials({ testimonials, title = "Ce que nos clients d
   const { t } = await getV2();
   return (
     <section className="bg-white py-[24px] lg:py-[64px]">
-      <div className="mx-auto w-full max-w-[362px] px-5 lg:px-12 lg:max-w-[1280px]">
+      <div className="mx-auto w-full max-w-[362px] px-5 sm:max-w-3xl lg:px-12 lg:max-w-[1280px]">
         <div className="flex w-full flex-col items-center gap-[20px] lg:gap-[32px] py-[8px]">
           <h2 className="w-full text-center font-bold text-[18px] lg:text-[28px] leading-[1.1] text-[color:var(--color-brand-purple)]">{t(title)}</h2>
           <div className="w-full flex gap-[20px] overflow-x-auto scroll-smooth scrollbar-hide snap-x snap-mandatory pb-1">

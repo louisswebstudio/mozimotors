@@ -5,7 +5,7 @@ export async function PeaceOfMind() {
   const { t } = await getV2();
   return (
     <section className="bg-white px-4 py-8">
-      <div className="mx-auto flex w-full max-w-[362px] flex-col items-center gap-3 text-center">
+      <div className="mx-auto flex w-full max-w-[362px] sm:max-w-[560px] flex-col items-center gap-3 text-center">
         <img
           src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/certified/mozimotors-certified.svg"
           alt="MoziMotors Certified"

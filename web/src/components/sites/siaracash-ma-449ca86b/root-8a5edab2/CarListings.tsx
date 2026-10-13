@@ -37,7 +37,7 @@ export function CarListings({ featured, all }: { featured: ListedCar[]; all: Lis
 
   return (
     <section className="bg-white py-[24px] lg:py-[56px] px-4 lg:px-12">
-      <div className="mx-auto w-full max-w-[362px] lg:max-w-[1280px] flex flex-col gap-[16px] lg:gap-[32px]">
+      <div className="mx-auto w-full max-w-[362px] sm:max-w-3xl lg:max-w-[1280px] flex flex-col gap-[16px] lg:gap-[32px]">
         <div className="flex items-center justify-between gap-3">
           <div role="tablist" aria-label={t("Sélectionné pour vous")} className="flex items-center gap-5 lg:gap-7 overflow-x-auto scrollbar-hide -mx-1 px-1">
             {tabs.map((x) => {

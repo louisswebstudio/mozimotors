@@ -111,7 +111,7 @@ export async function QuickNavMobile() {
   const { t, href } = await getV2();
   return (
     <section className="px-4 pt-5">
-      <div className="mx-auto max-w-[362px] rounded-2xl border border-[color:var(--color-line-strong)] bg-white px-3 py-3 shadow-[0_10px_28px_rgba(16,24,40,0.08)]">
+      <div className="mx-auto max-w-[362px] sm:max-w-[560px] rounded-2xl border border-[color:var(--color-line-strong)] bg-white px-3 py-3 shadow-[0_10px_28px_rgba(16,24,40,0.08)]">
         <div className="grid grid-cols-2 gap-2">
           {DESKTOP_TABS.slice(1).map((tab) => (
             <a key={tab.href} className="group flex flex-col items-center gap-1.5 text-center transition-transform active:scale-[0.97]" href={href(tab.href)}>

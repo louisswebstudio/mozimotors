@@ -5,7 +5,7 @@ export async function CertifiedBanner() {
   const { t } = await getV2();
   return (
     <section className="bg-white px-4 pt-2 pb-8 lg:px-12 lg:py-16">
-      <div className="relative mx-auto flex w-full max-w-[362px] flex-col items-center gap-5 overflow-hidden rounded-[20px] border border-[color:var(--color-line-strong)] bg-white p-6 text-center lg:max-w-[1280px] lg:flex-row lg:items-center lg:gap-10 lg:p-11 lg:text-start">
+      <div className="relative mx-auto flex w-full max-w-[362px] sm:max-w-3xl flex-col items-center gap-5 overflow-hidden rounded-[20px] border border-[color:var(--color-line-strong)] bg-white p-6 text-center lg:max-w-[1280px] lg:flex-row lg:items-center lg:gap-10 lg:p-11 lg:text-start">
         <span aria-hidden="true" className="absolute inset-y-0 start-0 w-1.5 mz-stripe" />
         <img
           src="/sites/siaracash-ma-449ca86b/root-8a5edab2/assets/certified/mozimotors-certified.svg"

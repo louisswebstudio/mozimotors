@@ -13,7 +13,7 @@ export async function BrandStrip({ catalog }: { catalog: Catalog }) {
   if (!brands.length) return null;
   return (
     <section className="bg-white px-4 py-6 lg:px-12 lg:py-14">
-      <div className="mx-auto flex w-full max-w-[362px] flex-col gap-4 lg:max-w-[1280px] lg:gap-8">
+      <div className="mx-auto flex w-full max-w-[362px] flex-col gap-4 sm:max-w-3xl lg:max-w-[1280px] lg:gap-8">
         <div className="flex items-center justify-between gap-3">
           <h2 className="text-[16px] font-medium leading-[1.2] text-[color:var(--color-ink-strong)] lg:text-[32px] lg:font-semibold lg:tracking-[-0.02em]">
             {t("Parcourir par marque")}
