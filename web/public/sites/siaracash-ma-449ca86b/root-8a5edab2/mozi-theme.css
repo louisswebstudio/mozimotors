@@ -384,3 +384,138 @@
   color: #6b7280;
   white-space: nowrap;
 }
+
+/* ---------- « Combien vaut votre voiture ? » sell band (SellCta.tsx) ---------- */
+.mz-sell {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  gap: 28px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 28px 22px;
+  border-radius: 24px;
+  color: #fff;
+  background:
+    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.035) 0 2px, transparent 2px 22px),
+    linear-gradient(120deg, #6a2730 0%, #551f26 45%, #2c0f14 100%);
+  box-shadow: 0 24px 48px -28px rgba(85, 31, 38, 0.65);
+}
+@media (min-width: 1024px) {
+  .mz-sell {
+    grid-template-columns: minmax(0, 1fr) 380px;
+    align-items: center;
+    gap: 56px;
+    padding: 56px 64px;
+  }
+}
+.mz-sell-glow {
+  position: absolute;
+  inset-inline-end: -120px;
+  top: -140px;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
+.mz-sell-copy {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.mz-sell-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.mz-sell-title {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.mz-sell-text {
+  max-width: 560px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.82);
+}
+@media (min-width: 1024px) {
+  .mz-sell-title {
+    font-size: 40px;
+  }
+  .mz-sell-text {
+    font-size: 17px;
+  }
+}
+.mz-sell-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+  padding: 14px 24px;
+  border-radius: 999px;
+  background: #fff;
+  color: #551f26;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.45);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.mz-sell-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px -12px rgba(0, 0, 0, 0.5);
+}
+.mz-sell-visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0 18px;
+}
+.mz-sell-ground {
+  position: absolute;
+  bottom: 10px;
+  left: 8%;
+  right: 8%;
+  height: 30px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0));
+}
+.mz-sell-car {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  filter: drop-shadow(0 18px 18px rgba(0, 0, 0, 0.3));
+}
+@media (min-width: 1024px) {
+  .mz-sell {
+    grid-template-columns: minmax(0, 1fr) 440px;
+  }
+  .mz-sell-car {
+    max-width: none;
+    transform: scale(1.12);
+  }
+}
+/* In Arabic the car sits on the left: mirror it so it still faces the text. */
+[dir="rtl"] .mz-sell-car {
+  transform: scaleX(-1);
+}
+@media (min-width: 1024px) {
+  [dir="rtl"] .mz-sell-car {
+    transform: scale(-1.12, 1.12);
+  }
+}

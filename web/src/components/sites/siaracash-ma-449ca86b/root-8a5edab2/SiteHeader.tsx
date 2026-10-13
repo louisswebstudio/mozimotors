@@ -294,7 +294,7 @@ export function SiteHeader({ whatsapp }: { whatsapp: string }) {
       className={`${listing ? "hidden lg:block" : ""} sticky top-0 z-50 border-b border-[color:var(--color-line-soft)] bg-white text-[color:var(--color-brand-dark)]`}
     >
       <div className="mx-auto max-w-6xl px-5 sm:px-6">
-        <div className="flex h-[72px] items-center gap-4 lg:gap-6">
+        <div className="flex h-[72px] items-center gap-3 sm:gap-4 lg:gap-6">
           <a className={`shrink-0 rounded-sm ${FOCUS}`} href={href(HOME)} aria-label="MoziMotors">
             <Logo />
           </a>
@@ -313,10 +313,10 @@ export function SiteHeader({ whatsapp }: { whatsapp: string }) {
               );
             })}
           </nav>
-          <div className="ms-auto flex items-center gap-3 lg:gap-3.5">
+          <div className="ms-auto flex items-center gap-2 lg:gap-3.5">
             <a
               href={href("/vendre/demande")}
-              className={`inline-flex h-10 items-center whitespace-nowrap rounded-full bg-[color:var(--color-brand-teal)] px-4 text-[13.5px] font-semibold text-white transition-colors hover:bg-[color:var(--color-brand-teal-hover)] lg:px-5 lg:text-[14.5px] ${FOCUS}`}
+              className={`inline-flex h-10 items-center whitespace-nowrap rounded-full bg-[color:var(--color-brand-teal)] px-3 text-[12.5px] sm:px-4 sm:text-[13.5px] font-semibold text-white transition-colors hover:bg-[color:var(--color-brand-teal-hover)] lg:px-5 lg:text-[14.5px] ${FOCUS}`}
             >
               {t("Estimer ma voiture")}
             </a>

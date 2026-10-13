@@ -668,4 +668,6 @@ export const EN: Record<string, string> = {
   "Votre projet automobile mérite toute notre attention.": "Your car project deserves our full attention.",
   "À propos de MoziMotors — l'occasion en confiance | MoziMotors": "About MoziMotors — used cars you can trust | MoziMotors",
   "Basés à Casablanca, nous réunissons expertise automobile et service de proximité pour simplifier l'achat et la vente de véhicules d'occasion.": "Based in Casablanca, we bring together automotive expertise and personal service to make buying and selling used cars simpler.",
+  // Home sell band
+  "Gratuit · 2 minutes · Sans engagement": "Free · 2 minutes · No commitment",
 };
