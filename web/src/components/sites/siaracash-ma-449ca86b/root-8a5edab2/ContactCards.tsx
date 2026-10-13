@@ -10,7 +10,7 @@ export async function ContactCards({ settings }: { settings: SiteSettings }) {
   const { t } = await getV2();
   const mapsUrl = settings.mapsUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(settings.address)}`;
   const cards = [
-    { icon: Phone, title: t("Appelez-nous"), value: settings.phone, href: telLink(settings.phone) },
+    { icon: Phone, title: t("Appelez-nous"), value: settings.phone, href: telLink(settings.phone), nowrap: true },
     { icon: Mail, title: t("Écrivez-nous"), value: settings.email, href: `mailto:${settings.email}` },
     { icon: MapPin, title: t("Venez nous rendre visite"), value: settings.address, href: mapsUrl, external: true },
   ];
@@ -21,7 +21,7 @@ export async function ContactCards({ settings }: { settings: SiteSettings }) {
           <h2 className="text-[18px] font-bold tracking-tight md:text-2xl" style={{ color: "#050B20" }}>
             {t("Contactez-nous")}
           </h2>
-          <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-3 md:mt-5 md:gap-5">
+          <div className="mt-4 grid grid-cols-1 gap-4 md:mt-5 md:gap-5 lg:grid-cols-3">
             {cards.map((c) => (
               <a
                 key={c.title}
@@ -39,7 +39,10 @@ export async function ContactCards({ settings }: { settings: SiteSettings }) {
                   >
                     <c.icon className="size-5" />
                   </span>
-                  <span className="min-w-0 text-[16px] font-bold leading-snug group-hover:underline md:text-[18px]" style={{ color: "#050B20" }}>
+                  <span className="min-w-0 text-[16px] font-bold leading-snug group-hover:underline lg:text-[17px]"
+                    dir={c.nowrap ? "ltr" : undefined}
+                    // The phone stays on one line; a long email may break anywhere rather than overflow the card.
+                    style={{ color: "#050B20", ...(c.nowrap ? { whiteSpace: "nowrap" } : { overflowWrap: "anywhere" }) }}>
                     {c.value}
                   </span>
                 </span>

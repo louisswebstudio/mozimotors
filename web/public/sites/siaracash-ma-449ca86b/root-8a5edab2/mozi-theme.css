@@ -519,3 +519,10 @@
     transform: scale(-1.12, 1.12);
   }
 }
+
+/* Header « Estimer ma voiture »: no room next to the logo and menu on the narrowest phones (< 360px). */
+@media (max-width: 359px) {
+  .mz-header-cta {
+    display: none !important;
+  }
+}

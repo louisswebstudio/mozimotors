@@ -316,7 +316,7 @@ export function SiteHeader({ whatsapp }: { whatsapp: string }) {
           <div className="ms-auto flex items-center gap-2 lg:gap-3.5">
             <a
               href={href("/vendre/demande")}
-              className={`inline-flex h-10 items-center whitespace-nowrap rounded-full bg-[color:var(--color-brand-teal)] px-3 text-[12.5px] sm:px-4 sm:text-[13.5px] font-semibold text-white transition-colors hover:bg-[color:var(--color-brand-teal-hover)] lg:px-5 lg:text-[14.5px] ${FOCUS}`}
+              className={`mz-header-cta inline-flex h-10 items-center whitespace-nowrap rounded-full bg-[color:var(--color-brand-teal)] px-3 text-[12.5px] sm:px-4 sm:text-[13.5px] font-semibold text-white transition-colors hover:bg-[color:var(--color-brand-teal-hover)] lg:px-5 lg:text-[14.5px] ${FOCUS}`}
             >
               {t("Estimer ma voiture")}
             </a>
