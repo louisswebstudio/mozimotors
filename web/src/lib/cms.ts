@@ -83,16 +83,17 @@ export async function getCar(slug: string): Promise<Car | null> {
 
 export async function getTestimonials(): Promise<Testimonial[]> {
   if (!sanityConfigured) return MOCK_TESTIMONIALS;
-  const list = await sanityQuery<(Omit<Testimonial, "id"> & { _createdAt: string })[]>(
+  const list = await sanityQuery<Omit<Testimonial, "id">[]>(
     `*[_type == "testimonial" && defined(name) && defined(text)] | order(_createdAt desc)[0...50]{
-      _createdAt, name, city, "rating": coalesce(rating, 5), title, text, "avatar": avatar.asset->url
+      name, city, "rating": coalesce(rating, 5), title, text, "avatar": avatar.asset->url
     }`,
     {},
     ["testimonials"],
   );
-  return list.map(({ _createdAt, avatar, ...t }) => ({
+  // `id` is only a React key: the position in the list (creation times can collide when reviews are added together).
+  return list.map(({ avatar, ...t }, i) => ({
     ...dropNulls(t),
-    id: Math.floor(Date.parse(_createdAt) / 1000),
+    id: i + 1,
     ...(avatar ? { avatar: sanityImage(avatar, "w=160&h=160&fit=crop") } : {}),
   }));
 }

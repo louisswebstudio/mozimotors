@@ -485,38 +485,48 @@
   justify-content: center;
   padding: 8px 0 18px;
 }
+/* Spotlight so the black SUV reads on the burgundy. */
+.mz-sell-visual::before {
+  content: "";
+  position: absolute;
+  inset: -12% -6% 0;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(255, 236, 238, 0.55), rgba(255, 236, 238, 0.18) 55%, rgba(255, 236, 238, 0));
+  pointer-events: none;
+}
 .mz-sell-ground {
   position: absolute;
-  bottom: 10px;
-  left: 8%;
-  right: 8%;
-  height: 30px;
+  bottom: 12px;
+  left: 10%;
+  right: 10%;
+  height: 26px;
   border-radius: 50%;
-  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0));
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
 }
 .mz-sell-car {
   position: relative;
   width: 100%;
-  max-width: 420px;
+  max-width: 400px;
   height: auto;
-  filter: drop-shadow(0 18px 18px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 16px 16px rgba(0, 0, 0, 0.35));
 }
 @media (min-width: 1024px) {
+  /* Car on the start side, facing the text. */
   .mz-sell {
-    grid-template-columns: minmax(0, 1fr) 440px;
+    grid-template-columns: 440px minmax(0, 1fr);
   }
   .mz-sell-car {
     max-width: none;
-    transform: scale(1.12);
+    transform: scale(1.08);
   }
 }
-/* In Arabic the car sits on the left: mirror it so it still faces the text. */
+/* In Arabic the car sits on the right: mirror it so it still faces the text. */
 [dir="rtl"] .mz-sell-car {
   transform: scaleX(-1);
 }
 @media (min-width: 1024px) {
   [dir="rtl"] .mz-sell-car {
-    transform: scale(-1.12, 1.12);
+    transform: scale(-1.08, 1.08);
   }
 }
 
